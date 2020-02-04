@@ -1,4 +1,8 @@
+@import url(../css/bootstrap-4-utilities.min.css);
 @import url(../assets/fonts/fonts.css);
+.main--margin-top {
+  margin-top: 100px; }
+
 body {
   font-family: 'Futura LT Com'; }
 
@@ -12,20 +16,34 @@ body {
   font-weight: 400;
   letter-spacing: 0.5px; }
 
+.twothirds__h3-chronicle-roman {
+  font-family: 'ChronicleDisplay-Roman';
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 40px; }
+
 .twothirds__paragraph {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px; }
 
 .container {
-  max-width: 1920px;
+  max-width: 1280px;
   width: 100%;
   margin: 0 auto; }
 
 .intro-section__wraper {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px; }
 
 .intro-section__img {
   width: 100%; }
+
+.quality-section {
+  margin-top: 100px; }
+  .quality-section__wraper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px; }

@@ -15,6 +15,13 @@ body {
         letter-spacing: 0.5px;
     }
 
+    &__h3-chronicle-roman {
+        font-family: 'ChronicleDisplay-Roman';
+        @include typography(30px, 400, #000000);
+        letter-spacing: 0;
+        line-height: 40px;
+    }
+
     &__paragraph {
         @include typography(18px, 400, #5B6872);
         letter-spacing: 1px;

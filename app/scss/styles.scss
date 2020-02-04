@@ -1,13 +1,16 @@
 // Imports
+@import '../css/bootstrap-4-utilities.min.css';
 @import '../assets/fonts/fonts.css';
 @import './molecules/molecules.scss';
 
 // Variables
+$main-section--gap: 100px;
 $intro-section: intro-section;
+$quality-section: quality-section;
 
 // General
 .container {
-    max-width: 1920px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
@@ -17,12 +20,30 @@ $intro-section: intro-section;
 .#{$intro-section} {
     &__wraper {
         display: grid;
-        grid-template-columns: 50% 50%;
-        grid-gap: 100px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: $main-section--gap;
     }
+
+    // &__box {
+    //     img {
+    //         //object-fit: cover;
+    //         //width: 100%
+    //     }
+    // }
 
     &__img {
         width: 100%;
     }
 }
 
+
+// Quality section
+.#{$quality-section} {
+    margin-top: $main-section--gap;
+    
+    &__wraper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: $main-section--gap;
+    }
+}
