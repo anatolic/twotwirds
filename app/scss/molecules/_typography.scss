@@ -1,0 +1,22 @@
+$twothirds: twothirds;
+
+body {
+    font-family: 'Futura LT Com';
+}
+
+.#{$twothirds} {
+    &__h1 {
+        @include typography(50px, 500, #252E43);
+        letter-spacing: 1px;
+    }
+
+    &__h5 {
+        @include typography(18px, 400, #5B6872);
+        letter-spacing: 0.5px;
+    }
+
+    &__paragraph {
+        @include typography(18px, 400, #5B6872);
+        letter-spacing: 1px;
+    }
+}

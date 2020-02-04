@@ -1,0 +1,28 @@
+// Imports
+@import '../assets/fonts/fonts.css';
+@import './molecules/molecules.scss';
+
+// Variables
+$intro-section: intro-section;
+
+// General
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+// Sections
+// Intro section
+.#{$intro-section} {
+    &__wraper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 100px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}
+

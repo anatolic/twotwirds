@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Futura LT Com';
+    src: url('FuturaLTCom-Heavy.woff2') format('woff2'),
+        url('FuturaLTCom-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT Com';
+    src: url('FuturaLTCom-Book.woff2') format('woff2'),
+        url('FuturaLTCom-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT Com';
+    src: url('FuturaLTCom-Medium.woff2') format('woff2'),
+        url('FuturaLTCom-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT Com';
+    src: url('FuturaLTCom-Bold.woff2') format('woff2'),
+        url('FuturaLTCom-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chronicle Display';
+    src: url('ChronicleDisplay-Roman.woff2') format('woff2'),
+        url('ChronicleDisplay-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

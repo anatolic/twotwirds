@@ -1,0 +1,31 @@
+@import url(../assets/fonts/fonts.css);
+body {
+  font-family: 'Futura LT Com'; }
+
+.twothirds__h1 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 1px; }
+
+.twothirds__h5 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px; }
+
+.twothirds__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px; }
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto; }
+
+.intro-section__wraper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 100px; }
+
+.intro-section__img {
+  width: 100%; }
