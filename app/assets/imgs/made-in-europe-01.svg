@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="42px" viewBox="0 0 47 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 52</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Eco" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="09-01-Eco-mobile" transform="translate(-137.000000, -6577.000000)" stroke="#252E43" stroke-width="1.8">
+            <g id="Group-52" transform="translate(138.000000, 6578.000000)">
+                <path d="M30.8869565,1.81188398e-13 L3.86086957,1.81188398e-13 C1.72966957,1.81188398e-13 4.61852778e-14,1.6896 4.61852778e-14,3.77142857 L4.61852778e-14,9.42857143 C4.61852778e-14,11.5104 1.72966957,13.2 3.86086957,13.2 L27.026087,13.2 C29.157287,13.2 30.8869565,14.8896 30.8869565,16.9714286 L30.8869565,32.0571429 L3.86086957,32.0571429 C1.72966957,32.0571429 4.61852778e-14,33.7467429 4.61852778e-14,35.8285714 L4.61852778e-14,39.6 L30.8869565,39.6 L44.4,39.6 L44.4,30.1714286 L44.4,13.2 L44.4,7.54285714 C44.4,3.37731429 40.9425913,1.81188398e-13 36.6782609,1.81188398e-13 L30.8869565,1.81188398e-13 Z" id="Stroke-1"></path>
+                <polygon id="Stroke-3" points="6 19.2 16.8 19.2 16.8 13.2 6 13.2"></polygon>
+                <polygon id="Stroke-5" points="7.2 21.6 15.6 21.6 15.6 19.2 7.2 19.2"></polygon>
+                <path d="M40.8,28.2 C40.8,29.858 39.458,31.2 37.8,31.2 C36.142,31.2 34.8,29.858 34.8,28.2 C34.8,26.542 36.142,25.2 37.8,25.2 C39.458,25.2 40.8,26.542 40.8,28.2 Z" id="Stroke-14"></path>
+                <line x1="10.8" y1="22.8" x2="10.8" y2="25.2" id="Stroke-6"></line>
+                <line x1="34.8" y1="21" x2="40.8" y2="21" id="Stroke-12"></line>
+                <line x1="34.8" y1="16.2" x2="40.8" y2="16.2" id="Stroke-13"></line>
+            </g>
+        </g>
+    </g>
+</svg>

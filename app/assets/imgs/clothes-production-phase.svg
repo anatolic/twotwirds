@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="35px" viewBox="0 0 39 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 56</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 38 38 38 38 0 0 0"></polygon>
+    </defs>
+    <g id="Eco" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="09-01-Eco-mobile" transform="translate(-19.000000, -7937.000000)">
+            <g id="Group-56" transform="translate(19.000000, 7934.000000)">
+                <g id="Group-17">
+                    <g id="Group-16">
+                        <path d="M26.7391304,4 L4.2173913,4 C2.4413913,4 1,5.408 1,7.14285714 L1,11.8571429 C1,13.592 2.4413913,15 4.2173913,15 L23.5217391,15 C25.2977391,15 26.7391304,16.408 26.7391304,18.1428571 L26.7391304,30.7142857 L4.2173913,30.7142857 C2.4413913,30.7142857 1,32.1222857 1,33.8571429 L1,37 L26.7391304,37 L38,37 L38,29.1428571 L38,15 L38,10.2857143 C38,6.81442857 35.1188261,4 31.5652174,4 L26.7391304,4 Z" id="Stroke-1" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <polygon id="Stroke-3" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="6 20 15 20 15 15 6 15"></polygon>
+                        <polygon id="Stroke-5" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="7 22 14 22 14 20 7 20"></polygon>
+                        <line x1="10" y1="23" x2="10" y2="25" id="Stroke-6" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <path d="M35,10.5 C35,12.432 33.432,14 31.5,14 C29.568,14 28,12.432 28,10.5 C28,8.568 29.568,7 31.5,7 C33.432,7 35,8.568 35,10.5 Z" id="Stroke-7" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                        <line x1="33" y1="9" x2="29" y2="13" id="Stroke-8" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <line x1="6" y1="8.5" x2="8" y2="8.5" id="Stroke-9" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <line x1="12" y1="8.5" x2="14" y2="8.5" id="Stroke-10" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <line x1="19" y1="8.5" x2="21" y2="8.5" id="Stroke-11" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <line x1="30" y1="21.5" x2="35" y2="21.5" id="Stroke-12" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <line x1="30" y1="17.5" x2="35" y2="17.5" id="Stroke-13" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></line>
+                        <path d="M35,27.5 C35,28.8816667 33.8816667,30 32.5,30 C31.1183333,30 30,28.8816667 30,27.5 C30,26.1183333 31.1183333,25 32.5,25 C33.8816667,25 35,26.1183333 35,27.5 Z" id="Stroke-14" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="37px" viewBox="0 0 35 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 55</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Eco" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="09-01-Eco-mobile" transform="translate(-18.000000, -7770.000000)" stroke="#252E43" stroke-width="1.5">
+            <g id="Group-55" transform="translate(19.000000, 7771.000000)">
+                <g id="Group-46">
+                    <g id="Group-44">
+                        <g id="Group-43">
+                            <line x1="13" y1="10.5" x2="30" y2="10.5" id="Stroke-1"></line>
+                            <line x1="13" y1="13.5" x2="30" y2="13.5" id="Stroke-2"></line>
+                            <line x1="13" y1="17" x2="30" y2="17" id="Stroke-3"></line>
+                            <line x1="13" y1="20.5" x2="30" y2="20.5" id="Stroke-4"></line>
+                            <line x1="13" y1="23.5" x2="30" y2="23.5" id="Stroke-5"></line>
+                            <polygon id="Stroke-7" points="10 3 13.0666667 6 29.9333333 6 33 3 33 0 10 0"></polygon>
+                            <polygon id="Stroke-12" points="13 29 30 29 30 6 13 6"></polygon>
+                            <path d="M3,2 C3,3.10533333 2.328,4 1.5,4 C0.672,4 0,3.10533333 0,2 C0,0.894666667 0.672,0 1.5,0 C2.328,0 3,0.894666667 3,2 Z" id="Stroke-13"></path>
+                            <line x1="1.5" y1="4" x2="1.5" y2="34" id="Stroke-15"></line>
+                        </g>
+                        <polygon id="Stroke-9" points="33 32 29.9333333 29 13.0666667 29 10 32 10 35 33 35"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
