@@ -11,10 +11,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="./assets/fonts/fontawesome.min.css" rel="stylesheet">
         <link href="./assets/fonts/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
         <link rel="stylesheet" href="./css/theme.scss.css">
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
+
+        <!-- <section class="intro-slider-section">
+            <div id="fullpage">
+                <div class="section">Some section</div>
+                <div class="section">Some section</div>
+                <div class="section">Some section</div>
+                <div class="section">Some section</div>
+            </div>
+        </section> -->
 
 
         <!-- Intro Section -->
@@ -267,6 +277,86 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="twothirds__double-grid main--margin-top">
+                <div>
+                    <img src="./assets/imgs/recycling-papper.png" alt="">
+                </div>
+                <div>
+                    <p class="twothirds__paragraph">Those different sources lead to the creation of a variety of fabrics and blends (such as recycled Nylon, recycled cotton, recycled Polyester) that meet our quality criteria. Thereby, resources are protected and the CO2 footprint is reduced (for example, for the production of Econyl, a recycled Nylon, around 60% less greenhouse gases are emitted compared to the production of virgin Nylon). Furthermore, our recycled fabrics require less land and consume less water. That‘s a lot of less, isn‘t it?
+                        And, on top of it, we are proudly supporting innovative technologies that actually make a difference!
+                        
+                        </p>
+                </div>
+            </div>
         </section> <!-- End Recycling Section -->
+
+
+        <!-- Supplier section -->
+        <section class="supplier-section"></section>
+        <section class="supplier-banner-section">
+            <div class="container">
+                <h2 class="twothirds__h3-chronicle-roman supplier-banner-section__content">Regional production is a key aspect of the Twothirds supply chain. 
+                    All manufacturing stages of our products take place in Europe, mostly in Portugal, France, or Italy.  Some raw materials also have European origin, for example Shetland wool or Flax (the raw material for Linen).</h2>
+            </div>
+        </section><!-- End Supplier section -->
+
+
+        <!-- Craftmanship section -->
+        <section class="craftmanship-section main--margin-top container">
+            <h1 class="twothirds__h1">Craftmanship made in Europe</h1>
+            <div class="twothirds__double-grid">
+                <div>
+                    <p class="twothirds__paragraph">The production of TWOTHIRDS clothing is divided in three production steps: the raw material phase, the fabric production phase, and the clothes production phase.</p>
+                </div>
+            </div>
+
+            <div class="craftmanship-process">
+                <div class="craftmanship-process__list-item">
+                    <figure class="craftmanship-process__image">
+                        <img src="./assets/imgs/raw-materials-phase.svg">
+                    </figure>
+                    <span class="craftmanship-process__text"></span>
+                </div>
+                
+                <div class="craftmanship-process__list-item">
+                    <figure class="craftmanship-process__image">
+                        <img src="./assets/imgs/fabric-production-phase.svg">
+                    </figure>
+                    <span class="craftmanship-process__text"></span>
+                </div>
+
+                <div class="craftmanship-process__list-item">
+                    <figure class="craftmanship-process__image">
+                        <img src="./assets/imgs/raw-materials-phase.svg">
+                    </figure>
+                    <span class="craftmanship-process__text"></span>
+                </div>
+            </div>
+        </section><!-- End craftmanship section -->
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script type="text/javascript" src="./js/fullpage.js"></script>
+        <script>
+        
+        new fullpage('#fullpage', {
+            //options here
+            licenseKey: '1234-23443-2342-343423423423-42-4234',
+            autoScrolling:true,
+            scrollHorizontally: true
+        });
+
+//methods
+            fullpage_api.setAllowScrolling(true);
+        </script>
     </body>
 </html>

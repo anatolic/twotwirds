@@ -3,3 +3,13 @@
     font-weight: $font-weight;
     color: $color;
 }
+
+@mixin wavy-separator($file) {
+    display: block;
+    margin: 10px auto 28px;
+    content: '';
+    background: url($file);
+    background-size: 54px 6px;
+    height: 6px;
+    width: 54px;
+  }
