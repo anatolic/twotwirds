@@ -9,6 +9,9 @@ $intro-section: intro-section;
 $quality-section: quality-section;
 $recycling-section: recycling-section;
 $supplier-banner-section: supplier-banner-section;
+$craftmanship-process: craftmanship-process;
+$wages-section: wages-section;
+$retail-section: retail-section;
 
 // General
 .container {
@@ -112,7 +115,7 @@ $supplier-banner-section: supplier-banner-section;
 }
 
 
-.#{'craftmanship-process'} {
+.#{$craftmanship-process} {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0;
@@ -127,6 +130,13 @@ $supplier-banner-section: supplier-banner-section;
                 display: none;
             }
         }
+
+        &:first-child {
+            .craftmanship-process__image::after,
+            .craftmanship-process__image::before {
+                left: 7px;
+            }
+        }
     }
 
     &__image {
@@ -134,15 +144,17 @@ $supplier-banner-section: supplier-banner-section;
         display: flex;
         align-items: center;
         margin: 0;
+        position: relative;
+        padding-bottom: 35px;
 
         &::after {
             content: '';
             position: absolute;
             border-bottom: 1px solid #252E43;
             height: 2px;
-            width: 100%;
+            width: 102%;
             bottom: 0;
-            left: 8px;
+            left: 12px;
         }
 
         &::before {
@@ -153,11 +165,35 @@ $supplier-banner-section: supplier-banner-section;
             position: absolute;
             border-radius: 50%;
             bottom: -4px;
-            left: 7px;
+            left: 12px;
         }
     }
 
-    &__text {
-
+    &__box-content {
+        width: 80%;
     }
+
+    &__text {
+        display: block;
+        margin-top: 45px;
+    }
+
+    &__map-img {
+        width: 75%;
+        margin: 80px auto;
+        display: block;
+    }
+}
+
+.#{$wages-section} {
+    &__img {
+        width: 150px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+.#{$retail-section} {
+    background-color: #C1C4D0;
 }

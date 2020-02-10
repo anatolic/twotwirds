@@ -8,6 +8,12 @@
 .main--margin-top {
   margin-top: 100px; }
 
+.half-section--gap {
+  margin-top: 50px; }
+
+.full-width {
+  width: 100%; }
+
 body {
   font-family: 'Futura LT Com'; }
 
@@ -15,7 +21,15 @@ body {
   font-size: 50px;
   font-weight: 500;
   color: #252E43;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin-bottom: 0; }
+
+.twothirds__h4 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #252E43;
+  letter-spacing: 1px;
+  margin-bottom: 0; }
 
 .twothirds__h5 {
   font-size: 18px;
@@ -43,7 +57,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #5B6872;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin-bottom: 0; }
 
 .container {
   max-width: 1280px;
@@ -118,19 +133,24 @@ body {
     padding-bottom: 20px; }
     .craftmanship-process__list-item:last-child .craftmanship-process__image::after {
       display: none; }
+    .craftmanship-process__list-item:first-child .craftmanship-process__image::after,
+    .craftmanship-process__list-item:first-child .craftmanship-process__image::before {
+      left: 7px; }
   .craftmanship-process__image {
     height: 42px;
     display: flex;
     align-items: center;
-    margin: 0; }
+    margin: 0;
+    position: relative;
+    padding-bottom: 35px; }
     .craftmanship-process__image::after {
       content: '';
       position: absolute;
       border-bottom: 1px solid #252E43;
       height: 2px;
-      width: 100%;
+      width: 102%;
       bottom: 0;
-      left: 8px; }
+      left: 12px; }
     .craftmanship-process__image::before {
       content: ' ';
       background-color: #252E43;
@@ -139,4 +159,21 @@ body {
       position: absolute;
       border-radius: 50%;
       bottom: -4px;
-      left: 7px; }
+      left: 12px; }
+  .craftmanship-process__box-content {
+    width: 80%; }
+  .craftmanship-process__text {
+    display: block;
+    margin-top: 45px; }
+  .craftmanship-process__map-img {
+    width: 75%;
+    margin: 80px auto;
+    display: block; }
+
+.wages-section__img {
+  width: 150px;
+  margin: 0 auto;
+  display: block; }
+
+.retail-section {
+  background-color: #C1C4D0; }

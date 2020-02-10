@@ -1,5 +1,6 @@
 $twothirds: twothirds;
 $main-section--gap: 100px;
+$half-section--gap: 50px;
 
 .#{$twothirds} {
     &__double-grid {
@@ -10,5 +11,13 @@ $main-section--gap: 100px;
 }
 
 .main--margin-top {
-    margin-top: 100px;
+    margin-top: $main-section--gap;
+}
+
+.half-section--gap {
+    margin-top: $half-section--gap;
+}
+
+.full-width {
+    width: 100%;
 }
