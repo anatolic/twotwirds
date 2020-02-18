@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Group-10" transform="translate(0.75 0.75)">
+    <path d="M13 0L0 13" transform="translate(13 13)" id="Stroke-1" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M13 13L0 0" transform="translate(13 13)" id="Stroke-2" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M38 19C38 29.4946 29.493 38 19 38C8.50704 38 0 29.4946 0 19C0 8.50704 8.50704 0 19 0C29.493 0 38 8.50704 38 19Z" id="Stroke-3" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>
