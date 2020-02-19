@@ -60,6 +60,14 @@ body {
   letter-spacing: 1px;
   margin-bottom: 0; }
 
+.twothirds__h3-futuraltcom_medium {
+  font-family: "FuturaLTCom-Medium";
+  font-size: 16px;
+  font-weight: 400;
+  color: #252e43;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
 .container {
   max-width: 1280px;
   width: 100%;
@@ -179,10 +187,6 @@ body {
   background: rgba(193, 196, 208, 0.19);
   padding-top: 92px; }
   .retail-section_h1 {
-    color: #252e43;
-    font-family: "FuturaLTCom-Medium";
-    font-size: 16px;
-    letter-spacing: 1.142857px;
     text-transform: uppercase;
     padding-bottom: 22px; }
   .retail-section_process {
@@ -204,7 +208,7 @@ body {
       position: absolute;
       border-bottom: 1px solid #252e43;
       height: 2px;
-      width: 110%;
+      width: 100%;
       bottom: 0;
       left: 1px; }
     .retail-section__image::before {
@@ -217,7 +221,7 @@ body {
       bottom: -4px;
       left: -10px; }
   .retail-section__box-content {
-    width: 103%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

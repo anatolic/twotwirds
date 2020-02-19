@@ -42,5 +42,13 @@ body {
         letter-spacing: 1px;
         margin-bottom: 0;
     }
+
+    //Retail
+    &__h3-futuraltcom_medium {
+        font-family: "FuturaLTCom-Medium";
+        @include typography(16px, 400,#252e43);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
 }
 

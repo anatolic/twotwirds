@@ -199,10 +199,6 @@ $retail-section: retail-section;
     padding-top: 92px;
 
     &_h1{
-        color: #252e43;
-        font-family: "FuturaLTCom-Medium";
-        font-size: 16px;
-        letter-spacing: 1.142857px;
         text-transform: uppercase;
         padding-bottom: 22px;
     }
@@ -231,7 +227,7 @@ $retail-section: retail-section;
             position: absolute;
             border-bottom: 1px solid #252e43;
             height: 2px;
-            width:110% ;
+            width:100% ;
             bottom: 0;
             left: 1px;     
         }
@@ -249,7 +245,7 @@ $retail-section: retail-section;
     }
 
     &__box-content {
-        width: 103%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
