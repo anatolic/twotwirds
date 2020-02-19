@@ -230,3 +230,15 @@ body {
     margin-top: 30px;
     text-align: center;
     max-width: 150px; }
+
+.green-section_img {
+  height: 582px;
+  padding-top: 64px; }
+
+.drawdown-section_img {
+  height: 399px;
+  padding-top: 35px; }
+
+.drawdown-desc-section_box {
+  max-width: 1020px;
+  height: 200px; }

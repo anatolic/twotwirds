@@ -260,3 +260,23 @@ $retail-section: retail-section;
 
     }
 
+.#{green-section} {
+    &_img{
+        height: 582px;
+        padding-top: 64px;
+    }
+}
+
+.#{drawdown-section}{
+    &_img{
+        height: 399px;
+        padding-top: 35px;
+    }
+}
+
+.#{drawdown-desc-section}{
+    &_box{
+        max-width: 1020px;
+        height: 200px;
+    }
+}
