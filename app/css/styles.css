@@ -53,6 +53,14 @@ body {
   letter-spacing: 0;
   line-height: 40px; }
 
+.twothirds__h3-chronicle-roman--white-sm {
+  font-family: 'ChronicleDisplay-Roman';
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 40px; }
+
 .twothirds__paragraph {
   font-size: 18px;
   font-weight: 400;
@@ -242,3 +250,20 @@ body {
 .drawdown-desc-section_box {
   max-width: 1020px;
   height: 200px; }
+
+.join-section_div-h3 {
+  height: 200px;
+  max-width: 280px;
+  padding-top: 70px; }
+
+.footer {
+  padding-bottom: 64px; }
+  .footer_first-div {
+    display: flex;
+    flex-wrap: wrap; }
+  .footer_first-div-ul {
+    margin-right: 170px; }
+  .footer_li {
+    padding-bottom: 10px; }
+  .footer_second-p {
+    float: right; }
