@@ -8,6 +8,11 @@ $half-section--gap: 50px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: $main-section--gap;
     }
+    &__double-grid--sm{
+        display: grid;
+        grid-template-columns: repeat(2, 30% 70%);
+        grid-gap:  $main-section--gap;
+    }    
 }
 
 .main--margin-top {

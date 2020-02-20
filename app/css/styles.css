@@ -251,10 +251,19 @@ body {
   max-width: 1020px;
   height: 200px; }
 
-.join-section_div-h3 {
-  height: 200px;
-  max-width: 280px;
-  padding-top: 70px; }
+.join-section {
+  width: 100%;
+  height: 302px;
+  margin: 0 auto;
+  background-size: cover; }
+  .join-section_desc {
+    display: flex; }
+  .join-section_img {
+    margin-right: 40px; }
+  .join-section_div-h3 {
+    height: 200px;
+    max-width: 280px;
+    padding-top: 70px; }
 
 .footer {
   padding-bottom: 64px; }
