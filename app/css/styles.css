@@ -7,7 +7,7 @@
 
 .twothirds__double-grid--sm {
   display: grid;
-  grid-template-columns: repeat(2, 30% 70%);
+  grid-template-columns: repeat(2, 40% 60%);
   grid-gap: 100px; }
 
 .main--margin-top {
