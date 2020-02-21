@@ -63,13 +63,26 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
-  letter-spacing: 0;
-  line-height: 40px; }
+  letter-spacing: 0; }
 
 .twothirds__paragraph {
   font-size: 18px;
   font-weight: 400;
   color: #5B6872;
+  letter-spacing: 1px;
+  margin-bottom: 0; }
+
+.twothirds__paragraph--sm {
+  font-size: 14px;
+  font-weight: 400;
+  color: #5B6872;
+  letter-spacing: 1px;
+  margin-bottom: 0; }
+
+.twothirds__paragraph--white {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
   letter-spacing: 1px;
   margin-bottom: 0; }
 
@@ -258,7 +271,7 @@ body {
 
 .join-section {
   width: 100%;
-  height: 302px;
+  height: 401px;
   margin: 0 auto;
   background-size: cover; }
   .join-section_desc {
@@ -267,8 +280,34 @@ body {
     margin-right: 40px; }
   .join-section_div-h3 {
     height: 200px;
-    max-width: 280px;
-    padding-top: 70px; }
+    max-width: 280px; }
+  .join-section_login-input {
+    display: flex;
+    height: 20px;
+    padding-bottom: 20px; }
+  .join-section_button {
+    border: 2px solid white;
+    height: 39px;
+    font-size: 35px; }
+  .join-section_checkbox-desc {
+    display: flex; }
+  .join-section_checkbox {
+    margin-right: 30px; }
+  .join-section_input-checkbox {
+    margin-right: 5px;
+    height: 14px;
+    width: 25px;
+    background-color: #eee; }
+    .join-section_input-checkbox::before {
+      background: white; }
+  .join-section_checkbox-circle {
+    display: flex;
+    padding-top: 20px; }
+  .join-section_circle {
+    background-color: #eee;
+    height: 14px;
+    width: 45px;
+    margin-right: 10px; }
 
 .footer {
   padding-bottom: 64px; }
