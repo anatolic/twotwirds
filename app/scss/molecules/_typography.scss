@@ -1,4 +1,5 @@
 $twothirds: twothirds;
+$default-letter-spacing: 1px;
 
 body {
     font-family: 'Futura LT Com';
@@ -7,19 +8,19 @@ body {
 .#{$twothirds} {
     &__h1 {
         @include typography(50px, 500, #252E43);
-        letter-spacing: 1px;
+        letter-spacing: $default-letter-spacing;
         margin-bottom: 0;
     }
 
     &__h4 {
         @include typography(14px, 400, #252E43);
-        letter-spacing: 1px;
+        letter-spacing: $default-letter-spacing;
         margin-bottom: 0;
     }
     
     &__h5 {
         @include typography(18px, 400, #5B6872);
-        letter-spacing: 0.5px;
+        // letter-spacing: calc($default-letter-spacing / 2);
     }
 
     // Chronicle
@@ -37,7 +38,7 @@ body {
         line-height: 40px;
     }
 
-    &__h3-chronicle-roman--white-sm {
+    &__h4-chronicle-roman--white {
         font-family: 'ChronicleDisplay-Roman';
         @include typography(18px, 400, #ffffff);
         letter-spacing: 0;
@@ -48,7 +49,7 @@ body {
         letter-spacing: 1px;
         margin-bottom: 0;
     }
-    &__paragraph--sm {
+    &__span {
         @include typography(14px, 400, #5B6872);
         letter-spacing: 1px;
         margin-bottom: 0;
@@ -65,7 +66,6 @@ body {
         font-family: "FuturaLTCom-Medium";
         @include typography(16px, 400,#252e43);
         letter-spacing: 1px;
-        text-transform: uppercase;
     }
 }
 

@@ -1,6 +1,8 @@
 $twothirds: twothirds;
 $main-section--gap: 100px;
 $half-section--gap: 50px;
+$sm-section--gap:30px;
+
 
 .#{$twothirds} {
     &__double-grid {
@@ -15,14 +17,33 @@ $half-section--gap: 50px;
     }    
 }
 
-.main--margin-top {
+// lg
+
+.m-t-lg {
     margin-top: $main-section--gap;
 }
 
-.half-section--gap {
+// md
+.m-t-md {
     margin-top: $half-section--gap;
 }
 
+// sm
+
+.m-t-sm{
+    margin-top: $sm-section--gap;
+}
+// xsm
 .full-width {
     width: 100%;
 }
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+//

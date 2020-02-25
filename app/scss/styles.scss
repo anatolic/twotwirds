@@ -193,17 +193,16 @@ $retail-section: retail-section;
     }
 }
 
-
+// Comment
 .#{$retail-section} {
     background: rgba(193,196,208,0.19);
     padding-top: 92px;
 
-    &_h1{
-        text-transform: uppercase;
-        padding-bottom: 22px;
-    }
+    // Real name
     
-     &_process { 
+    // rename class
+    // process-wrap
+     &__process-wrap { 
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         grid-gap: 0;
@@ -213,7 +212,7 @@ $retail-section: retail-section;
         padding-bottom: 103px;
     }
 
-    &__image{
+    &__process-image{
         height: 42px;
         display: flex;
         align-items: center;
@@ -253,35 +252,50 @@ $retail-section: retail-section;
     }
 
     &__text {
-        margin-top: 30px;
-        text-align: center;
+         // add general
+         // Add general
         max-width: 150px;
     }
 
     }
 
-.#{green-section} {
+.#{$use-section} {
+    &_img-content{
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        img > g {
+            Stroke: #fff
+        }
+    }
+}
+
+// From here to bottom add global vars
+.#{$green-section} {
     &_img{
-        height: 582px;
+        height: 100%;
         padding-top: 64px;
     }
 }
 
-.#{drawdown-section}{
+.#{$drawdown-section}{
     &_img{
         height: 399px;
         padding-top: 35px;
     }
 }
 
-.#{drawdown-desc-section}{
+.#{$drawdown-desc-section}{
     &_box{
-        max-width: 1020px;
-        height: 200px;
+        max-width: 1020px; // remove, we have container
+        height: 200px; // make dinamic size
     }
 }
 
-.#{join-section} {
+.#{$join-section} {
         width: 100%;
         height: 401px;
         margin: 0 auto;
@@ -327,7 +341,7 @@ $retail-section: retail-section;
         width: 25px;
         background-color: #eee;
         &::before{
-            background: white;
+        background: white;
         }
     }
 
@@ -335,8 +349,6 @@ $retail-section: retail-section;
         display: flex;
         padding-top: 20px;
     }
-
-    
 
     &_circle{ 
         background-color: #eee;
@@ -346,7 +358,7 @@ $retail-section: retail-section;
     }
 }
 
-.#{footer}{
+.#{$footer}{
     padding-bottom: 64px;
 
     &_first-div{
@@ -387,4 +399,17 @@ $retail-section: retail-section;
 }
 
     
+}
+
+
+.use-section_div-img {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img > g {
+        Stroke: #fff
+    }
 }
