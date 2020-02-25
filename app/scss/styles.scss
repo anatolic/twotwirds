@@ -260,7 +260,7 @@ $retail-section: retail-section;
     }
 
 .#{$use-section} {
-    &_img-content{
+    &__img-content {
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -361,40 +361,40 @@ $retail-section: retail-section;
 .#{$footer}{
     padding-bottom: 64px;
 
-    &_first-div{
+    &__first-content{
         display: flex;
         flex-wrap: wrap;
     }
 
-    &_first-div-ul{
+    &__first-content-lists{
         margin-right: 170px;
     }
 
-    &_li{
+    &__list-item{
         padding-bottom: 10px;
     }
 
 
-    &_img-logos{
+    &__img-logos{
         float: right;
         display: flex;
     }
 
-    &_img-logo{
+    &__img-logo{
         margin-right: 20px;
     }
 
-    &_img-logo-bg{
+    &__img-logo-bg{
         padding-left: 490px;
     }
 
-    &_img-h1{
+    &__img-text{
        font-size: 25px;
        text-transform: uppercase;
        float: right;
    }
 
-    &_second-p{
+    &__second-content-paragraph{
         float: right;
 }
 
@@ -402,7 +402,7 @@ $retail-section: retail-section;
 }
 
 
-.use-section_div-img {
+/*.use-section_div-img {
     background-size: cover;
     display: flex;
     justify-content: center;
