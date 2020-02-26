@@ -12,6 +12,12 @@ $supplier-banner-section: supplier-banner-section;
 $craftmanship-process: craftmanship-process;
 $wages-section: wages-section;
 $retail-section: retail-section;
+$use-section:use-section;
+$green-section:green-section;
+$drawdown-section:drawdown-section;
+$drawdown-desc-section:drawdown-desc-section;
+$join-section:join-section;
+$footer:footer;
 
 // General
 .container {
@@ -275,7 +281,7 @@ $retail-section: retail-section;
 
 // From here to bottom add global vars
 .#{$green-section} {
-    &_img{
+    &__img{
         height: 100%;
         padding-top: 64px;
     }
@@ -289,7 +295,7 @@ $retail-section: retail-section;
 }
 
 .#{$drawdown-desc-section}{
-    &_box{
+    &__box{
         max-width: 1020px; // remove, we have container
         height: 200px; // make dinamic size
     }
@@ -319,12 +325,20 @@ $retail-section: retail-section;
         display: flex;
         height: 20px;
         padding-bottom: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     &_button{
-        border: 2px solid white;
+        border: 1px solid white;
         height: 39px;
         font-size: 35px;
+        background: transparent;
+    }
+
+    &_checkbox-circle-desc{
+        justify-content: center;
+        align-items: center;
     }
 
     &_checkbox-desc{
