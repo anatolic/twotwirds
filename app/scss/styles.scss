@@ -38,8 +38,63 @@ $footer:footer;
         display: flex;  
     }
 
+    &__box-nav-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__logo{
+        margin-left: 340px;
+    }
+
     &__items{
         display: flex;
+    }
+
+    &__img-text{
+        margin-right: 170px;
+    }
+
+    &__link{
+        margin-right: 40px;
+    }
+
+    &__box-nav{
+        margin-right: 120px;
+    }
+
+    &__search{
+        color: white;
+        margin-right: 50px;
+    }
+
+    &__slide-box{
+        padding-top: 300px;
+    }
+
+    &__slide-content{
+        display: flex;
+    }
+
+    &__slide-active{
+        &::after {
+            content: '';
+            position: absolute;
+            border-bottom: 2px solid white;
+            height: 2px;
+            width: 52px;
+        }
+    }
+
+    &__slide{
+        &::after {
+            content: '';
+            position: absolute;
+            border-bottom: 2px solid white;
+            height: 2px;
+            width: 16px;
+        }
     }
 
 }

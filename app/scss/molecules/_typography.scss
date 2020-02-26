@@ -12,6 +12,12 @@ body {
         margin-bottom: 0;
     }
 
+    &__h1-white {
+        @include typography(50px, 500, #252E43);
+        letter-spacing: $default-letter-spacing;
+        margin-bottom: 0;
+    }
+
     &__h4 {
         @include typography(14px, 400, #252E43);
         letter-spacing: $default-letter-spacing;

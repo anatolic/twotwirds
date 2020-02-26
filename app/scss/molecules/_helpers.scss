@@ -19,7 +19,7 @@ $sm-section--gap:30px;
     &__triple-grid{
         display: grid;
         grid-template-columns: repeat(3, 20% 60% 20%);
-        grid-gap:$half-section--gap: ;
+        grid-gap:$half-section--gap ;
     }
 }
 
