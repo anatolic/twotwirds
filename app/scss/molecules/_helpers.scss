@@ -14,7 +14,13 @@ $sm-section--gap:30px;
         display: grid;
         grid-template-columns: repeat(2, 40% 60%);
         grid-gap:  $main-section--gap;
-    }    
+    }  
+    
+    &__triple-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 20% 60% 20%);
+        grid-gap:$half-section--gap: ;
+    }
 }
 
 // lg

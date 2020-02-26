@@ -27,6 +27,22 @@ $footer:footer;
     margin-right: auto;
 }
 
+
+.#{$header}{
+
+    &__box{
+        width: 100%;
+        height: 955px;
+        margin: 0 auto;
+        background-size: cover; 
+        display: flex;  
+    }
+
+    &__items{
+        display: flex;
+    }
+
+}
 // Sections
 // Intro section
 .#{$intro-section} {
@@ -273,7 +289,7 @@ $footer:footer;
         align-items: center;
         flex-direction: column;
     
-        img > g {
+        img > g >g {
             Stroke: #fff
         }
     }
@@ -288,7 +304,7 @@ $footer:footer;
 }
 
 .#{$drawdown-section}{
-    &_img{
+    &__img{
         height: 399px;
         padding-top: 35px;
     }
@@ -307,21 +323,22 @@ $footer:footer;
         margin: 0 auto;
         background-size: cover;
 
-    &_desc{
+    &__box{
         display: flex;
+        align-items: flex-start;
     }
 
-    &_img{
+    &__img{
         margin-right: 40px;
         
     }
        
-    &_div-h3{
+    &__box-h3{
         height: 200px;
         max-width: 280px;
     }
 
-    &_login-input{
+    &__login-input{
         display: flex;
         height: 20px;
         padding-bottom: 20px;
@@ -329,27 +346,27 @@ $footer:footer;
         align-items: center;
     }
 
-    &_button{
+    &__button{
         border: 1px solid white;
         height: 39px;
         font-size: 35px;
         background: transparent;
     }
 
-    &_checkbox-circle-desc{
+    &__checkbox-circle-desc{
         justify-content: center;
         align-items: center;
     }
 
-    &_checkbox-desc{
+    &__checkbox-desc{
         display: flex;
     }
 
-    &_checkbox{
+    &__checkbox{
         margin-right: 30px;
     }
 
-    &_input-checkbox{
+    &__input-checkbox{
         margin-right: 5px;
         height: 14px;
         width: 25px;
@@ -359,12 +376,12 @@ $footer:footer;
         }
     }
 
-    &_checkbox-circle{
+    &__checkbox-circle{
         display: flex;
         padding-top: 20px;
     }
 
-    &_circle{ 
+    &__circle{ 
         background-color: #eee;
         height: 14px;
         width: 45px;
@@ -403,8 +420,6 @@ $footer:footer;
     }
 
     &__img-text{
-       font-size: 25px;
-       text-transform: uppercase;
        float: right;
    }
 
