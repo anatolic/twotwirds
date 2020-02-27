@@ -41,7 +41,6 @@ $header: header;
     &__box-nav-bar{
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 
     &__logo{
@@ -61,7 +60,7 @@ $header: header;
     }
 
     &__box-nav{
-        margin-right: 120px;
+        margin-right: 100px;
     }
 
     &__box-logo{
@@ -74,7 +73,7 @@ $header: header;
     }
 
     &__slide-box{
-        padding-top: 300px;
+        padding-top: 250px;
     }
 
     &__slide-content{
@@ -95,13 +94,14 @@ $header: header;
         &::after {
             content: '';
             position: absolute;
-            border-bottom: 2px solid white;
+            border-bottom: 1px solid white;
             height: 2px;
             width: 16px;
         }
     }
 
     &__box-tittle-content{
+        padding-top: 50px;
         padding-bottom: 70px;
     }
 
@@ -113,6 +113,17 @@ $header: header;
 
     &__box-eco-material{
         margin-left: 64px;
+        text-align: center;
+    }
+
+    &__eco-icon{
+        margin-bottom: 20px;
+        fill: #fff;
+        font-size: 60px;
+
+        & > g  {
+            Stroke: #fff
+        }
     }
 
     &__box-img{
@@ -127,9 +138,9 @@ $header: header;
         &::after{
             content: '';
             position: absolute;
-            border-left: 2px solid white;
+            border-left: 1px solid white;
             height: 110px;
-            width: 2px;
+            width: 1px;
         }
     }
 

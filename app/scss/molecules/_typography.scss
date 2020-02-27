@@ -12,8 +12,8 @@ body {
         margin-bottom: 0;
     }
 
-    &__h1-white {
-        @include typography(50px, 500, white);
+    &__h1--white {
+        @include typography(80px, 500, white);
         letter-spacing: $default-letter-spacing;
         margin-bottom: 0;
     }
@@ -48,7 +48,6 @@ body {
         font-family: 'ChronicleDisplay-Roman';
         @include typography(21px, 400, #ffffff);
         letter-spacing: 0;
-        line-height: 40px;
     }
 
     &__h4-chronicle-roman--white {
