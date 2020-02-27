@@ -12,12 +12,13 @@ $supplier-banner-section: supplier-banner-section;
 $craftmanship-process: craftmanship-process;
 $wages-section: wages-section;
 $retail-section: retail-section;
-$use-section:use-section;
-$green-section:green-section;
-$drawdown-section:drawdown-section;
-$drawdown-desc-section:drawdown-desc-section;
-$join-section:join-section;
-$footer:footer;
+$use-section: use-section;
+$green-section: green-section;
+$drawdown-section: drawdown-section;
+$drawdown-desc-section: drawdown-desc-section;
+$join-section: join-section;
+$footer: footer;
+$header: header;
 
 // General
 .container {
@@ -34,8 +35,7 @@ $footer:footer;
         width: 100%;
         height: 955px;
         margin: 0 auto;
-        background-size: cover; 
-        display: flex;  
+        background-size: cover;   
     }
 
     &__box-nav-bar{
@@ -64,7 +64,11 @@ $footer:footer;
         margin-right: 120px;
     }
 
-    &__search{
+    &__box-logo{
+        align-items: center;
+    }
+
+    &__icons{
         color: white;
         margin-right: 50px;
     }
@@ -94,6 +98,38 @@ $footer:footer;
             border-bottom: 2px solid white;
             height: 2px;
             width: 16px;
+        }
+    }
+
+    &__box-tittle-content{
+        padding-bottom: 70px;
+    }
+
+
+    &__box-eco-materials{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__box-eco-material{
+        margin-left: 64px;
+    }
+
+    &__box-img{
+        justify-content: center;
+    }
+
+    &__eco-text{
+        max-width: 240px;
+    }
+
+    &__box-line{
+        &::after{
+            content: '';
+            position: absolute;
+            border-left: 2px solid white;
+            height: 110px;
+            width: 2px;
         }
     }
 
@@ -483,17 +519,4 @@ $footer:footer;
 }
 
     
-}
-
-
-/*.use-section_div-img {
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    img > g {
-        Stroke: #fff
-    }
 }
