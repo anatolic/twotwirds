@@ -44,7 +44,7 @@ body {
   margin-bottom: 0; }
 
 .twothirds__h1--white {
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 500;
   color: white;
   letter-spacing: 1px;
@@ -126,89 +126,94 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-.header__box {
-  width: 100%;
+.header {
+  position: relative;
   height: 955px;
-  margin: 0 auto;
-  background-size: cover; }
-
-.header__box-nav-bar {
+  background-size: cover;
   display: flex;
-  justify-content: center; }
-
-.header__logo {
-  margin-left: 340px; }
-
-.header__items {
-  display: flex; }
-
-.header__img-text {
-  margin-right: 170px; }
-
-.header__link {
-  margin-right: 40px; }
-
-.header__box-nav {
-  margin-right: 100px; }
-
-.header__box-logo {
-  align-items: center; }
-
-.header__icons {
-  color: white;
-  margin-right: 50px; }
-
-.header__slide-box {
-  padding-top: 250px; }
-
-.header__slide-content {
-  display: flex; }
-
-.header__slide-active::after {
-  content: '';
-  position: absolute;
-  border-bottom: 2px solid white;
-  height: 2px;
-  width: 52px; }
-
-.header__slide::after {
-  content: '';
-  position: absolute;
-  border-bottom: 1px solid white;
-  height: 2px;
-  width: 16px; }
-
-.header__box-tittle-content {
-  padding-top: 50px;
-  padding-bottom: 70px; }
-
-.header__box-eco-materials {
-  display: flex;
-  justify-content: center; }
-
-.header__box-eco-material {
-  margin-left: 64px;
-  text-align: center; }
-
-.header__eco-icon {
-  margin-bottom: 20px;
-  fill: #fff;
-  font-size: 60px; }
-  .header__eco-icon > g {
-    Stroke: #fff; }
-
-.header__box-img {
-  justify-content: center; }
-
-.header__eco-text {
-  max-width: 240px; }
-
-.header__box-line::after {
-  content: '';
-  position: absolute;
-  border-left: 1px solid white;
-  height: 110px;
-  width: 1px; }
+  flex-direction: column;
+  justify-content: space-between; }
+  .header__box-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; }
+  .header__img-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer; }
+  .header__items {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer; }
+  .header__link {
+    margin-right: 40px; }
+  .header__icons-items {
+    display: flex;
+    justify-content: space-between; }
+  .header__icon {
+    color: white;
+    margin-right: 50px; }
+  .header__slide-box {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); }
+  .header__slide-content {
+    float: left; }
+  .header__slide-active {
+    display: flex;
+    position: absolute;
+    transition: width 0.3s; }
+    .header__slide-active::after {
+      content: '';
+      border-bottom: 2px solid white;
+      height: 2px;
+      width: 52px;
+      cursor: pointer;
+      position: absolute; }
+  .header__slide {
+    padding-top: 20px; }
+    .header__slide::after {
+      content: '';
+      position: absolute;
+      border-bottom: 1px solid white;
+      height: 2px;
+      width: 16px; }
+  .header__box-tittle-content {
+    padding-bottom: 70px; }
+  .header__box-tittle {
+    top: 50%; }
+  .header__box-eco-materials-content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px; }
+  .header__box-eco-materials {
+    display: flex;
+    justify-content: center; }
+  .header__box-eco-material {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px; }
+  .header__eco-icon {
+    margin-bottom: 20px;
+    fill: #fff;
+    font-size: 60px; }
+    .header__eco-icon > g > g {
+      Stroke: #fff; }
+  .header__box-img {
+    justify-content: center; }
+  .header__eco-text {
+    max-width: 240px; }
+  .header__box-line::after {
+    content: '';
+    position: absolute;
+    border-left: 1px solid white;
+    height: 110px;
+    width: 1px; }
 
 .intro-section__wraper {
   display: grid;
@@ -259,8 +264,10 @@ body {
     grid-template-columns: repeat(4, 1fr); }
   .recycling-section--reciclyng-process__list-item {
     display: flex;
-    justify-content: center;
-    align-items: center; }
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 60px; }
 
 .supplier-banner-section {
   background-color: #C1C4D0; }
@@ -391,22 +398,21 @@ body {
   .join-section__box {
     display: flex;
     align-items: flex-start; }
-  .join-section__img {
-    margin-right: 40px; }
   .join-section__box-h3 {
-    height: 200px;
-    max-width: 280px; }
+    padding: 0 200px 0 10px; }
   .join-section__login-input {
     display: flex;
     height: 20px;
     padding-bottom: 20px;
-    justify-content: center;
-    align-items: center; }
+    justify-content: center; }
   .join-section__button {
     border: 1px solid white;
-    height: 39px;
-    font-size: 35px;
-    background: transparent; }
+    height: 38px;
+    font-size: 25px;
+    background: transparent;
+    width: 70px; }
+  .join-section__arrow {
+    color: white; }
   .join-section__checkbox-circle-desc {
     justify-content: center;
     align-items: center; }
@@ -429,6 +435,8 @@ body {
     height: 14px;
     width: 45px;
     margin-right: 10px; }
+  .join-section__link {
+    text-decoration: underline; }
 
 .footer {
   padding-bottom: 64px; }
@@ -439,14 +447,17 @@ body {
     margin-right: 170px; }
   .footer__list-item {
     padding-bottom: 10px; }
+  .footer__second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end; }
+  .footer__img-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .footer__img-logos {
-    float: right;
+    justify-content: space-between;
     display: flex; }
   .footer__img-logo {
     margin-right: 20px; }
-  .footer__img-logo-bg {
-    padding-left: 490px; }
-  .footer__img-text {
-    float: right; }
-  .footer__second-content-paragraph {
-    float: right; }

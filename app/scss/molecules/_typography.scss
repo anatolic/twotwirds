@@ -13,7 +13,7 @@ body {
     }
 
     &__h1--white {
-        @include typography(80px, 500, white);
+        @include typography(90px, 500, white);
         letter-spacing: $default-letter-spacing;
         margin-bottom: 0;
     }

@@ -30,67 +30,77 @@ $header: header;
 
 
 .#{$header}{
+    position: relative;
+    height: 955px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    &__box{
-        width: 100%;
-        height: 955px;
-        margin: 0 auto;
-        background-size: cover;   
-    }
-
-    &__box-nav-bar{
+    &__box-content{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: flex-end;
     }
 
-    &__logo{
-        margin-left: 340px;
+    &__img-content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        cursor: pointer;
     }
 
     &__items{
         display: flex;
-    }
-
-    &__img-text{
-        margin-right: 170px;
+        justify-content: space-between;
+        cursor: pointer;
     }
 
     &__link{
         margin-right: 40px;
     }
 
-    &__box-nav{
-        margin-right: 100px;
+    &__icons-items{
+        display: flex;
+        justify-content: space-between;
     }
 
-    &__box-logo{
-        align-items: center;
-    }
 
-    &__icons{
+    &__icon{
         color: white;
         margin-right: 50px;
     }
 
     &__slide-box{
-        padding-top: 250px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     &__slide-content{
-        display: flex;
+        float: left;
     }
 
     &__slide-active{
-        &::after {
+        display: flex;
+        position: absolute;
+        transition: width 0.3s;
+        &::after{
             content: '';
-            position: absolute;
             border-bottom: 2px solid white;
             height: 2px;
             width: 52px;
+            cursor: pointer;
+            position: absolute;
         }
+        
     }
 
     &__slide{
+        padding-top: 20px;
+
         &::after {
             content: '';
             position: absolute;
@@ -101,10 +111,18 @@ $header: header;
     }
 
     &__box-tittle-content{
-        padding-top: 50px;
         padding-bottom: 70px;
     }
 
+    &__box-tittle{
+        top: 50%;
+    }
+
+    &__box-eco-materials-content{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+    }
 
     &__box-eco-materials{
         display: flex;
@@ -112,8 +130,11 @@ $header: header;
     }
 
     &__box-eco-material{
-        margin-left: 64px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         text-align: center;
+        padding: 0 20px;
     }
 
     &__eco-icon{
@@ -121,7 +142,7 @@ $header: header;
         fill: #fff;
         font-size: 60px;
 
-        & > g  {
+        & > g > g {
             Stroke: #fff
         }
     }
@@ -224,8 +245,10 @@ $header: header;
 
     &__list-item {
         display: flex;
-        justify-content: center;
+        text-align: center;
+        flex-direction: column;
         align-items: center;
+        padding: 0 60px;
     }
 }
 
@@ -431,13 +454,13 @@ $header: header;
     }
 
     &__img{
-        margin-right: 40px;
+        
         
     }
        
     &__box-h3{
-        height: 200px;
-        max-width: 280px;
+        padding: 0 200px 0 10px;
+
     }
 
     &__login-input{
@@ -445,14 +468,19 @@ $header: header;
         height: 20px;
         padding-bottom: 20px;
         justify-content: center;
-        align-items: center;
     }
+
 
     &__button{
         border: 1px solid white;
-        height: 39px;
-        font-size: 35px;
+        height: 38px;
+        font-size: 25px;
         background: transparent;
+        width: 70px;
+    }
+
+    &__arrow{
+        color: white;
     }
 
     &__checkbox-circle-desc{
@@ -489,6 +517,10 @@ $header: header;
         width: 45px;
         margin-right: 10px;
     }
+
+    &__link{
+        text-decoration: underline;
+    }
 }
 
 .#{$footer}{
@@ -507,9 +539,21 @@ $header: header;
         padding-bottom: 10px;
     }
 
+    &__second-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    &__img-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     &__img-logos{
-        float: right;
+        justify-content: space-between;
         display: flex;
     }
 
@@ -517,17 +561,6 @@ $header: header;
         margin-right: 20px;
     }
 
-    &__img-logo-bg{
-        padding-left: 490px;
-    }
-
-    &__img-text{
-       float: right;
-   }
-
-    &__second-content-paragraph{
-        float: right;
 }
 
     
-}
