@@ -8,8 +8,10 @@ $main-section--gap: 100px;
 $intro-section: intro-section;
 $quality-section: quality-section;
 $recycling-section: recycling-section;
+$slide:slide;
 $supplier-banner-section: supplier-banner-section;
 $craftmanship-process: craftmanship-process;
+$background-section:background-section;
 $wages-section: wages-section;
 $retail-section: retail-section;
 $use-section: use-section;
@@ -137,7 +139,7 @@ $header: header;
         padding: 0 20px;
     }
 
-    &__eco-icon{
+    &__icon-white {
         margin-bottom: 20px;
         fill: #fff;
         font-size: 60px;
@@ -151,16 +153,13 @@ $header: header;
         justify-content: center;
     }
 
-    &__eco-text{
-        max-width: 240px;
-    }
 
     &__box-line{
         &::after{
             content: '';
             position: absolute;
-            border-left: 1px solid white;
-            height: 110px;
+            border-left: 1px solid #D8D8D8;
+            height: 140px;
             width: 1px;
         }
     }
@@ -237,24 +236,138 @@ $header: header;
 
 .#{$recycling-section}--reciclyng-process {
     margin: 80px auto;
+    position: relative;
 
     &__list {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
     }
 
     &__list-item {
         display: flex;
-        text-align: center;
         flex-direction: column;
         align-items: center;
-        padding: 0 60px;
+        padding: 0 50px;  
     }
+
+    &__list-text{
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    &__line {
+        
+        &::after {
+            content: '';
+            position: absolute;
+            border-bottom: 1px solid #252E43;
+            height: 2px;
+            width: 201px;
+        }
+    }
+}
+
+.#{$slide}{
+    position: relative;
+    height: 950px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &__box{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    &__content{
+        float: left;
+    }
+
+    &__item-active{
+        display: flex;
+        position: absolute;
+        transition: width 0.3s;
+        &::after{
+            content: '';
+            border-bottom: 2px solid white;
+            height: 2px;
+            width: 52px;
+            cursor: pointer;
+            position: absolute;
+        }
+        
+    }
+
+    &__item{
+        padding-top: 20px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            border-bottom: 1px solid white;
+            height: 2px;
+            width: 16px;
+        }
+    }
+
+    &__box-content{
+        padding-bottom: 95px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__content-tittle{
+        text-align: center;
+
+    }
+
+    &__box-items{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__box-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    &__icon-white {
+        margin-bottom: 20px;
+        fill: #fff;
+        font-size: 60px;
+
+        & > g > g {
+            Stroke: #fff
+        }
+    }
+
+    &__box-text{
+        text-align: center;
+    }
+
+    &__box-line{
+        &::after{
+            content: '';
+            position: absolute;
+            border-left: 1px solid #D8D8D8;
+            height: 140px;
+            width: 1px;
+        }
+    }
+
+
 }
 
 
 .#{$supplier-banner-section} {
-    background-color: #C1C4D0;
+    background-color: #979797;
 
     &__content {
         padding: 90px 130px;
@@ -330,6 +443,13 @@ $header: header;
         margin: 80px auto;
         display: block;
     }
+}
+
+.#{$background-section} {
+    position: relative;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
 }
 
 .#{$wages-section} {
@@ -452,12 +572,7 @@ $header: header;
         display: flex;
         align-items: flex-start;
     }
-
-    &__img{
-        
-        
-    }
-       
+   
     &__box-h3{
         padding: 0 200px 0 10px;
 

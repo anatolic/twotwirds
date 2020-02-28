@@ -198,21 +198,19 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 0 20px; }
-  .header__eco-icon {
+  .header__icon-white {
     margin-bottom: 20px;
     fill: #fff;
     font-size: 60px; }
-    .header__eco-icon > g > g {
+    .header__icon-white > g > g {
       Stroke: #fff; }
   .header__box-img {
     justify-content: center; }
-  .header__eco-text {
-    max-width: 240px; }
   .header__box-line::after {
     content: '';
     position: absolute;
-    border-left: 1px solid white;
-    height: 110px;
+    border-left: 1px solid #D8D8D8;
+    height: 140px;
     width: 1px; }
 
 .intro-section__wraper {
@@ -258,19 +256,92 @@ body {
     Stroke: #fff; }
 
 .recycling-section--reciclyng-process {
-  margin: 80px auto; }
+  margin: 80px auto;
+  position: relative; }
   .recycling-section--reciclyng-process__list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); }
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
   .recycling-section--reciclyng-process__list-item {
     display: flex;
-    text-align: center;
     flex-direction: column;
     align-items: center;
-    padding: 0 60px; }
+    padding: 0 50px; }
+  .recycling-section--reciclyng-process__list-text {
+    text-align: center;
+    padding-top: 25px; }
+  .recycling-section--reciclyng-process__line::after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #252E43;
+    height: 2px;
+    width: 201px; }
+
+.slide {
+  position: relative;
+  height: 950px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
+  .slide__box {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); }
+  .slide__content {
+    float: left; }
+  .slide__item-active {
+    display: flex;
+    position: absolute;
+    transition: width 0.3s; }
+    .slide__item-active::after {
+      content: '';
+      border-bottom: 2px solid white;
+      height: 2px;
+      width: 52px;
+      cursor: pointer;
+      position: absolute; }
+  .slide__item {
+    padding-top: 20px; }
+    .slide__item::after {
+      content: '';
+      position: absolute;
+      border-bottom: 1px solid white;
+      height: 2px;
+      width: 16px; }
+  .slide__box-content {
+    padding-bottom: 95px;
+    display: flex;
+    flex-direction: column; }
+  .slide__content-tittle {
+    text-align: center; }
+  .slide__box-items {
+    display: flex;
+    justify-content: center; }
+  .slide__box-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px; }
+  .slide__icon-white {
+    margin-bottom: 20px;
+    fill: #fff;
+    font-size: 60px; }
+    .slide__icon-white > g > g {
+      Stroke: #fff; }
+  .slide__box-text {
+    text-align: center; }
+  .slide__box-line::after {
+    content: '';
+    position: absolute;
+    border-left: 1px solid #D8D8D8;
+    height: 140px;
+    width: 1px; }
 
 .supplier-banner-section {
-  background-color: #C1C4D0; }
+  background-color: #979797; }
   .supplier-banner-section__content {
     padding: 90px 130px; }
 
@@ -320,6 +391,12 @@ body {
     width: 75%;
     margin: 80px auto;
     display: block; }
+
+.background-section {
+  position: relative;
+  height: 900px;
+  background-size: cover;
+  background-position: center; }
 
 .wages-section__img {
   width: 150px;
