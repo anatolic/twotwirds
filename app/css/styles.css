@@ -191,15 +191,16 @@ body {
     padding-bottom: 100px; }
   .header__box-eco-materials {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding: 0 300px; }
   .header__box-eco-material {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 20px; }
+    padding: 0 40px;
+    justify-content: space-between; }
   .header__icon-white {
-    margin-bottom: 20px;
     fill: #fff;
     font-size: 60px; }
     .header__icon-white > g > g {
@@ -239,7 +240,8 @@ body {
 
 .recycling-section__add-list {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  align-items: baseline; }
 
 .recycling-section__add-list-item {
   margin: 0 80px;
@@ -309,7 +311,8 @@ body {
       position: absolute;
       border-bottom: 1px solid white;
       height: 2px;
-      width: 16px; }
+      width: 16px;
+      cursor: pointer; }
   .slide__box-content {
     padding-bottom: 95px;
     display: flex;
@@ -318,13 +321,15 @@ body {
     text-align: center; }
   .slide__box-items {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding: 0 300px; }
   .slide__box-item {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 20px; }
+    padding: 0 40px;
+    justify-content: space-between; }
   .slide__icon-white {
     margin-bottom: 20px;
     fill: #fff;
@@ -341,7 +346,7 @@ body {
     width: 1px; }
 
 .supplier-banner-section {
-  background-color: #979797; }
+  background-color: #C1C4D0; }
   .supplier-banner-section__content {
     padding: 90px 130px; }
 
