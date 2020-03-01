@@ -161,7 +161,7 @@ $header: header;
             content: '';
             position: absolute;
             border-left: 1px solid #D8D8D8;
-            height: 140px;
+            height: 120px;
             width: 1px;
         }
     }
@@ -251,7 +251,7 @@ $header: header;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0 50px;  
+        padding: 0 70px;  
     }
 
     &__list-text{
@@ -261,13 +261,13 @@ $header: header;
 
     &__line {
         
-        &::after {
-            content: '';
+        content: '';
             position: absolute;
             border-bottom: 1px solid #252E43;
             height: 2px;
-            width: 201px;
-        }
+            width: 200px;
+            bottom: 150px;
+            left: 210px;
     }
 }
 
