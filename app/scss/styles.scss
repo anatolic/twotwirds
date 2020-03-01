@@ -22,7 +22,7 @@ $join-section: join-section;
 $footer: footer;
 $header: header;
 
-// General
+
 .container {
     max-width: 1280px;
     width: 100%;
@@ -31,7 +31,7 @@ $header: header;
 }
 
 
-.#{$header}{
+.#{$header} {
     position: relative;
     height: 955px;
     background-size: cover;
@@ -39,13 +39,13 @@ $header: header;
     flex-direction: column;
     justify-content: space-between;
 
-    &__box-content{
+    &__box-content {
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
     }
 
-    &__img-content{
+    &__img-content {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -53,43 +53,43 @@ $header: header;
         cursor: pointer;
     }
 
-    &__items{
+    &__items {
         display: flex;
         justify-content: space-between;
         cursor: pointer;
     }
 
-    &__link{
+    &__link {
         margin-right: 40px;
     }
 
-    &__icons-items{
+    &__icons-items {
         display: flex;
         justify-content: space-between;
     }
 
 
-    &__icon{
+    &__icon {
         color: white;
         margin-right: 50px;
     }
 
-    &__slide-box{
+    &__slide-box {
         position: absolute;
         left: 0;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    &__slide-content{
+    &__slide-content {
         float: left;
     }
 
-    &__slide-active{
+    &__slide-active {
         display: flex;
         position: absolute;
         transition: width 0.3s;
-        &::after{
+        &::after {
             content: '';
             border-bottom: 2px solid white;
             height: 2px;
@@ -100,7 +100,7 @@ $header: header;
         
     }
 
-    &__slide{
+    &__slide {
         padding-top: 20px;
 
         &::after {
@@ -112,27 +112,27 @@ $header: header;
         }
     }
 
-    &__box-tittle-content{
+    &__box-tittle-content {
         padding-bottom: 70px;
     }
 
-    &__box-tittle{
+    &__box-tittle {
         top: 50%;
     }
 
-    &__box-eco-materials-content{
+    &__box-eco-materials-content {
         display: flex;
         flex-direction: column;
         padding-bottom: 100px;
     }
 
-    &__box-eco-materials{
+    &__box-eco-materials {
         display: flex;
         justify-content: center;
         padding: 0 300px;
     }
 
-    &__box-eco-material{
+    &__box-eco-material {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -151,13 +151,13 @@ $header: header;
         }
     }
 
-    &__box-img{
+    &__box-img {
         justify-content: center;
     }
 
 
-    &__box-line{
-        &::after{
+    &__box-line {
+        &::after {
             content: '';
             position: absolute;
             border-left: 1px solid #D8D8D8;
@@ -176,20 +176,11 @@ $header: header;
         grid-gap: $main-section--gap;
     }
 
-    // &__box {
-    //     img {
-    //         //object-fit: cover;
-    //         //width: 100%
-    //     }
-    // }
-
     &__img {
         width: 100%;
     }
 }
 
-
-// Quality section
 .#{$quality-section} {
     margin-top: $main-section--gap;
     
@@ -254,24 +245,27 @@ $header: header;
         padding: 0 70px;  
     }
 
-    &__list-text{
+    &__list-text {
         text-align: center;
-        padding-top: 25px;
     }
 
-    &__line {
-        
-        content: '';
+    &__figure {    
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &::after {
+            content: '';
             position: absolute;
-            border-bottom: 1px solid #252E43;
-            height: 2px;
-            width: 200px;
-            bottom: 150px;
-            left: 210px;
+            border-bottom: 1px solid #D8D8D8;
+            width: 220px;
+            left: 80px;
+        }
     }
+
 }
 
-.#{$slide}{
+.#{$slide} {
     position: relative;
     height: 950px;
     background-size: cover;
@@ -279,14 +273,14 @@ $header: header;
     flex-direction: column;
     justify-content: flex-end;
 
-    &__box{
+    &__box {
         position: absolute;
         left: 0;
         top: 50%;
         transform: translateY(-50%);
     }
 
-    &__content{
+    &__content {
         float: left;
     }
 
@@ -294,7 +288,7 @@ $header: header;
         display: flex;
         position: absolute;
         transition: width 0.3s;
-        &::after{
+        &::after {
             content: '';
             border-bottom: 2px solid white;
             height: 2px;
@@ -305,7 +299,7 @@ $header: header;
         
     }
 
-    &__item{
+    &__item {
         padding-top: 20px;
 
         &::after {
@@ -318,18 +312,18 @@ $header: header;
         }
     }
 
-    &__box-content{
+    &__box-content {
         padding-bottom: 95px;
         display: flex;
         flex-direction: column;
     }
 
-    &__content-tittle{
+    &__content-tittle {
         text-align: center;
 
     }
 
-    &__box-items{
+    &__box-items {
         display: flex;
         justify-content: center;
         padding: 0 300px;
@@ -466,26 +460,21 @@ $header: header;
     }
 }
 
-// Comment
 .#{$retail-section} {
     background: rgba(193,196,208,0.19);
     padding-top: 92px;
 
-    // Real name
-    
-    // rename class
-    // process-wrap
      &__process-wrap { 
         display: grid;
         grid-template-columns: repeat(7, 1fr);
         grid-gap: 0;
     }
 
-    &__list-item{
+    &__list-item {
         padding-bottom: 103px;
     }
 
-    &__process-image{
+    &__process-image {
         height: 42px;
         display: flex;
         align-items: center;
@@ -525,10 +514,8 @@ $header: header;
     }
 
     &__text {
-         // add general
-         // Add general
         max-width: 150px;
-    }
+        }
 
     }
 
@@ -546,25 +533,25 @@ $header: header;
     }
 }
 
-// From here to bottom add global vars
+
 .#{$green-section} {
-    &__img{
+    &__img {
         height: 100%;
         padding-top: 64px;
     }
 }
 
-.#{$drawdown-section}{
-    &__img{
+.#{$drawdown-section} {
+    &__img {
         height: 399px;
         padding-top: 35px;
     }
 }
 
 .#{$drawdown-desc-section}{
-    &__box{
-        max-width: 1020px; // remove, we have container
-        height: 200px; // make dinamic size
+    &__box {
+        max-width: 1020px; 
+        height: 200px; 
     }
 }
 
@@ -574,17 +561,21 @@ $header: header;
         margin: 0 auto;
         background-size: cover;
 
-    &__box{
+    &__box {
         display: flex;
         align-items: flex-start;
     }
+
+    &__figure-item {
+        justify-content: start;
+    }
    
-    &__box-h3{
-        padding: 0 200px 0 10px;
+    &__box-h3 {
+        padding: 0 100px 0 0px;
 
     }
 
-    &__login-input{
+    &__login-input {
         display: flex;
         height: 20px;
         padding-bottom: 20px;
@@ -592,7 +583,7 @@ $header: header;
     }
 
 
-    &__button{
+    &__button {
         border: 1px solid white;
         height: 38px;
         font-size: 25px;
@@ -600,85 +591,86 @@ $header: header;
         width: 70px;
     }
 
-    &__arrow{
+    &__arrow {
         color: white;
     }
 
-    &__checkbox-circle-desc{
+    &__checkbox-circle-desc {
         justify-content: center;
         align-items: center;
     }
 
-    &__checkbox-desc{
+    &__checkbox-desc {
         display: flex;
     }
 
-    &__checkbox{
+    &__checkbox {
         margin-right: 30px;
     }
 
-    &__input-checkbox{
+    &__input-checkbox {
         margin-right: 5px;
         height: 14px;
         width: 25px;
         background-color: #eee;
-        &::before{
+
+        &::before {
         background: white;
         }
     }
 
-    &__checkbox-circle{
+    &__checkbox-circle {
         display: flex;
         padding-top: 20px;
     }
 
-    &__circle{ 
+    &__circle {  
         background-color: #eee;
         height: 14px;
         width: 45px;
         margin-right: 10px;
     }
 
-    &__link{
+    &__link {
         text-decoration: underline;
     }
 }
 
-.#{$footer}{
+.#{$footer} {
     padding-bottom: 64px;
 
-    &__first-content{
+    &__first-content {
         display: flex;
         flex-wrap: wrap;
     }
 
-    &__first-content-lists{
+    &__first-content-lists {
         margin-right: 170px;
     }
 
-    &__list-item{
+    &__list-item {
         padding-bottom: 10px;
     }
 
-    &__second-content{
+    &__second-content {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-end;
     }
 
-    &__img-content{
+    &__img-content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    &__img-logos{
+    &__img-logos {
         justify-content: space-between;
         display: flex;
     }
 
-    &__img-logo{
+    &__img-logo {
         margin-right: 20px;
     }
 
