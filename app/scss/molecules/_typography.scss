@@ -3,6 +3,7 @@ $default-letter-spacing: 1px;
 
 body {
     font-family: 'Futura LT Com';
+    line-height: 100%;
 }
 
 .#{$twothirds} {
@@ -27,6 +28,10 @@ body {
     &__h5 {
         @include typography(18px, 400, #5B6872);
         // letter-spacing: calc($default-letter-spacing / 2);
+    }
+
+    &__h5-white {
+        @include typography(18px, 400, white);
     }
 
     // Chronicle
@@ -67,13 +72,6 @@ body {
         @include typography(14px, 400,white);
         letter-spacing: 1px;
         margin-bottom: 0;
-    }
-
-    //Retail
-    &__h3-futuraltcom_medium {
-        font-family: "FuturaLTCom-Medium";
-        @include typography(16px, 400,#252e43);
-        letter-spacing: 1px;
     }
 }
 
