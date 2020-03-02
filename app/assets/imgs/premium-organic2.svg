@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="22px" height="44px" viewBox="0 0 22 44" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Group-2" transform="translate(0.75 0.75)">
+    <path d="M19 18.0003C19 29.141 9.50033 36 9.50033 36C9.50033 36 0 29.0657 0 18.0003C0 8.05902 9.50033 0 9.50033 0C9.50033 0 19 8.05902 19 18.0003Z" transform="translate(0.5889 0.7992)" id="Stroke-1" fill="none" stroke="#252E43" stroke-width="1.5" />
+    <path d="M0.5 0L0.5 41" transform="translate(9.5889 0.7992)" id="Stroke-3" fill="none" stroke="#252E43" stroke-width="1.5" />
+    <path d="M0 0L7 5" transform="translate(3.5889 10.7992)" id="Stroke-5" fill="none" stroke="#252E43" stroke-width="1.5" />
+    <path d="M0 0L9 7" transform="translate(1.5889 18.7992)" id="Stroke-7" fill="none" stroke="#252E43" stroke-width="1.5" />
+    <path d="M7 0L0 5" transform="translate(10.5889 10.7992)" id="Stroke-9" fill="none" stroke="#252E43" stroke-width="1.5" />
+    <path d="M9 0L0 7" transform="translate(10.5889 18.7992)" id="Stroke-11" fill="none" stroke="#252E43" stroke-width="1.5" />
+  </g>
+</svg>

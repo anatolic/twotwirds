@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 38L38 38L38 0L0 0L0 38Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group-16" transform="translate(0.75 0.75)">
+    <path d="M25.7391 0L3.21739 0C1.44139 0 0 1.408 0 3.14286L0 7.85714C0 9.592 1.44139 11 3.21739 11L22.5217 11C24.2977 11 25.7391 12.408 25.7391 14.1429L25.7391 26.7143L3.21739 26.7143C1.44139 26.7143 0 28.1223 0 29.8571L0 33L25.7391 33L37 33L37 25.1429L37 11L37 6.28571C37 2.81443 34.1188 0 30.5652 0L25.7391 0Z" transform="translate(1 4)" id="Stroke-1" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M0 38L38 38L38 0L0 0L0 38Z" id="Clip-4" fill="none" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M0 5L9 5L9 0L0 0L0 5Z" transform="translate(6 15)" id="Stroke-3" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 2L7 2L7 0L0 0L0 2Z" transform="translate(7 20)" id="Stroke-5" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0.5 0L0.5 2" transform="translate(9.5 23)" id="Stroke-6" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M7 3.5C7 5.432 5.432 7 3.5 7C1.568 7 0 5.432 0 3.5C0 1.568 1.568 0 3.5 0C5.432 0 7 1.568 7 3.5Z" transform="translate(28 7)" id="Stroke-7" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4 0L0 4" transform="translate(29 9)" id="Stroke-8" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0.5L2 0.5" transform="translate(6 8)" id="Stroke-9" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0.5L2 0.5" transform="translate(12 8)" id="Stroke-10" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0.5L2 0.5" transform="translate(19 8)" id="Stroke-11" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0.5L5 0.5" transform="translate(30 21)" id="Stroke-12" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 0.5L5 0.5" transform="translate(30 17)" id="Stroke-13" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M5 2.5C5 3.88167 3.88167 5 2.5 5C1.11833 5 0 3.88167 0 2.5C0 1.11833 1.11833 0 2.5 0C3.88167 0 5 1.11833 5 2.5Z" transform="translate(30 25)" id="Stroke-14" fill="none" stroke="#252E43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>
