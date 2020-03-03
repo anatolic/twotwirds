@@ -1,11 +1,8 @@
 @import url(../css/bootstrap-4-utilities.min.css);
 @import url(../assets/fonts/fonts.css);
 figure {
-  padding: 0;
-  margin: 0; }
-
-h4 {
-  margin: 0px 0px 20px 0px; }
+  margin: 0;
+  padding: 0; }
 
 .twothirds__double-grid {
   display: grid;
@@ -85,7 +82,7 @@ body {
   letter-spacing: 1px;
   margin-bottom: 0; }
 
-.twothirds__h4-bg {
+.twothirds__h4-footer {
   font-size: 16px;
   font-weight: 400;
   color: #252e43;
@@ -198,7 +195,7 @@ body {
     display: flex; }
   .header__actions-icon {
     color: white;
-    margin-right: 25px;
+    margin-right: 30px;
     cursor: pointer;
     transition: 0.4s; }
   .header__actions-item:last-child .header__actions-icon {
@@ -260,9 +257,7 @@ body {
   justify-content: flex-end; }
   .slide__box {
     position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%); }
+    left: 0; }
   .slide__item-active {
     display: flex;
     position: absolute;
@@ -442,7 +437,7 @@ body {
     grid-gap: 0; }
   .retail-section__list-item {
     padding-bottom: 103px; }
-  .retail-section__h2 {
+  .retail-section__title {
     margin-bottom: 30px; }
   .retail-section__process-image {
     height: 42px;
@@ -506,11 +501,10 @@ body {
   .join-section__box {
     display: flex;
     align-items: flex-start; }
-  .join-section__img {
-    margin-right: 30px; }
   .join-section__figure-item {
-    justify-content: start; }
-  .join-section__box-h3 {
+    justify-content: start;
+    margin-right: 30px; }
+  .join-section__box-text {
     padding: 0 150px 0 0px; }
   .join-section__login-input {
     display: flex;

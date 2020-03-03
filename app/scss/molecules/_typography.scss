@@ -31,7 +31,7 @@ body {
         margin-bottom: 0;
     }
 
-    &__h4-bg {
+    &__h4-footer {
         @include typography(16px, 400,#252e43);
         letter-spacing: 0px;
         margin-bottom: 0;
@@ -70,6 +70,7 @@ body {
     &__h4-chronicle-roman--white {
         font-family: 'ChronicleDisplay-Roman';
         @include typography(18px, 400, #ffffff);
+        
     }
 
     &__paragraph {

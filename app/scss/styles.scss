@@ -81,7 +81,7 @@ $slide-second: slide-second;
 
 	&__actions-icon {
 		color: white;
-		margin-right: 25px;
+		margin-right: 30px;
 		cursor: pointer;
 		transition: 0.4s;
 	}
@@ -175,8 +175,6 @@ $slide-second: slide-second;
 	&__box {
 		position: absolute;
 		left: 0;
-		top: 50%;
-		transform: translateY(-50%);
 	}
 
 	&__item-active {
@@ -440,7 +438,7 @@ $slide-second: slide-second;
 		padding-bottom: 103px;
 	}
 
-	&__h2 {
+	&__title {
 		margin-bottom: 30px;
 	}
 
@@ -531,15 +529,12 @@ $slide-second: slide-second;
 		align-items: flex-start;
 	}
 
-	&__img{
+	&__figure-item {
+		justify-content: start;
 		margin-right: 30px;
 	}
 
-	&__figure-item {
-		justify-content: start;
-	}
-
-	&__box-h3 {
+	&__box-text {
 		padding: 0 150px 0 0px;
 	}
 
