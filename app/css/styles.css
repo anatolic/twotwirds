@@ -3,6 +3,9 @@
 figure {
   margin-top: 0; }
 
+h4 {
+  margin-bottom: 0px; }
+
 .twothirds__double-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -509,6 +512,7 @@ body {
     display: flex;
     height: 40px;
     margin-bottom: 30px;
+    margin-top: 20px;
     justify-content: center; }
   .join-section__input {
     outline: none;
