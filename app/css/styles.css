@@ -1,8 +1,7 @@
 @import url(../css/bootstrap-4-utilities.min.css);
 @import url(../assets/fonts/fonts.css);
 figure {
-  margin: 0;
-  padding: 0; }
+  margin-top: 0; }
 
 .twothirds__double-grid {
   display: grid;
