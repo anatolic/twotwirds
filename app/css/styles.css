@@ -193,6 +193,11 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
+.slider_rewrite_class {
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
 .header {
   position: relative;
   height: 955px;
@@ -282,7 +287,6 @@ body {
 
 .slide {
   position: relative;
-  height: 950px;
   background-size: cover;
   display: flex;
   flex-direction: column;

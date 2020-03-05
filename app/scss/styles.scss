@@ -34,6 +34,12 @@ $slide-second: slide-second;
 	margin-right: auto;
 }
 
+.slider_rewrite_class {
+	background-size: cover;
+	padding-top: $main-section--gap;
+	padding-bottom: $main-section--gap;
+}
+
 .#{$header} {
 	position: relative;
 	height: 955px;
@@ -169,7 +175,7 @@ $slide-second: slide-second;
 
 .#{$slide} {
 	position: relative;
-	height: 950px;
+	//height: 950px;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
