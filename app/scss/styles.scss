@@ -12,6 +12,7 @@ $quality-section: quality-section;
 $recycling-section: recycling-section;
 $slide: slide;
 $supplier-banner-section: supplier-banner-section;
+$craftmanship-section:craftmanship-section;
 $craftmanship-process: craftmanship-process;
 $background-section: background-section;
 $wages-section: wages-section;
@@ -34,7 +35,7 @@ $slide-second: slide-second;
 	margin-right: auto;
 }
 
-.slider_rewrite_class {
+.slide__content {
 	background-size: cover;
 	padding-top: $main-section--gap;
 	padding-bottom: $main-section--gap;
@@ -181,10 +182,7 @@ $slide-second: slide-second;
 	flex-direction: column;
 	justify-content: flex-end;
 	
-	&__box {
-		position: absolute;
-		left: 0;
-	}
+	
 
 	&__item-active {
 		display: flex;
@@ -336,6 +334,11 @@ $slide-second: slide-second;
 			border-bottom: 1px solid #d8d8d8;
 			width: 220px;
 			left: 80px;
+
+			&::last-child {
+				display: none;
+				border: none;
+			}
 		}
 	}
 }
@@ -966,12 +969,69 @@ $slide-second: slide-second;
 
 
 // Small Devices
-@media (min-width: 300px) and (max-width: 767.98px) {
+@media (min-width: 375px) and (max-width: 768px) {
 	.container {
-		max-width: 767px;
+		max-width: 375px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.#{$header} {
+		height: 100%;
+
+		&__box-content {
+			justify-content: center;
+		}
+
+		&__items {
+			display: none;
+		}
+
+		&__actions-list {
+			display: none;
+		}
+
+		&__slide-box {
+			display: none;
+		}
+
+		
+	}
+
+	.#{$slide} {
+		margin-top: $half-section--gap;
+
+		&__content-wrap {
+			justify-content: flex-end;
+		}
+		&__content-list {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	
+		&__content-list-item {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			text-align: center;
+			padding: 0 60px;
+			border-right: none;
+		}
+	
+		&__icon-black {
+			margin-bottom: 20px;
+			fill: black;
+			font-size: 60px;
+	
+			& > g > g {
+				Stroke: black;
+			}
+		}
+
 	}
 
  .#{$intro-section} {
@@ -984,6 +1044,10 @@ $slide-second: slide-second;
 
 	&__img {
 		margin-top: $half-section--gap;
+	}
+
+	&__title {
+		margin-bottom: 20px;
 	}
 
 	&__second-paragraph {
@@ -1001,6 +1065,7 @@ $slide-second: slide-second;
 	&__wraper {
 		display: flex;
 		flex-direction: column;
+		margin-top: 10px;
 	}
 
 	&__img {
@@ -1010,7 +1075,142 @@ $slide-second: slide-second;
 	&__title {
 		margin-top: $half-section--gap;
 	}
+
  }
 
+ .#{$recycling-section} {
+		margin-top:$half-section--gap;
+	 &__add {
+		 height: 100%;
+	 }
+
+	 &__add-list {
+		 margin-top: 75px;
+		 margin-bottom: 35px;
+	 }
+
+	 &__svg-logo {
+		 height: 47px;
+		 width: 46px;
+	 }
+
+	 &__add-list-item {
+		 margin: 10px 20px;
+	 } 
+
+	 &__content {
+		 display: flex;
+		 flex-direction: column;
+	 }
+
+	 &__text {
+		 margin-top: 16px;
+	 }
+
+	 &__box-text {
+		 margin-top: 40px;
+		 margin-bottom: 0px;
+	 }
+ }
+
+ .#{$recycling-section}--reciclyng-process {
+		margin-top: 80px;
+
+	&__list {
+		display: grid;
+	}
+
+	&__list-item {
+
+		&:first-child {
+			margin-top: 0px;
+		}
+		margin-top: $sm-section--gap;
+		padding: 0 90px;
+	}
+
+	&__figure {
+		
+		&::after {
+		display: none;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		margin-top: $half-section--gap;
+	}
+
+	&__content-text {
+		margin-top: 40px;
+	}
 }
 
+.#{$supplier-banner-section} {
+	&__content {
+		padding: 45px 25px;
+	}
+}
+
+.#{$craftmanship-section} {
+		margin-top: $half-section--gap;
+
+	&__box-text {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.#{$craftmanship-process} {
+		margin-top: 35px;
+		display: flex;
+		flex-direction: column;
+
+	&__image {
+		padding-bottom: 0px;
+			&:before {
+				display: none;
+			}
+
+			&:after {
+				display: none;
+			}
+		}
+
+	&__list-item {
+		padding-bottom: 0px;
+		margin-top: 35px;
+	}
+
+	&__box-content {
+		width: 100%;
+	}
+
+	&__text {
+		margin-top: 25px;
+	}
+
+	&__paragraph {
+		margin-top: 25px;
+	}
+
+	&__content {
+		margin-top: -50px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__second-text {
+		margin-top: 20px;
+	}
+
+	&__img-text {
+		margin-top: $half-section--gap;
+	}
+}
+.#{$background-section} {
+	margin-top: $sm-section--gap;
+}
+
+}

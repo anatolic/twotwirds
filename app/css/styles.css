@@ -6,6 +6,14 @@ figure {
 h4 {
   margin-bottom: 0px; }
 
+@media (min-width: 375px) and (max-width: 768px) {
+  .h1 {
+    margin-bottom: 0px; }
+  .mt-5 {
+    margin-top: 0px; }
+  .mt-4 {
+    margin-top: 0px; } }
+
 .twothirds__double-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -172,20 +180,49 @@ body {
     line-height: 150%;
     letter-spacing: 1px; } }
 
-@media (min-width: 300px) and (max-width: 767.98px) {
+@media (min-width: 375px) and (max-width: 768px) {
   .twothirds__h1 {
     font-size: 18px;
     font-weight: 500;
     color: #252E43;
     line-height: 150%;
-    letter-spacing: 1px;
-    margin-bottom: 20px; }
+    letter-spacing: 1px; }
   .twothirds__paragraph {
     font-size: 14px;
     font-weight: 400;
     color: #5B6872;
     line-height: 150%;
-    letter-spacing: 1px; } }
+    letter-spacing: 1px;
+    margin-bottom: 0px; }
+  .twothirds__h1--white {
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+    line-height: 150%;
+    letter-spacing: 1px;
+    margin-bottom: 0; }
+  .twothirds__paragraph--white {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    line-height: 150%;
+    letter-spacing: 1px;
+    margin-bottom: 0; }
+  .twothirds__h3-chronicle-roman {
+    font-family: 'ChronicleDisplay-Roman';
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 150%;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 0px; }
+  .twothirds__h3-chronicle-roman--white {
+    font-family: 'ChronicleDisplay-Roman';
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 150%; } }
 
 .container {
   max-width: 1280px;
@@ -193,7 +230,7 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-.slider_rewrite_class {
+.slide__content {
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px; }
@@ -291,9 +328,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end; }
-  .slide__box {
-    position: absolute;
-    left: 0; }
   .slide__item-active {
     display: flex;
     position: absolute;
@@ -400,6 +434,9 @@ body {
       border-bottom: 1px solid #d8d8d8;
       width: 220px;
       left: 80px; }
+      .recycling-section--reciclyng-process__figure::after::last-child {
+        display: none;
+        border: none; }
 
 .supplier-banner-section {
   background-color: #c1c4d0; }
@@ -786,18 +823,53 @@ body {
   .footer__first-content-lists {
     margin-right: 130px; } }
 
-@media (min-width: 300px) and (max-width: 767.98px) {
+@media (min-width: 375px) and (max-width: 768px) {
   .container {
-    max-width: 767px;
+    max-width: 375px;
     width: 100%;
     margin-left: auto;
     margin-right: auto; }
+  .header {
+    height: 100%; }
+    .header__box-content {
+      justify-content: center; }
+    .header__items {
+      display: none; }
+    .header__actions-list {
+      display: none; }
+    .header__slide-box {
+      display: none; }
+  .slide {
+    margin-top: 50px; }
+    .slide__content-wrap {
+      justify-content: flex-end; }
+    .slide__content-list {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto; }
+    .slide__content-list-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 60px;
+      border-right: none; }
+    .slide__icon-black {
+      margin-bottom: 20px;
+      fill: black;
+      font-size: 60px; }
+      .slide__icon-black > g > g {
+        Stroke: black; }
   .intro-section__wraper {
     display: flex;
     justify-content: center;
     flex-direction: column; }
   .intro-section__img {
     margin-top: 50px; }
+  .intro-section__title {
+    margin-bottom: 20px; }
   .intro-section__second-paragraph {
     display: none; }
   .background-section {
@@ -805,8 +877,82 @@ body {
     height: 220px; }
   .quality-section__wraper {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 10px; }
   .quality-section__img {
     margin-bottom: 10px; }
   .quality-section__title {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  .recycling-section {
+    margin-top: 50px; }
+    .recycling-section__add {
+      height: 100%; }
+    .recycling-section__add-list {
+      margin-top: 75px;
+      margin-bottom: 35px; }
+    .recycling-section__svg-logo {
+      height: 47px;
+      width: 46px; }
+    .recycling-section__add-list-item {
+      margin: 10px 20px; }
+    .recycling-section__content {
+      display: flex;
+      flex-direction: column; }
+    .recycling-section__text {
+      margin-top: 16px; }
+    .recycling-section__box-text {
+      margin-top: 40px;
+      margin-bottom: 0px; }
+  .recycling-section--reciclyng-process {
+    margin-top: 80px; }
+    .recycling-section--reciclyng-process__list {
+      display: grid; }
+    .recycling-section--reciclyng-process__list-item {
+      margin-top: 30px;
+      padding: 0 90px; }
+      .recycling-section--reciclyng-process__list-item:first-child {
+        margin-top: 0px; }
+    .recycling-section--reciclyng-process__figure::after {
+      display: none; }
+    .recycling-section--reciclyng-process__content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px; }
+    .recycling-section--reciclyng-process__content-text {
+      margin-top: 40px; }
+  .supplier-banner-section__content {
+    padding: 45px 25px; }
+  .craftmanship-section {
+    margin-top: 50px; }
+    .craftmanship-section__box-text {
+      display: flex;
+      flex-direction: column; }
+  .craftmanship-process {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column; }
+    .craftmanship-process__image {
+      padding-bottom: 0px; }
+      .craftmanship-process__image:before {
+        display: none; }
+      .craftmanship-process__image:after {
+        display: none; }
+    .craftmanship-process__list-item {
+      padding-bottom: 0px;
+      margin-top: 35px; }
+    .craftmanship-process__box-content {
+      width: 100%; }
+    .craftmanship-process__text {
+      margin-top: 25px; }
+    .craftmanship-process__paragraph {
+      margin-top: 25px; }
+    .craftmanship-process__content {
+      margin-top: -50px;
+      display: flex;
+      flex-direction: column; }
+    .craftmanship-process__second-text {
+      margin-top: 20px; }
+    .craftmanship-process__img-text {
+      margin-top: 50px; }
+  .background-section {
+    margin-top: 30px; } }

@@ -111,19 +111,45 @@ body {
 
 
 
-@media (min-width: 300px) and (max-width: 767.98px) {
+@media (min-width: 375px) and (max-width: 768px) {
 
     .#{$twothirds}{
 
         &__h1 {
             @include typography(18px, 500, #252E43);
             letter-spacing: $default-letter-spacing;
-            margin-bottom: 20px;
+           
         }
 
         &__paragraph {
             @include typography(14px, 400, #5B6872);
             letter-spacing: 1px;
+            margin-bottom: 0px;
+        }
+
+        &__h1--white {
+            @include typography(46px, 500, white);
+            letter-spacing: $default-letter-spacing;
+            margin-bottom: 0;
+        }
+
+        &__paragraph--white {
+            @include typography(14px, 400,black);
+            letter-spacing: 1px;
+            margin-bottom: 0;
+        }
+
+        &__h3-chronicle-roman {
+            font-family: 'ChronicleDisplay-Roman';
+            @include typography(20px, 400, #000000);
+            letter-spacing: 0;
+            line-height: 25px;
+            margin-bottom:  0px;
+        }
+
+        &__h3-chronicle-roman--white {
+            font-family: 'ChronicleDisplay-Roman';
+            @include typography(15px, 400, #ffffff);
         }
     }
 }

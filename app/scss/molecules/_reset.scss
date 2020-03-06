@@ -5,3 +5,18 @@ figure{
 h4 {
     margin-bottom: 0px;
 }
+
+@media (min-width: 375px) and (max-width: 768px) {
+    
+    .h1 {
+        margin-bottom: 0px;
+    }
+
+    .mt-5 {
+        margin-top: 0px;
+    }
+
+    .mt-4 {
+        margin-top: 0px;
+    } 
+}
