@@ -1,8 +1,5 @@
 @import url(../css/bootstrap-4-utilities.min.css);
 @import url(../assets/fonts/fonts.css);
-figure {
-  margin-top: 0; }
-
 h4 {
   margin-bottom: 0px; }
 
@@ -230,11 +227,6 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-.slide__content {
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
 .header {
   position: relative;
   height: 955px;
@@ -274,24 +266,6 @@ body {
     transition: 0.4s; }
   .header__actions-item:last-child .header__actions-icon {
     margin-right: 0; }
-  .header__slide-box {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%); }
-  .header__slide-content {
-    float: left; }
-  .header__slide {
-    padding-top: 20px; }
-    .header__slide::after {
-      content: '';
-      position: absolute;
-      cursor: pointer;
-      border-bottom: 2px solid white;
-      height: 2px;
-      width: 16px; }
-    .header__slide.active::after {
-      width: 52px; }
   .header__box-eco-materials-content {
     display: flex;
     flex-direction: column;
@@ -322,50 +296,42 @@ body {
     height: 120px;
     width: 1px; }
 
-.slide {
-  position: relative;
+.slide__content {
+  margin-top: 100px;
   background-size: cover;
+  padding-top: 435px;
+  padding-bottom: 90px; }
+
+.slide__content-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.slide__content-list-item-figure-wrap {
+  height: 58px;
+  margin-bottom: 10px; }
+  .slide__content-list-item-figure-wrap svg {
+    max-height: 100%; }
+
+.slide__content-list-item {
   display: flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: flex-end; }
-  .slide__item-active {
-    display: flex;
-    position: absolute;
-    transition: width 0.3s; }
-    .slide__item-active::after {
-      content: '';
-      border-bottom: 2px solid white;
-      height: 2px;
-      width: 52px;
-      cursor: pointer;
-      position: absolute; }
-  .slide__content-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0;
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto; }
-  .slide__content-list-item-figure-wrap {
-    height: 58px;
-    margin-bottom: 10px; }
-    .slide__content-list-item-figure-wrap svg {
-      max-height: 100%; }
-  .slide__content-list-item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 0 60px;
-    border-right: 1px solid #d8d8d8; }
-    .slide__content-list-item:last-child {
-      border-right: none; }
-  .slide__icon-white {
-    margin-bottom: 20px;
-    fill: #fff;
-    font-size: 60px; }
-    .slide__icon-white > g > g {
-      Stroke: #fff; }
+  text-align: center;
+  padding: 0 45px;
+  border-right: 1px solid #d8d8d8; }
+  .slide__content-list-item:last-child {
+    border-right: none; }
+
+.slide__icon-white {
+  margin-bottom: 20px;
+  fill: #fff;
+  font-size: 60px; }
+  .slide__icon-white > g > g {
+    Stroke: #fff; }
 
 .intro-section__wraper {
   display: grid;
@@ -383,8 +349,9 @@ body {
     grid-gap: 100px; }
 
 .recycling-section__add {
+  padding-top: 260px;
+  padding-bottom: 305px;
   width: 100%;
-  height: 670px;
   margin: 0 auto;
   background-size: cover;
   display: flex;
@@ -432,14 +399,14 @@ body {
       content: '';
       position: absolute;
       border-bottom: 1px solid #d8d8d8;
-      width: 220px;
-      left: 80px; }
-      .recycling-section--reciclyng-process__figure::after::last-child {
+      width: 210px;
+      left: 100px; }
+      .recycling-section--reciclyng-process__figure::after:last-child {
         display: none;
         border: none; }
 
 .supplier-banner-section {
-  background-color: #c1c4d0; }
+  background-color: rgba(193, 196, 208, 0.19); }
   .supplier-banner-section__content {
     padding: 90px 130px; }
 
@@ -577,8 +544,6 @@ body {
   .join-section__figure-item {
     justify-content: start;
     margin-right: 30px; }
-  .join-section__box-text {
-    padding: 0 150px 0 0px; }
   .join-section__login-input {
     display: flex;
     height: 40px;
