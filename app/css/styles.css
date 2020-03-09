@@ -349,8 +349,8 @@ body {
     grid-gap: 100px; }
 
 .recycling-section__add {
-  padding-top: 260px;
-  padding-bottom: 305px;
+  padding-top: 265px;
+  padding-bottom: 280px;
   width: 100%;
   margin: 0 auto;
   background-size: cover;
@@ -376,6 +376,9 @@ body {
   font-size: 60px; }
   .recycling-section__add-icon > g > g {
     Stroke: #fff; }
+
+.recycling-section__add-text {
+  padding-top: 10px; }
 
 .recycling-section--reciclyng-process {
   margin: 80px auto;
@@ -408,7 +411,7 @@ body {
 .supplier-banner-section {
   background-color: rgba(193, 196, 208, 0.19); }
   .supplier-banner-section__content {
-    padding: 90px 130px; }
+    padding: 125px 175px 150px 175px; }
 
 .craftmanship-process {
   display: grid;

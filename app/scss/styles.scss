@@ -222,8 +222,8 @@ $slide-second: slide-second;
 // Recycling section
 .#{$recycling-section} {
 	&__add {
-		padding-top: 260px;
-		padding-bottom: 305px;
+		padding-top: 265px;
+		padding-bottom: 280px;
 		width: 100%;
 		margin: 0 auto;
 		background-size: cover;
@@ -254,6 +254,10 @@ $slide-second: slide-second;
 		& > g > g {
 			Stroke: #fff;
 		}
+	}
+
+	&__add-text {
+		padding-top: 10px;
 	}
 }
 
@@ -301,7 +305,7 @@ $slide-second: slide-second;
 	background-color: rgba(193, 196, 208, 0.19);;
 
 	&__content {
-		padding: 90px 130px;
+		padding: 125px 175px 150px 175px;
 	}
 }
 
