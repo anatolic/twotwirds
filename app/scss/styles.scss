@@ -467,10 +467,10 @@ $slide-second: slide-second;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+	}
 
-		img > g > g {
-			Stroke: #fff;
-		}
+	&__text {
+		margin-top: 23px;
 	}
 }
 

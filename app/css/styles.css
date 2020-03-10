@@ -523,8 +523,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
-  .use-section__img-content img > g > g {
-    Stroke: #fff; }
+
+.use-section__text {
+  margin-top: 23px; }
 
 .green-section__img {
   height: 100%;
