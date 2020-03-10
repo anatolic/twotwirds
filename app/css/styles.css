@@ -536,6 +536,8 @@ body {
 
 .drawdown-desc-section {
   margin-bottom: 100px; }
+  .drawdown-desc-section__text {
+    width: 80%; }
 
 .join-section {
   width: 100%;

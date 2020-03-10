@@ -490,6 +490,10 @@ $slide-second: slide-second;
 
 .#{$drawdown-desc-section} {
 	margin-bottom: 100px;
+
+	&__text {
+		width: 80%;
+	}
 }
 
 .#{$join-section} {
