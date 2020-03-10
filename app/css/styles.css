@@ -347,6 +347,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px; }
+  .quality-section__box-img {
+    margin-top: 20px; }
 
 .recycling-section__add {
   padding-top: 265px;

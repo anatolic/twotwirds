@@ -217,6 +217,10 @@ $slide-second: slide-second;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: $main-section--gap;
 	}
+
+	&__box-img {
+		margin-top: 20px;
+	}
 }
 
 // Recycling section
