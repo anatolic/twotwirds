@@ -394,10 +394,12 @@ $slide-second: slide-second;
 }
 
 .#{$background-section} {
+	margin-top: 150px;
 	position: relative;
-	height: 900px;
+	height: 700px;
 	background-size: cover;
 	background-position: center;
+	margin-bottom: $main-section--gap;
 }
 
 .#{$wages-section} {

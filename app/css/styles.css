@@ -467,10 +467,12 @@ body {
     display: block; }
 
 .background-section {
+  margin-top: 150px;
   position: relative;
-  height: 900px;
+  height: 700px;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  margin-bottom: 100px; }
 
 .wages-section__img {
   width: 150px;
