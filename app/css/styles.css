@@ -347,7 +347,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px; }
-  .quality-section__box-img {
+  .quality-section__box-img-content {
     margin-top: 20px; }
 
 .recycling-section__add {
@@ -457,6 +457,8 @@ body {
   .craftmanship-process__text {
     display: block;
     margin-top: 45px; }
+  .craftmanship-process__second-text {
+    margin-top: 90px; }
   .craftmanship-process__map-img {
     width: 75%;
     margin: 80px auto;

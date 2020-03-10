@@ -218,7 +218,7 @@ $slide-second: slide-second;
 		grid-gap: $main-section--gap;
 	}
 
-	&__box-img {
+	&__box-img-content {
 		margin-top: 20px;
 	}
 }
@@ -376,6 +376,10 @@ $slide-second: slide-second;
 	&__text {
 		display: block;
 		margin-top: 45px;
+	}
+
+	&__second-text {
+		margin-top: 90px;
 	}
 
 	&__map-img {
