@@ -439,11 +439,25 @@ $slide-second: slide-second;
 		padding-bottom: 103px;
 
 		&:last-child {
-			margin-left: -40%;
-			margin-top: 42px;
-			padding-right: 60px;
+			.retail-section__process-image::after {
+				display: none;
+			}
+		}
+
+		&:last-child {
+			.retail-section__process-image::before {
+				left: 2px;
+			}
+		}
+
+		&:last-child {
+			.retail-section__box-content {
+				left: -40%;
+			}
 		}
 	}
+
+	
 
 	&__title {
 		margin-bottom: 30px;
@@ -492,6 +506,7 @@ $slide-second: slide-second;
 		justify-content: center;
 		position: relative;
 		padding: 0 30px;
+
 	}
 
 }

@@ -490,10 +490,12 @@ body {
     grid-gap: 0; }
   .retail-section__list-item {
     padding-bottom: 103px; }
-    .retail-section__list-item:last-child {
-      margin-left: -40%;
-      margin-top: 42px;
-      padding-right: 60px; }
+    .retail-section__list-item:last-child .retail-section__process-image::after {
+      display: none; }
+    .retail-section__list-item:last-child .retail-section__process-image::before {
+      left: 2px; }
+    .retail-section__list-item:last-child .retail-section__box-content {
+      left: -40%; }
   .retail-section__title {
     margin-bottom: 30px; }
   .retail-section__process-image {
