@@ -36,8 +36,6 @@ $slide-second: slide-second;
 }
 
 
-
-
 .#{$header} {
 	position: relative;
 	height: 955px;
@@ -151,6 +149,13 @@ $slide-second: slide-second;
 		padding-top: 435px;
 		padding-bottom: 30px;
 	}
+
+	&__box-title {
+		display: grid;
+		justify-content: center;
+		grid-auto-columns: 600px;
+	}
+
 	
 	&__content-list {
 		display: grid;
@@ -206,6 +211,16 @@ $slide-second: slide-second;
 
 	&__img {
 		width: 100%;
+	}
+
+	&__box-title {
+		display: grid;
+		grid-auto-columns: 400px;
+		margin-bottom: 10px;
+	}
+
+	&__title {
+		line-height: 100%;
 	}
 }
 
@@ -324,10 +339,24 @@ $slide-second: slide-second;
 	background-color: rgba(193, 196, 208, 0.19);;
 
 	&__content {
-		padding: 125px 175px 150px 175px;
+		display: grid;
+		padding: 125px 175px 150px;
+		justify-content: center;
 	}
 }
 
+
+.#{$craftmanship-section} {
+
+	&__box-title {
+		display: grid;
+		grid-auto-columns: 600px;
+	}
+
+	&__title {
+		line-height: 100%;
+	}
+}
 
 
 .#{$craftmanship-process} {
@@ -520,6 +549,7 @@ $slide-second: slide-second;
 		flex-direction: column;
 	}
 
+
 	&__text {
 		margin-top: 23px;
 	}
@@ -540,10 +570,11 @@ $slide-second: slide-second;
 }
 
 .#{$drawdown-desc-section} {
-	margin-bottom: 100px;
+	margin-bottom: $main-section--gap;
 
-	&__text {
-		width: 80%;
+	&__box {
+		display: grid;
+		grid-auto-columns: 80%;
 	}
 }
 

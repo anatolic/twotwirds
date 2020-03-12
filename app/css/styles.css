@@ -53,7 +53,7 @@ body {
   font-family: 'Futura LT Com';
   line-height: 100%; }
 
-.twothirds__h1 {
+h1 {
   font-size: 50px;
   font-weight: 500;
   color: #252E43;
@@ -61,15 +61,7 @@ body {
   letter-spacing: 1px;
   margin-bottom: 0; }
 
-.twothirds__h1--white {
-  font-size: 90px;
-  font-weight: 500;
-  color: white;
-  line-height: 150%;
-  letter-spacing: 1px;
-  margin-bottom: 0; }
-
-.twothirds__h2 {
+h2 {
   font-size: 16px;
   font-weight: 400;
   color: #252E43;
@@ -77,10 +69,24 @@ body {
   letter-spacing: 1px;
   margin-bottom: 0; }
 
-.twothirds__h4 {
+h4 {
   font-size: 14px;
   font-weight: 400;
   color: #252E43;
+  line-height: 150%;
+  letter-spacing: 1px;
+  margin-bottom: 0; }
+
+h5 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5B6872;
+  line-height: 150%; }
+
+.twothirds__h1--white {
+  font-size: 90px;
+  font-weight: 500;
+  color: white;
   line-height: 150%;
   letter-spacing: 1px;
   margin-bottom: 0; }
@@ -92,12 +98,6 @@ body {
   line-height: 150%;
   letter-spacing: 0px;
   margin-bottom: 0; }
-
-.twothirds__h5 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #5B6872;
-  line-height: 150%; }
 
 .twothirds__h5-white {
   font-size: 18px;
@@ -298,6 +298,11 @@ body {
   padding-top: 435px;
   padding-bottom: 30px; }
 
+.slide__box-title {
+  display: grid;
+  justify-content: center;
+  grid-auto-columns: 600px; }
+
 .slide__content-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -336,6 +341,14 @@ body {
 
 .intro-section__img {
   width: 100%; }
+
+.intro-section__box-title {
+  display: grid;
+  grid-auto-columns: 400px;
+  margin-bottom: 10px; }
+
+.intro-section__title {
+  line-height: 100%; }
 
 .quality-section {
   margin-top: 100px; }
@@ -415,7 +428,16 @@ body {
 .supplier-banner-section {
   background-color: rgba(193, 196, 208, 0.19); }
   .supplier-banner-section__content {
-    padding: 125px 175px 150px 175px; }
+    display: grid;
+    padding: 125px 175px 150px;
+    justify-content: center; }
+
+.craftmanship-section__box-title {
+  display: grid;
+  grid-auto-columns: 600px; }
+
+.craftmanship-section__title {
+  line-height: 100%; }
 
 .craftmanship-process {
   display: grid;
@@ -553,8 +575,9 @@ body {
 
 .drawdown-desc-section {
   margin-bottom: 100px; }
-  .drawdown-desc-section__text {
-    width: 80%; }
+  .drawdown-desc-section__box {
+    display: grid;
+    grid-auto-columns: 80%; }
 
 .join-section {
   margin-top: 160px;
