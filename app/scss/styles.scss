@@ -1012,6 +1012,12 @@ $slide-second: slide-second;
 
 // Small Devices
 @media (min-width: 375px) and (max-width: 768px) {
+
+	.mt-5 {
+		margin-top: 0;
+		margin: 0;
+	}
+
 	.container {
 		max-width: 375px;
 		width: 100%;
@@ -1080,10 +1086,6 @@ $slide-second: slide-second;
 
  .#{$intro-section} {
 
-	br {
-		display: none;
-	}
-
 	&__wraper {
 		display: flex;
 		justify-content: center;
@@ -1118,18 +1120,26 @@ $slide-second: slide-second;
 
 	margin-top: $half-section--gap;
 
+	&__text {
+		margin-top: 20px;
+	}
+
 	&__wraper {
 		display: flex;
 		flex-direction: column;
 		margin-top: 20px;
 	}
 
-	&__img {
-		margin-bottom: 10px;
+	&__img-content {
+		margin-left: 0px;
 	}
 
 	&__box-img-content {
-		margin-top: 0px;
+		margin-bottom: 10px;
+
+		&:last-child {
+			margin-bottom: 0px;
+		}
 	}
 
 	&__title {
@@ -1145,6 +1155,7 @@ $slide-second: slide-second;
 	 &__add {
 		height: 100%;
 		padding: 75px 40px 55px 40px;
+		width: 440px;
 	 }
 
 	 &__svg-logo {
@@ -1159,17 +1170,20 @@ $slide-second: slide-second;
 	 &__content {
 		 display: flex;
 		 flex-direction: column;
+		 margin-top: 0px;
+	 }
+
+	 &__box {
+		 margin-top: 20px;
 	 }
 
 
 	 &__box-text {
-		 margin-top: 40px;
 		 margin-bottom: 0px;
 	 }
  }
 
  .#{$recycling-section}--reciclyng-process {
-		margin-top: 75px;
 
 	&__list {
 		display: grid;
@@ -1194,13 +1208,16 @@ $slide-second: slide-second;
 	&__content {
 		display: flex;
 		flex-direction: column;
-		margin-top: $half-section--gap;
+		margin-top: 60px;
 	}
+
 
 	&__content-text {
 		margin-top: 40px;
 	}
 }
+
+
 
 .#{$supplier-banner-section} {
 	&__content {
@@ -1280,6 +1297,24 @@ $slide-second: slide-second;
 	&__title {
 		margin-top: 60px;
 	}
+}
+
+.#{$preorder-section} {
+	 margin-top: 55px;
+	&__wraper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__box-img {
+		margin-top: 40px;
+	}
+}
+
+.#{$retail-section} {
+	margin-top: 55px;
+	padding-top: 50px;
+
 }
 
 }

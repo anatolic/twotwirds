@@ -91,14 +91,13 @@ h5 {
 
 
 @media (min-width: 992px) and (max-width: 1200px) {
+
+    h1 {
+        @include typography(30px, 500, #252E43);
+        letter-spacing: $default-letter-spacing;
+        margin-bottom: 20px;
+    }
     .#{$twothirds}{
-
-        &__h1 {
-            @include typography(30px, 500, #252E43);
-            letter-spacing: $default-letter-spacing;
-            margin-bottom: 20px;
-        }
-
         &__paragraph {
             @include typography(16px, 400, #5B6872);
             letter-spacing: 1px;
@@ -111,13 +110,13 @@ h5 {
 
 @media (min-width: 375px) and (max-width: 768px) {
 
-    .#{$twothirds}{
 
-        &__h1 {
-            @include typography(18px, 500, #252E43);
-            letter-spacing: $default-letter-spacing;
-           
-        }
+    h1 {
+        @include typography(18px, 500, #252E43);
+        letter-spacing: $default-letter-spacing;
+    }
+
+    .#{$twothirds}{
 
         &__paragraph {
             @include typography(14px, 400, #5B6872);

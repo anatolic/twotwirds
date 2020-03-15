@@ -4,7 +4,7 @@ h4 {
   margin-bottom: 0px; }
 
 @media (min-width: 375px) and (max-width: 768px) {
-  .h1 {
+  h1 {
     margin-bottom: 0px; } }
 
 .twothirds__double-grid {
@@ -159,7 +159,7 @@ h5 {
   margin-bottom: 0; }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .twothirds__h1 {
+  h1 {
     font-size: 30px;
     font-weight: 500;
     color: #252E43;
@@ -174,7 +174,7 @@ h5 {
     letter-spacing: 1px; } }
 
 @media (min-width: 375px) and (max-width: 768px) {
-  .twothirds__h1 {
+  h1 {
     font-size: 18px;
     font-weight: 500;
     color: #252E43;
@@ -834,6 +834,9 @@ h5 {
     margin-right: 130px; } }
 
 @media (min-width: 375px) and (max-width: 768px) {
+  .mt-5 {
+    margin-top: 0;
+    margin: 0; }
   .container {
     max-width: 375px;
     width: 100%;
@@ -872,8 +875,6 @@ h5 {
     font-size: 60px; }
     .slide__icon-black > g > g {
       Stroke: black; }
-  .intro-section br {
-    display: none; }
   .intro-section__wraper {
     display: flex;
     justify-content: center;
@@ -893,21 +894,26 @@ h5 {
     margin: 0 auto; }
   .quality-section {
     margin-top: 50px; }
+    .quality-section__text {
+      margin-top: 20px; }
     .quality-section__wraper {
       display: flex;
       flex-direction: column;
       margin-top: 20px; }
-    .quality-section__img {
-      margin-bottom: 10px; }
+    .quality-section__img-content {
+      margin-left: 0px; }
     .quality-section__box-img-content {
-      margin-top: 0px; }
+      margin-bottom: 10px; }
+      .quality-section__box-img-content:last-child {
+        margin-bottom: 0px; }
     .quality-section__title {
       margin-top: 50px; }
   .recycling-section {
     margin-top: 50px; }
     .recycling-section__add {
       height: 100%;
-      padding: 75px 40px 55px 40px; }
+      padding: 75px 40px 55px 40px;
+      width: 440px; }
     .recycling-section__svg-logo {
       height: 47px;
       width: 46px; }
@@ -915,27 +921,27 @@ h5 {
       margin: 10px 20px; }
     .recycling-section__content {
       display: flex;
-      flex-direction: column; }
-    .recycling-section__box-text {
-      margin-top: 40px;
-      margin-bottom: 0px; }
-  .recycling-section--reciclyng-process {
-    margin-top: 75px; }
-    .recycling-section--reciclyng-process__list {
-      display: grid; }
-    .recycling-section--reciclyng-process__list-item {
-      margin-top: 30px;
-      padding: 0 90px; }
-      .recycling-section--reciclyng-process__list-item:first-child {
-        margin-top: 0px; }
-    .recycling-section--reciclyng-process__figure::after {
-      display: none; }
-    .recycling-section--reciclyng-process__content {
-      display: flex;
       flex-direction: column;
-      margin-top: 50px; }
-    .recycling-section--reciclyng-process__content-text {
-      margin-top: 40px; }
+      margin-top: 0px; }
+    .recycling-section__box {
+      margin-top: 20px; }
+    .recycling-section__box-text {
+      margin-bottom: 0px; }
+  .recycling-section--reciclyng-process__list {
+    display: grid; }
+  .recycling-section--reciclyng-process__list-item {
+    margin-top: 30px;
+    padding: 0 90px; }
+    .recycling-section--reciclyng-process__list-item:first-child {
+      margin-top: 0px; }
+  .recycling-section--reciclyng-process__figure::after {
+    display: none; }
+  .recycling-section--reciclyng-process__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px; }
+  .recycling-section--reciclyng-process__content-text {
+    margin-top: 40px; }
   .supplier-banner-section__content {
     padding: 45px 25px; }
   .craftmanship-section {
@@ -979,4 +985,14 @@ h5 {
       display: flex;
       flex-direction: column; }
     .wages-section__title {
-      margin-top: 60px; } }
+      margin-top: 60px; }
+  .preorder-section {
+    margin-top: 55px; }
+    .preorder-section__wraper {
+      display: flex;
+      flex-direction: column; }
+    .preorder-section__box-img {
+      margin-top: 40px; }
+  .retail-section {
+    margin-top: 55px;
+    padding-top: 50px; } }
