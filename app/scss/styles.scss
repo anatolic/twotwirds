@@ -799,6 +799,11 @@ $slide-second: slide-second;
 		margin-right: auto;
 	}
 
+	.#{$quality-section} {
+		&__img-content {
+			margin-left: 100px;
+		}
+}
 }
 
 //Large Devices
@@ -843,6 +848,12 @@ $slide-second: slide-second;
 		}
 
 	}
+
+	.#{$quality-section} {
+		&__img-content {
+			margin-left: 70px;
+		}
+}
 
 	.#{$join-section} {
 		&__box-text{
@@ -917,6 +928,11 @@ $slide-second: slide-second;
 		&__box {
 			margin-top: $sm-section--gap;
 		}
+
+			&__img-content {
+				margin: 0 auto;
+			}
+
 	}
 
 	.#{$recycling-section} {
