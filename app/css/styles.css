@@ -1041,4 +1041,19 @@ h5 {
       display: flex;
       flex-direction: column; }
     .use-desc-section__text {
-      display: none; } }
+      display: none; }
+  .green-section {
+    margin-top: 55px; }
+    .green-section__wraper {
+      display: flex;
+      flex-direction: column; }
+  .drawdown-section__wraper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-start: 2; }
+    .drawdown-section__wraper .drawdown-section__box:nth-of-type(2) {
+      order: 1; }
+  .join-section {
+    display: none; }
+  .footer {
+    display: none; } }
