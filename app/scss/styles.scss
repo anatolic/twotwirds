@@ -17,7 +17,9 @@ $craftmanship-process: craftmanship-process;
 $background-section: background-section;
 $wages-section: wages-section;
 $retail-section: retail-section;
+$suite-section: suite-section;
 $use-section: use-section;
+$use-desc-section:use-desc-section;
 $green-section: green-section;
 $drawdown-section: drawdown-section;
 $drawdown-desc-section: drawdown-desc-section;
@@ -1315,6 +1317,86 @@ $slide-second: slide-second;
 	margin-top: 55px;
 	padding-top: 50px;
 
+	&__process-wrap {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	&__process-image {
+		justify-content:flex-start ;
+	}
+
+	&__list-item {
+		display: flex;
+		padding-left: 12px;
+		border-left: 1px solid #252e43;
+
+			&:last-child{
+				border: none;
+				border-left: none;
+			}
+
+			&:last-child .retail-section__box-content {
+				left: 0%;
+			}
+
+			.retail-section__process-image::after {
+				display: none;
+			}
+		}
+
+	&__box-content {
+			width: 0;
+			align-items: flex-start; 
+			justify-content: flex-start;
+			position: relative; 
+			padding: 0px;
+
+		}
+
+	&__process-image {
+		margin-right: 20px;
+	}
+
+	&__text {
+		margin-top: 0px;
+	}
+
+}
+
+.#{$suite-section} {
+	 margin-top: 55px;
+	 margin-bottom: 40px;
+	&__box {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__box-content {
+		margin-top: 35px;
+	}
+
+	&__text {
+		margin-top: 70px;
+	}
+}
+
+.#{$use-section} {
+
+	display: none;
+}
+
+.#{$use-desc-section}{
+	margin-top: 20px;
+	margin-bottom: 70px;
+	&__wraper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__text {
+		display: none;
+	}
 }
 
 }
