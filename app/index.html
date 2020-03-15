@@ -598,9 +598,12 @@
                     </div>
                 </div>
             </div>
+            <div class="arrow-container">
+                <i class="arrow-icon" onclick="gotSmothTo(supplierBanner)"></i>
+            </div>
         </section><!-- End Slide Section -->
         <!--Start Twothirds Section-->
-        <section class="supplier-banner-section">
+        <section class="supplier-banner-section" id="supplierBanner">
             <div class="container">
                 <div class="supplier-banner-section__content ">
                     <p class="twothirds__h3-chronicle-roman">Regional production is a key aspect of the Twothirds supple
@@ -1131,9 +1134,13 @@
                     </div>
                 </div>
             </div>
+
+            <div class="arrow-container" onclick="gotSmothTo(reeSection)">
+                <div class="arrow-icon"></div>
+            </div>
         </section><!-- End Slide Section -->
         <!--Start Green Inovation Section-->
-        <section class="green-section container m-t-lg">
+        <section class="green-section container m-t-lg" id="greeSection">
             <div class="twothirds__double-grid green-section__wraper">
                 <div class="green-section__box">
                     <h1 class="">Green innovation</h1>
@@ -1318,23 +1325,7 @@
     </div>
 </div>
 
-
-<script type="text/javascript" src="./js/scrolloverflow.min.js"></script>
-<script type="text/javascript" src="./js/fullpage.min.js"></script>
-<script>
-    new fullpage('#fullpage', {
-        licenseKey: '680A955B-7D934B88-BE09D7F3-7D6FCB06',
-        scrollOverflow: true
-    });
-</script>
-<!-- <script type="text/javascript">
-    $(document).ready(function() {
-        var myFullpage = new fullpage('#fullpage', {
-            anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-            sectionsColor: ['#4A6FB1', '#939FAA', '#323539'],
-            scrollOverflow: true
-        });
-    });
-</script> -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/main.js"></script>
 </body>
 </html>
