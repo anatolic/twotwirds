@@ -158,7 +158,7 @@ h5 {
   letter-spacing: 1px;
   margin-bottom: 0; }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1300px) {
   h1 {
     font-size: 30px;
     font-weight: 500;
@@ -173,7 +173,7 @@ h5 {
     line-height: 150%;
     letter-spacing: 1px; } }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 812px) and (max-width: 320px) {
   h1 {
     font-size: 18px;
     font-weight: 500;
@@ -328,8 +328,7 @@ h5 {
   margin-top: 100px;
   background-size: cover;
   padding-top: 435px;
-  padding-bottom: 30px;
-  position: relative; }
+  padding-bottom: 30px; }
 
 .slide__box-title {
   display: grid;
@@ -757,19 +756,18 @@ h5 {
 
 @media (min-width: 1200px) and (max-width: 1600px) {
   .container {
-    max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto; }
   .quality-section__img-content {
     margin-left: 50px; } }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1300px) {
   .container {
-    max-width: 992px;
     width: 100%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding: 0 20px; }
   .recycling-section--reciclyng-process__list-item {
     display: flex;
     flex-direction: column;
@@ -794,12 +792,13 @@ h5 {
   .join-section__box-text {
     padding: 0px; } }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 812px) and (max-width: 992px) {
   .container {
-    max-width: 768px;
+    max-width: 100%;
     width: 100%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding: 0 20px; }
   .header__box-content {
     justify-content: center; }
   .header__items {
@@ -814,10 +813,15 @@ h5 {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
+  .intro-section__box {
+    margin-top: 20px; }
+  .intro-section__graphic {
+    margin: 0 auto; }
   .intro-section__wraper {
     display: flex;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-top: 50px; }
   .quality-section__wraper {
     display: flex;
     justify-content: center;
@@ -867,20 +871,23 @@ h5 {
     margin-top: 10px; }
   .use-section__img {
     height: 300px; }
+  .retail-section__list-item:last-child .retail-section__box-content {
+    display: none; }
   .join-section__box-text {
     padding: 0px; }
   .footer__first-content-lists {
     margin-right: 130px; } }
 
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 812px) {
   .mt-5 {
     margin-top: 0;
     margin: 0; }
   .container {
-    max-width: 375px;
+    max-width: 100%;
     width: 100%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    padding: 0 10px; }
   .header {
     height: 100%; }
     .header__box-content {
@@ -923,16 +930,18 @@ h5 {
     margin-top: 30px; }
   .intro-section__img {
     margin-top: 50px; }
+  .intro-section__box-title {
+    grid-auto-columns: auto; }
   .intro-section__title {
     margin-bottom: 20px; }
   .intro-section__second-paragraph {
     display: none; }
   .intro-section__graphic-img {
-    margin-bottom: 60px; }
+    width: 100%; }
   .background-section {
-    width: 441px;
-    height: 220px;
-    margin: 0 auto; }
+    margin-top: 70px;
+    width: 100%;
+    margin-bottom: 0px; }
   .quality-section {
     margin-top: 50px; }
     .quality-section__text {
@@ -942,7 +951,8 @@ h5 {
       flex-direction: column;
       margin-top: 20px; }
     .quality-section__img-content {
-      margin-left: 0px; }
+      margin-left: 0px;
+      width: 100%; }
     .quality-section__box-img-content {
       margin-bottom: 10px; }
       .quality-section__box-img-content:last-child {
@@ -954,7 +964,7 @@ h5 {
     .recycling-section__add {
       height: 100%;
       padding: 75px 40px 55px 40px;
-      width: 440px; }
+      width: 100%; }
     .recycling-section__svg-logo {
       height: 47px;
       width: 46px; }
@@ -972,7 +982,7 @@ h5 {
     display: grid; }
   .recycling-section--reciclyng-process__list-item {
     margin-top: 30px;
-    padding: 0 90px; }
+    padding: 0 170px; }
     .recycling-section--reciclyng-process__list-item:first-child {
       margin-top: 0px; }
   .recycling-section--reciclyng-process__figure::after {
@@ -990,6 +1000,8 @@ h5 {
     .craftmanship-section__box-text {
       display: flex;
       flex-direction: column; }
+    .craftmanship-section__box-title {
+      grid-auto-columns: auto; }
   .craftmanship-process {
     margin-top: 35px;
     display: flex;
@@ -1000,6 +1012,8 @@ h5 {
         display: none; }
       .craftmanship-process__image:after {
         display: none; }
+    .craftmanship-process__img {
+      width: 100%; }
     .craftmanship-process__list-item {
       padding-bottom: 0px;
       margin-top: 35px; }
@@ -1018,8 +1032,6 @@ h5 {
     .craftmanship-process__img-text {
       padding-top: 0px;
       margin-top: 50px; }
-  .background-section {
-    margin-top: 30px; }
   .wages-section {
     margin-top: 50px; }
     .wages-section__box {
@@ -1033,7 +1045,11 @@ h5 {
       display: flex;
       flex-direction: column; }
     .preorder-section__box-img {
-      margin-top: 40px; }
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto; }
+    .preorder-section__img {
+      width: 100%; }
   .retail-section {
     margin-top: 55px;
     padding-top: 50px; }
@@ -1073,6 +1089,8 @@ h5 {
       margin-top: 35px; }
     .suite-section__text {
       margin-top: 70px; }
+    .suite-section__img {
+      width: 100%; }
   .use-section {
     display: none; }
   .use-desc-section {
@@ -1088,12 +1106,17 @@ h5 {
     .green-section__wraper {
       display: flex;
       flex-direction: column; }
+    .green-section__img {
+      width: 100%; }
   .drawdown-section__wraper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-start: 2; }
     .drawdown-section__wraper .drawdown-section__box:nth-of-type(2) {
       order: 1; }
+  .drawdown-section__img {
+    width: 100%;
+    height: 100%; }
   .join-section {
     display: none; }
   .footer {

@@ -150,7 +150,6 @@ $slide-second: slide-second;
 		background-size: cover;
 		padding-top: 435px;
 		padding-bottom: 30px;
-		position: relative;
 	}
 
 	&__box-title {
@@ -794,7 +793,6 @@ $slide-second: slide-second;
 // Extra Large Devices
 @media (min-width: 1200px) and (max-width: 1600px) {
 	.container {
-		max-width: 1200px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
@@ -808,14 +806,14 @@ $slide-second: slide-second;
 }
 
 //Large Devices
-@media (min-width: 992px) and (max-width: 1200px) { 
+@media (min-width: 992px) and (max-width: 1300px) { 
 
 
 	.container {
-		max-width: 992px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		padding: 0 20px;
 	}
 
 	.#{$recycling-section}--reciclyng-process{
@@ -865,13 +863,14 @@ $slide-second: slide-second;
  }
 
  //Medium Devices
- @media (min-width: 768px) and (max-width: 992px) {
-
+ @media (min-width: 812px) and (max-width: 992px) {
+	
 	.container {
-		max-width: 768px;
+		max-width: 100%;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		padding: 0 20px;
 	}
 
 	.#{$header} {
@@ -905,10 +904,19 @@ $slide-second: slide-second;
 
 	.#{$intro-section} {
 
+		&__box {
+			margin-top: 20px;
+		}
+
+		&__graphic {
+			margin: 0 auto;
+		}
+
 		&__wraper {
 			display: flex;
 			justify-content: center;
 			flex-direction: column;
+			margin-top: $half-section--gap;
 		}
 	}
 
@@ -1014,6 +1022,18 @@ $slide-second: slide-second;
 		}
 	}
 
+	.#{$retail-section} {
+
+		&__list-item {
+
+			&:last-child {
+				.retail-section__box-content {
+					display: none;
+				}
+		}
+	}
+}
+
 	.#{$join-section} {	
 
 		&__box-text {
@@ -1031,7 +1051,7 @@ $slide-second: slide-second;
 
 
 // Small Devices
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 812px) {
 
 	.mt-5 {
 		margin-top: 0;
@@ -1039,10 +1059,11 @@ $slide-second: slide-second;
 	}
 
 	.container {
-		max-width: 375px;
+		max-width: 100%;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		padding: 0 10px;
 	}
 
 	.#{$header} {
@@ -1122,6 +1143,10 @@ $slide-second: slide-second;
 		margin-top: $half-section--gap;
 	}
 
+	&__box-title {
+		grid-auto-columns: auto;
+	}
+
 	&__title {
 		margin-bottom: 20px;
 	}
@@ -1131,14 +1156,14 @@ $slide-second: slide-second;
 	}
 
 	&__graphic-img {
-		margin-bottom: 60px;
+		width: 100%;
 	}
  } 
 
  .#{$background-section} {
-	 width: 441px;
-	 height: 220px;
-	 margin: 0 auto;
+	 margin-top: 70px;
+	 width: 100%;
+	 margin-bottom: 0px;
  }
 
  .#{$quality-section} {
@@ -1157,6 +1182,7 @@ $slide-second: slide-second;
 
 	&__img-content {
 		margin-left: 0px;
+		width: 100%;
 	}
 
 	&__box-img-content {
@@ -1180,7 +1206,7 @@ $slide-second: slide-second;
 	 &__add {
 		height: 100%;
 		padding: 75px 40px 55px 40px;
-		width: 440px;
+		width: 100%;
 	 }
 
 	 &__svg-logo {
@@ -1220,7 +1246,7 @@ $slide-second: slide-second;
 			margin-top: 0px;
 		}
 		margin-top: $sm-section--gap;
-		padding: 0 90px;
+		padding: 0 170px;
 	}
 
 	&__figure {
@@ -1235,7 +1261,6 @@ $slide-second: slide-second;
 		flex-direction: column;
 		margin-top: 60px;
 	}
-
 
 	&__content-text {
 		margin-top: 40px;
@@ -1258,6 +1283,10 @@ $slide-second: slide-second;
 		display: flex;
 		flex-direction: column;
 	}
+
+	&__box-title {
+		grid-auto-columns: auto;
+	}
 }
 
 .#{$craftmanship-process} {
@@ -1275,6 +1304,10 @@ $slide-second: slide-second;
 				display: none;
 			}
 		}
+
+	&__img {
+		width: 100%;
+	}
 
 	&__list-item {
 		padding-bottom: 0px;
@@ -1308,9 +1341,6 @@ $slide-second: slide-second;
 		margin-top: $half-section--gap;
 	}
 }
-.#{$background-section} {
-	margin-top: $sm-section--gap;
-}
 
 .#{$wages-section} {
 	margin-top: $half-section--gap;
@@ -1334,6 +1364,12 @@ $slide-second: slide-second;
 
 	&__box-img {
 		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__img {
+		width: 100%;
 	}
 }
 
@@ -1403,6 +1439,10 @@ $slide-second: slide-second;
 	&__text {
 		margin-top: 70px;
 	}
+
+	&__img {
+		width: 100%;
+	}
 }
 
 .#{$use-section} {
@@ -1430,6 +1470,10 @@ $slide-second: slide-second;
 		display: flex;
 		flex-direction: column;
 	}
+
+	&__img {
+		width: 100%;
+	}
 }
 
 .#{$drawdown-section} {
@@ -1442,6 +1486,11 @@ $slide-second: slide-second;
 		.drawdown-section__box:nth-of-type(2)  {
 			order: 1;
 		}
+	}
+
+	&__img {
+		width: 100%;
+		height: 100%;
 	}
 
 }
