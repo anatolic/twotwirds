@@ -106,10 +106,7 @@ h5 {
 
 }
 
-
-
-@media (min-width: 812px) and (max-width: 320px) {
-
+@media (min-width: 320px) and (max-width: 812px) {
 
     h1 {
         @include typography(18px, 500, #252E43);
