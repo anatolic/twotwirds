@@ -1,0 +1,40 @@
+.arrow-container {
+	position: absolute;
+	left: calc(50% - 15px);
+	bottom: 40px;
+	-webkit-animation: mover 1s infinite alternate;
+	animation: mover 1s infinite alternate;
+}
+
+.arrow-icon {
+	box-sizing: border-box;
+	height: 30px;
+	width: 30px;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 0px 1px 1px 0px;
+	transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    display: block;
+    
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@-webkit-keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
+@keyframes mover {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}
