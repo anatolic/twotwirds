@@ -150,6 +150,7 @@ $slide-second: slide-second;
 		background-size: cover;
 		padding-top: 435px;
 		padding-bottom: 30px;
+		position: relative;
 	}
 
 	&__box-title {
@@ -247,12 +248,12 @@ $slide-second: slide-second;
 		margin-top: 40px;
 
 		&:last-child {
-			margin-top: 85px;
+			margin-top: 90px;
 		}
 	}
 
 	&__content-text {
-		margin-top: 60px;
+		margin-top: 70px;
 	}
 
 	&__img-content {
@@ -263,7 +264,7 @@ $slide-second: slide-second;
 // Recycling section
 .#{$recycling-section} {
 	&__add {
-		padding-top: 265px;
+		padding-top: 245px;
 		padding-bottom: 280px;
 		width: 100%;
 		margin: 0 auto;
@@ -576,6 +577,8 @@ $slide-second: slide-second;
 
 	&__text {
 		margin-top: 23px;
+		text-align: center;
+		padding: 0 125px;
 	}
 }
 
@@ -648,10 +651,11 @@ $slide-second: slide-second;
 		transition: 0.4s;
 		cursor: pointer;
 		outline: none;
+		border-left: none;
 
 		&:hover {
-			background: #c71585;
-			border-color: #c71585;
+			background: blue;
+			border-color: blue;
 			transition: all 0.4s ease;
 		}
 	}
@@ -821,7 +825,7 @@ $slide-second: slide-second;
 }
 
 // Extra Large Devices
-@media (min-width: 1200px) and (max-width: 1600px) {
+@media (min-width: 1300px) and (max-width: 1600px) {
 	.container {
 		width: 100%;
 		margin-left: auto;
