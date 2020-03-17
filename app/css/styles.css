@@ -742,7 +742,7 @@ h5 {
     cursor: pointer; }
 
 .footer {
-  padding-bottom: 90px; }
+  margin-bottom: 90px; }
   .footer__first-content {
     display: flex;
     flex-wrap: wrap; }
@@ -998,13 +998,16 @@ h5 {
     margin-top: 50px; }
     .recycling-section__add {
       height: 100%;
-      padding: 75px 40px 55px 40px;
+      padding: 75px 40px 35px 40px;
       width: 100%; }
     .recycling-section__svg-logo {
       height: 47px;
       width: 46px; }
+    .recycling-section__add-list {
+      width: 100%; }
     .recycling-section__add-list-item {
-      margin: 10px 20px; }
+      margin: 10px 20px;
+      width: 100%; }
     .recycling-section__content {
       display: flex;
       flex-direction: column;
@@ -1016,7 +1019,8 @@ h5 {
     .recycling-section__box-text {
       margin-bottom: 0px; }
   .recycling-section--reciclyng-process__list {
-    display: grid; }
+    display: grid;
+    justify-content: center; }
   .recycling-section--reciclyng-process__list-item {
     padding: 0px;
     margin-top: 30px; }
