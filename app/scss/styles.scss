@@ -206,6 +206,7 @@ $slide-second: slide-second;
 // Sections
 // Intro section
 .#{$intro-section} {
+	padding-top: 100px;
 	&__wraper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -856,6 +857,11 @@ $slide-second: slide-second;
 		padding: 0 20px;
 	}
 
+	.#{$intro-section} {
+		padding-top: 0px;
+		margin-top: $half-section--gap;
+	}
+
 	.#{$recycling-section}--reciclyng-process{
 		&__list-item {
 			display: flex;
@@ -960,7 +966,8 @@ $slide-second: slide-second;
 	}
 
 	.#{$intro-section} {
-
+			padding-top: 0px;
+			margin-top: $half-section--gap;
 		&__box {
 			margin-top: 20px;
 		}
@@ -1064,8 +1071,6 @@ $slide-second: slide-second;
 			margin: 0 auto;
 		}
 	}
-
-	
 
 	.#{$green-section} {
 		padding-top: 0px;
@@ -1200,7 +1205,7 @@ $slide-second: slide-second;
 	}
 
  .#{$intro-section} {
-		margin-top: 35px;
+		padding-top: 0px;
 	&__wraper {
 		display: flex;
 		justify-content: center;
