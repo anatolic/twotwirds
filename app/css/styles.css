@@ -394,6 +394,12 @@ h5 {
     margin-bottom: 20px; }
     .quality-section__box-img-content:last-child {
       margin-bottom: 0px; }
+  .quality-section__text {
+    margin-top: 40px; }
+    .quality-section__text:last-child {
+      margin-top: 85px; }
+  .quality-section__content-text {
+    margin-top: 60px; }
   .quality-section__img-content {
     margin-left: 262px; }
 
@@ -537,6 +543,9 @@ h5 {
   margin: 0 auto;
   display: block; }
 
+.wages-section__text {
+  margin-top: 40px; }
+
 .retail-section {
   background: rgba(193, 196, 208, 0.19);
   padding-top: 92px; }
@@ -589,6 +598,9 @@ h5 {
     position: relative;
     padding: 0 30px; }
 
+.preorder-section__text {
+  margin-top: 40px; }
+
 .use-section__img-content {
   background-size: cover;
   display: flex;
@@ -603,9 +615,15 @@ h5 {
   height: 100%;
   padding-top: 64px; }
 
+.green-section__text {
+  margin-top: 40px; }
+
 .drawdown-section__img {
   height: 399px;
   padding-top: 35px; }
+
+.drawdown-section__text {
+  margin-top: 40px; }
 
 .drawdown-desc-section {
   margin-bottom: 100px; }
@@ -881,10 +899,6 @@ h5 {
     margin-right: 130px; } }
 
 @media (min-width: 320px) and (max-width: 812px) {
-  .mt-5 {
-    margin-top: none; }
-  .my-sm-5 {
-    margin-top: none; }
   .container {
     max-width: 100%;
     width: 100%;
@@ -928,7 +942,7 @@ h5 {
   .slide__box-title {
     grid-auto-columns: auto; }
   .intro-section {
-    margin-top: 90px; }
+    margin-top: 35px; }
     .intro-section__wraper {
       display: flex;
       justify-content: center;
@@ -938,7 +952,7 @@ h5 {
     .intro-section__box {
       margin-top: 35px; }
     .intro-section__box-title {
-      display: none; }
+      grid-auto-columns: auto; }
     .intro-section__second-paragraph {
       display: none; }
     .intro-section__graphic-img {
@@ -951,11 +965,13 @@ h5 {
   .quality-section {
     margin-top: 50px; }
     .quality-section__text {
-      margin-top: 20px; }
+      margin-top: 10px; }
+      .quality-section__text:last-child {
+        margin-top: 50px; }
     .quality-section__wraper {
       display: flex;
       flex-direction: column;
-      margin-top: 20px; }
+      margin-top: 16px; }
     .quality-section__img-content {
       margin-left: 0px;
       width: 100%; }
@@ -967,6 +983,8 @@ h5 {
         margin-bottom: 0px; }
     .quality-section__title {
       margin-top: 50px; }
+    .quality-section__content-text {
+      margin-top: 30px; }
   .recycling-section {
     margin-top: 50px; }
     .recycling-section__add {
@@ -983,7 +1001,7 @@ h5 {
       flex-direction: column;
       margin-top: 0px; }
     .recycling-section__box {
-      margin-top: 20px; }
+      margin-top: 10px; }
       .recycling-section__box:last-child {
         margin-top: 40px; }
     .recycling-section__box-text {
@@ -1050,6 +1068,10 @@ h5 {
       flex-direction: column; }
     .wages-section__title {
       margin-top: 60px; }
+    .wages-section__text {
+      margin-top: 10px; }
+      .wages-section__text:last-child {
+        margin-top: 20px; }
   .preorder-section {
     margin-top: 55px; }
     .preorder-section__wraper {
@@ -1059,6 +1081,8 @@ h5 {
       margin-top: 40px; }
     .preorder-section__img {
       width: 100%; }
+    .preorder-section__text {
+      margin-top: 10px; }
   .retail-section {
     margin-top: 55px;
     padding-top: 50px; }
@@ -1135,6 +1159,10 @@ h5 {
       flex-direction: column; }
     .green-section__img {
       width: 100%; }
+    .green-section__text {
+      margin-top: 10px; }
+      .green-section__text:last-child {
+        margin-top: 30px; }
   .drawdown-section {
     margin-top: 35px; }
     .drawdown-section__wraper {
@@ -1143,6 +1171,8 @@ h5 {
     .drawdown-section__img {
       width: 100%;
       height: 100%; }
+    .drawdown-section__text {
+      margin-top: 10px; }
   .drawdown-desc-section {
     margin-top: 35px;
     margin-bottom: 55px; }

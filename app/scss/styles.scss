@@ -243,6 +243,18 @@ $slide-second: slide-second;
 		}
 	}
 
+	&__text {
+		margin-top: 40px;
+
+		&:last-child {
+			margin-top: 85px;
+		}
+	}
+
+	&__content-text {
+		margin-top: 60px;
+	}
+
 	&__img-content {
 		margin-left: 262px;
 	}
@@ -454,6 +466,10 @@ $slide-second: slide-second;
 		margin: 0 auto;
 		display: block;
 	}
+
+	&__text {
+		margin-top: 40px;
+	}
 }
 
 .#{$retail-section} {
@@ -542,6 +558,12 @@ $slide-second: slide-second;
 
 }
 
+.#{$preorder-section} {
+	&__text {
+		margin-top: 40px;
+	}
+}
+
 .#{$use-section} {
 	&__img-content {
 		background-size: cover;
@@ -562,12 +584,20 @@ $slide-second: slide-second;
 		height: 100%;
 		padding-top: 64px;
 	}
+
+	&__text {
+		margin-top: 40px;
+	}
 }
 
 .#{$drawdown-section} {
 	&__img {
 		height: 399px;
 		padding-top: 35px;
+	}
+
+	&__text {
+		margin-top: 40px;
 	}
 }
 
@@ -1052,14 +1082,6 @@ $slide-second: slide-second;
 
 // Small Devices
 @media (min-width: 320px) and (max-width: 812px) {
-
-	.mt-5 {
-        margin-top: none;      
-	}
-
-	.my-sm-5 {
-		margin-top: none;
-	}
 	
 	.container {
 		max-width: 100%;
@@ -1135,7 +1157,7 @@ $slide-second: slide-second;
 	}
 
  .#{$intro-section} {
-		margin-top: 90px;
+		margin-top: 35px;
 	&__wraper {
 		display: flex;
 		justify-content: center;
@@ -1151,7 +1173,7 @@ $slide-second: slide-second;
 	}
 
 	&__box-title {
-		display: none;
+		grid-auto-columns: auto;
 	}
 
 	
@@ -1177,13 +1199,17 @@ $slide-second: slide-second;
 	margin-top: $half-section--gap;
 
 	&__text {
-		margin-top: 20px;
+		margin-top: 10px;
+
+		&:last-child {
+			margin-top: $half-section--gap;
+		}
 	}
 
 	&__wraper {
 		display: flex;
 		flex-direction: column;
-		margin-top: 20px;
+		margin-top: 16px;
 	}
 
 	&__img-content {
@@ -1205,6 +1231,10 @@ $slide-second: slide-second;
 
 	&__title {
 		margin-top: $half-section--gap;
+	}
+
+	&__content-text {
+		margin-top: 30px;
 	}
 
  }
@@ -1235,7 +1265,7 @@ $slide-second: slide-second;
 	 }
 
 	 &__box {
-		 margin-top: 20px;
+		 margin-top: 10px;
 
 		 &:last-child {
 			 margin-top: 40px;
@@ -1370,6 +1400,14 @@ $slide-second: slide-second;
 	&__title {
 		margin-top: 60px;
 	}
+
+	&__text {
+		margin-top: 10px;
+
+		&:last-child {
+			margin-top: 20px;
+		}
+	}
 }
 
 .#{$preorder-section} {
@@ -1385,6 +1423,10 @@ $slide-second: slide-second;
 
 	&__img {
 		width: 100%;
+	}
+
+	&__text {
+		margin-top: 10px;
 	}
 }
 
@@ -1520,6 +1562,14 @@ $slide-second: slide-second;
 	&__img {
 		width: 100%;
 	}
+
+	&__text {
+		margin-top: 10px;
+
+		&:last-child {
+			margin-top: 30px;
+		}
+	}
 }
 
 .#{$drawdown-section} {
@@ -1532,6 +1582,10 @@ $slide-second: slide-second;
 	&__img {
 		width: 100%;
 		height: 100%;
+	}
+
+	&__text {
+		margin-top: 10px;
 	}
 }
 
