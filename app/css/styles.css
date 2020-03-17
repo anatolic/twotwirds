@@ -224,16 +224,16 @@ h5 {
   position: absolute;
   left: calc(50% - 15px);
   bottom: 40px;
-  -webkit-animation: mover 1s infinite alternate;
-  animation: mover 1s infinite alternate; }
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 1.3s infinite alternate; }
 
 .arrow-icon {
   box-sizing: border-box;
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   border-style: solid;
   border-color: #fff;
-  border-width: 0px 1px 1px 0px;
+  border-width: 0px 3px 3px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
   display: block; }
@@ -243,14 +243,18 @@ h5 {
 @-webkit-keyframes mover {
   0% {
     transform: translateY(0); }
+  50% {
+    transform: translateY(-5px); }
   100% {
-    transform: translateY(-10px); } }
+    transform: translateY(7px); } }
 
 @keyframes mover {
   0% {
     transform: translateY(0); }
+  50% {
+    transform: translateY(-5px); }
   100% {
-    transform: translateY(-10px); } }
+    transform: translateY(7px); } }
 
 .container {
   max-width: 1280px;
@@ -1110,7 +1114,7 @@ h5 {
       justify-content: flex-start; }
       .retail-section__process-image::before {
         left: -17px;
-        bottom: 80px; }
+        bottom: 83px; }
     .retail-section__list-item {
       display: flex;
       padding-left: 12px;
