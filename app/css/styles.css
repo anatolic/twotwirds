@@ -953,6 +953,8 @@ h5 {
     .quality-section__img-content {
       margin-left: 0px;
       width: 100%; }
+    .quality-section__img {
+      width: 100%; }
     .quality-section__box-img-content {
       margin-bottom: 10px; }
       .quality-section__box-img-content:last-child {
@@ -992,6 +994,8 @@ h5 {
     margin-top: 60px; }
   .recycling-section--reciclyng-process__content-text {
     margin-top: 40px; }
+  .recycling-section--reciclyng-process__img {
+    width: 100%; }
   .supplier-banner-section__content {
     padding: 45px 25px; }
   .craftmanship-section {
@@ -1044,9 +1048,7 @@ h5 {
       display: flex;
       flex-direction: column; }
     .preorder-section__box-img {
-      margin-top: 40px;
-      margin-left: auto;
-      margin-right: auto; }
+      margin-top: 40px; }
     .preorder-section__img {
       width: 100%; }
   .retail-section {
@@ -1054,22 +1056,38 @@ h5 {
     padding-top: 50px; }
     .retail-section__process-wrap {
       display: grid;
-      grid-template-columns: repeat(1, 1fr); }
+      grid-template-columns: repeat(1, 1fr);
+      grid-auto-columns: auto; }
     .retail-section__process-image {
       justify-content: flex-start; }
+      .retail-section__process-image::before {
+        left: -17px;
+        bottom: 80px; }
     .retail-section__list-item {
       display: flex;
       padding-left: 12px;
-      border-left: 1px solid #252e43; }
+      border-left: 1px solid #252e43;
+      padding-top: 50px;
+      padding-bottom: 0px; }
       .retail-section__list-item:last-child {
         border: none;
-        border-left: none; }
+        border-left: none;
+        padding-top: 0px; }
       .retail-section__list-item:last-child .retail-section__box-content {
-        left: 0%; }
+        left: -3%; }
       .retail-section__list-item .retail-section__process-image::after {
         display: none; }
+      .retail-section__list-item:last-child .retail-section__process-image::before {
+        left: -17px;
+        top: 2px; }
+    .retail-section__title {
+      margin-bottom: 20px; }
+    .retail-section__second-title {
+      margin-top: 90px; }
+    .retail-section__second-list-item {
+      display: block; }
     .retail-section__box-content {
-      width: 0;
+      width: 100%;
       align-items: flex-start;
       justify-content: flex-start;
       position: relative;
