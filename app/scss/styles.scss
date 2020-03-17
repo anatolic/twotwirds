@@ -836,7 +836,9 @@ $slide-second: slide-second;
 		&__img-content {
 			margin-left: 50px;
 		}
-}
+	}
+
+	
 }
 
 //Large Devices
@@ -886,7 +888,14 @@ $slide-second: slide-second;
 		&__img-content {
 			margin-left: 0px;
 		}
-}
+	}
+
+	.#{$supplier-banner-section} {
+
+		&__content {
+			padding: 125px 20px 150px;
+		}
+	}
 
 	.#{$join-section} {
 		&__box-text{
@@ -1037,6 +1046,13 @@ $slide-second: slide-second;
 
 		&__box-img {
 			margin: 0 auto;
+		}
+	}
+
+	.#{$supplier-banner-section} {
+
+		&__content {
+			padding: 125px 20px 150px;
 		}
 	}
 
@@ -1290,10 +1306,16 @@ $slide-second: slide-second;
 
 	&__list-item {
 
+		padding: 0px;
+
 		&:first-child {
 			margin-top: 0px;
 		}
 		margin-top: $sm-section--gap;
+	}
+
+	&__list-text {
+		padding: 0 20px;
 	}
 
 	&__figure {

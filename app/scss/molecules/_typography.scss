@@ -10,7 +10,7 @@ h1 {
     @include typography(50px, 500, #252E43);
     letter-spacing: $default-letter-spacing;
     margin-bottom: 0;
-    line-height: 70%;
+    line-height: 100%;
 }
 
 h2 {
