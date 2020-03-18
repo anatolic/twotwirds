@@ -987,7 +987,7 @@ h5 {
     flex-direction: column;
     text-align: center;
     border-right: none;
-    margin-top: 40px; }
+    margin-bottom: 40px; }
     .slide__content-list-item:last-child {
       margin-bottom: 0px; }
   .slide__content-list-item-figure-wrap {
