@@ -964,7 +964,7 @@ h5 {
       display: none; }
   .slide__content {
     margin-top: 50px;
-    background-size: auto 600px;
+    background-size: auto 650px;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 0px; }
@@ -987,11 +987,12 @@ h5 {
     flex-direction: column;
     text-align: center;
     border-right: none;
-    margin-bottom: 40px; }
-    .slide__content-list-item:last-child {
-      margin-bottom: 0px; }
+    margin-top: 40px; }
+    .slide__content-list-item:first-child {
+      margin-top: 0px; }
   .slide__content-list-item-figure-wrap {
-    margin-bottom: 5px; }
+    margin-bottom: 10px;
+    height: 100%; }
   .slide__content-icon-black-first > g > path {
     fill: black;
     stroke: none; }
@@ -1086,26 +1087,31 @@ h5 {
         margin-top: 40px; }
     .recycling-section__box-text {
       margin-bottom: 0px; }
-  .recycling-section--reciclyng-process__list {
-    display: grid;
-    justify-content: center; }
-  .recycling-section--reciclyng-process__list-item {
-    padding: 0px;
-    margin-top: 30px; }
-    .recycling-section--reciclyng-process__list-item:first-child {
-      margin-top: 0px; }
-  .recycling-section--reciclyng-process__list-text {
-    padding: 0 20px; }
-  .recycling-section--reciclyng-process__figure::after {
-    display: none; }
-  .recycling-section--reciclyng-process__content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px; }
-  .recycling-section--reciclyng-process__content-text {
-    margin-top: 40px; }
-  .recycling-section--reciclyng-process__img {
-    width: 100%; }
+  .recycling-section--reciclyng-process {
+    margin: 70px auto; }
+    .recycling-section--reciclyng-process__list {
+      display: grid;
+      justify-content: center; }
+    .recycling-section--reciclyng-process__list-item {
+      padding: 0px;
+      margin-top: 30px; }
+      .recycling-section--reciclyng-process__list-item:first-child {
+        margin-top: 0px; }
+    .recycling-section--reciclyng-process__list-text {
+      padding: 0 20px; }
+    .recycling-section--reciclyng-process__figure::after {
+      display: none; }
+    .recycling-section--reciclyng-process__img {
+      width: 61px;
+      height: 61px; }
+    .recycling-section--reciclyng-process__content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 55px; }
+    .recycling-section--reciclyng-process__content-text {
+      margin-top: 35px; }
+    .recycling-section--reciclyng-process__img {
+      width: 100%; }
   .supplier-banner-section__content {
     padding: 45px 25px; }
   .craftmanship-section {
@@ -1179,6 +1185,8 @@ h5 {
       .retail-section__process-image::before {
         left: -17px;
         bottom: 83px; }
+    .retail-section__second-box-content {
+      left: -40px; }
     .retail-section__list-item {
       display: flex;
       padding-left: 12px;
@@ -1210,6 +1218,8 @@ h5 {
       justify-content: flex-start;
       position: relative;
       padding: 0px; }
+    .retail-section__text-last {
+      left: -40px; }
     .retail-section__process-image {
       margin-right: 20px; }
     .retail-section__text {

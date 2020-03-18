@@ -1180,7 +1180,7 @@ $slide-second: slide-second;
 	.#{$slide} {
 		&__content {
 		margin-top: $half-section--gap;
-		background-size: auto 600px;
+		background-size: auto 650px;
     	background-repeat: no-repeat;
     	background-position-x: center;
     	background-position-y: 0px
@@ -1208,15 +1208,17 @@ $slide-second: slide-second;
 			flex-direction: column;
 			text-align: center;
 			border-right: none;
-			margin-bottom: 40px;
+			margin-top: 40px;
 
-			&:last-child {
-				margin-bottom: 0px;
+			&:first-child {
+				margin-top: 0px;
 			}
+
 		}
 
 		&__content-list-item-figure-wrap {
-			margin-bottom: 5px;
+			margin-bottom: 10px;
+			height: 100%;
 		}
 	
 		
@@ -1416,6 +1418,8 @@ $slide-second: slide-second;
 
  .#{$recycling-section}--reciclyng-process {
 
+	margin: 70px auto;
+
 	&__list {
 		display: grid;
 		justify-content: center;
@@ -1442,14 +1446,19 @@ $slide-second: slide-second;
 		}
 	}
 
+	&__img {
+		width: 61px;
+		height: 61px;
+	}
+
 	&__content {
 		display: flex;
 		flex-direction: column;
-		margin-top: 60px;
+		margin-top: 55px;
 	}
 
 	&__content-text {
-		margin-top: 40px;
+		margin-top: 35px;
 	}
 
 	&__img {
@@ -1592,6 +1601,10 @@ $slide-second: slide-second;
 		}
 	}
 
+	&__second-box-content {
+		left: -40px;
+	}
+
 	&__list-item {
 		display: flex;
 		padding-left: 12px;
@@ -1644,6 +1657,10 @@ $slide-second: slide-second;
 			padding: 0px;
 
 		}
+
+	&__text-last {
+		left: -40px;
+	}
 
 	&__process-image {
 		margin-right: 20px;
