@@ -937,13 +937,17 @@ h5 {
     margin-left: auto;
     margin-right: auto;
     padding: 0 20px; }
+  .arrow-container {
+    display: none; }
   .header {
     height: 100%;
     height: 100%;
-    background-size: auto 600px;
+    background-size: auto 700px;
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 0px; }
+    .header__img-content {
+      padding-top: 20px; }
     .header__box-content {
       justify-content: center; }
     .header__items {
@@ -967,20 +971,45 @@ h5 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 300px; }
+    margin-top: 250px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 100%; }
   .slide__content-list-item {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 60px;
-    border-right: none; }
-  .slide__content-icon-black {
-    margin-bottom: 20px;
+    border-right: none;
+    margin-bottom: 40px; }
+    .slide__content-list-item:last-child {
+      margin-bottom: 0px; }
+  .slide__content-list-item-figure-wrap {
+    margin-bottom: 5px; }
+  .slide__content-icon-black-first > g > path {
     fill: black;
-    font-size: 60px; }
-    .slide__content-icon-black > g > g {
-      Stroke: black; }
+    stroke: none; }
+  .slide__content-icon-black-reduction > g > path {
+    fill: black;
+    stroke: none; }
+    .slide__content-icon-black-reduction > g > path:last-child {
+      fill: none;
+      stroke: black; }
+  .slide__content-icon-black-third > g > path {
+    fill: none;
+    stroke: black; }
+  .slide__content-icon-black-four > path {
+    fill: none;
+    stroke: black; }
+  .slide__content-icon-black-use > g > g > path {
+    fill: black;
+    stroke: none; }
+  .slide__content-icon-black-use > g > path {
+    fill: black;
+    stroke: none; }
+  .slide__content-icon-black-raw > g > g > path {
+    fill: none;
+    stroke: black; }
   .slide__box-title {
     grid-auto-columns: auto; }
   .intro-section {
@@ -1122,7 +1151,7 @@ h5 {
       .wages-section__text:last-child {
         margin-top: 20px; }
   .preorder-section {
-    margin-top: 55px; }
+    margin-top: 40px; }
     .preorder-section__wraper {
       display: flex;
       flex-direction: column; }
@@ -1202,7 +1231,7 @@ h5 {
     .use-desc-section__text {
       display: none; }
   .green-section {
-    margin-top: 55px; }
+    margin-top: 40px; }
     .green-section__wraper {
       display: flex;
       flex-direction: column; }

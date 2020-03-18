@@ -1138,13 +1138,21 @@ $slide-second: slide-second;
 		padding: 0 20px;
 	}
 
+	.arrow-container {
+		display: none;
+	}
+
 	.#{$header} {
 		height: 100%;
 		height: 100%;
-    	background-size: auto 600px;
+    	background-size: auto 700px;
     	background-repeat: no-repeat;
 		background-position-x: center;
-		background-position-y: 0px;;
+		background-position-y: 0px;
+
+		&__img-content {
+			padding-top: 20px;
+		}
 
 		&__box-content {
 			justify-content: center;
@@ -1184,7 +1192,10 @@ $slide-second: slide-second;
 			flex-direction: column;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 300px;
+			margin-top: 250px;
+			margin-bottom: 0px;
+			width: 100%;
+			max-width: 100%;
 		}
 	
 		&__content-list-item {
@@ -1192,19 +1203,79 @@ $slide-second: slide-second;
 			align-items: center;
 			flex-direction: column;
 			text-align: center;
-			padding: 0 60px;
 			border-right: none;
-		}
-	
-		&__content-icon-black {
-			margin-bottom: 20px;
-			fill: black;
-			font-size: 60px;
-	
-			& > g > g {
-				Stroke: black;
+			margin-bottom: 40px;
+
+			&:last-child {
+				margin-bottom: 0px;
 			}
 		}
+
+		&__content-list-item-figure-wrap {
+			margin-bottom: 5px;
+		}
+	
+		
+
+		&__content-icon-black-first {
+
+			& > g > path {
+				fill: black;
+				stroke: none;
+
+			}
+		}
+
+		&__content-icon-black-reduction {
+			& > g > path {
+			fill: black;
+			stroke: none;
+				&:last-child {
+					fill: none;
+					stroke: black;
+				}
+			}	
+		}
+
+		&__content-icon-black-third {
+
+			& > g > path {
+				fill: none;
+				stroke: black;
+			}
+		}
+
+		&__content-icon-black-four {
+
+			&  > path {
+				fill: none;
+				stroke: black;
+			}
+		}
+
+		&__content-icon-black-use {
+
+			& > g > g > path {
+				fill: black;
+				stroke: none;
+
+			}
+
+			& > g > path {
+				fill: black;
+				stroke: none;
+
+			}
+		}
+
+		&__content-icon-black-raw {
+
+			& > g > g > path {
+				fill: none;
+				stroke: black;
+			}
+		}
+
 
 		&__box-title {
 			grid-auto-columns: auto;
@@ -1479,7 +1550,7 @@ $slide-second: slide-second;
 }
 
 .#{$preorder-section} {
-	 margin-top: 55px;
+	 margin-top: 40px;
 	&__wraper {
 		display: flex;
 		flex-direction: column;
@@ -1620,7 +1691,7 @@ $slide-second: slide-second;
 }
 
 .#{$green-section} {
-	margin-top: 55px;
+	margin-top: 40px;
 
 	&__wraper {
 		display: flex;
