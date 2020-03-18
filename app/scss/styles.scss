@@ -1179,7 +1179,7 @@ $slide-second: slide-second;
 
 	.#{$slide} {
 		&__content {
-		margin-top: 50px;
+		margin-top: $half-section--gap;
 		background-size: auto 600px;
     	background-repeat: no-repeat;
     	background-position-x: center;
