@@ -450,7 +450,8 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 70px; }
+    padding: 0 70px;
+    width: 100%; }
   .recycling-section--reciclyng-process__list-item:last-child figure::after {
     display: none; }
   .recycling-section--reciclyng-process__list-text {
@@ -805,33 +806,38 @@ h5 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 40px; }
+    padding: 0 40px;
+    width: 100%; }
     .recycling-section--reciclyng-process__list-item:first-child {
       padding-left: 0px; }
     .recycling-section--reciclyng-process__list-item:last-child {
       padding-right: 0px; }
-  .recycling-section--reciclyng-process__figure {
+  __figure {
     display: flex;
     align-items: center;
     position: relative; }
-    .recycling-section--reciclyng-process__figure::after {
+    __figure::after {
       content: '';
       position: absolute;
       border-bottom: 1px solid #d8d8d8;
-      width: 170px;
-      left: 85px; }
-  .quality-section__img-content {
-    margin-left: 0px; }
-  .supplier-banner-section__content {
-    padding: 125px 20px 150px; }
-  .preorder-section {
-    padding-top: 0px;
-    margin-top: 50px; }
-  .green-section {
-    padding-top: 0px;
-    margin-top: 50px; }
-  .join-section__box-text {
-    padding: 0px; } }
+      width: 100px; } }
+
+.quality-section__img-content {
+  margin-left: 0px; }
+
+.supplier-banner-section__content {
+  padding: 125px 20px 150px; }
+
+.preorder-section {
+  padding-top: 0px;
+  margin-top: 50px; }
+
+.green-section {
+  padding-top: 0px;
+  margin-top: 50px; }
+
+.join-section__box-text {
+  padding: 0px; }
 
 @media (min-width: 812px) and (max-width: 992px) {
   .container {
