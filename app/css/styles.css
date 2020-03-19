@@ -256,6 +256,28 @@ h5 {
   100% {
     transform: translateY(7px); } }
 
+/*.slide--container {
+	transform: scale(1);
+	animation: pulse 2s infinite;
+	transition: 150ms;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: white;
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: white;
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow:white;
+	}
+}*/
 .container {
   max-width: 1280px;
   width: 100%;
@@ -981,6 +1003,8 @@ h5 {
     margin-bottom: 0px;
     width: 100%;
     max-width: 100%; }
+  .slide__content-list-second {
+    margin-top: 280px; }
   .slide__content-list-item {
     display: flex;
     align-items: center;

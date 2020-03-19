@@ -4,6 +4,7 @@
 	bottom: 40px;
 	-webkit-animation: mover 2s infinite alternate;
 	animation: mover 1.3s infinite alternate;
+	
 }
 
 .arrow-icon {
@@ -16,11 +17,12 @@
 	transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
 	display: block;
-    
+	
     &:hover {
         cursor: pointer;
     }
 }
+
 
 @-webkit-keyframes mover {
 	0% {
@@ -46,3 +48,28 @@
 		transform: translateY(7px);
 	}
 }
+
+
+
+/*.slide--container {
+	transform: scale(1);
+	animation: pulse 2s infinite;
+	transition: 150ms;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: white;
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: white;
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow:white;
+	}
+}*/

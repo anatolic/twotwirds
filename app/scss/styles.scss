@@ -1201,6 +1201,10 @@ $slide-second: slide-second;
 			width: 100%;
 			max-width: 100%;
 		}
+
+		&__content-list-second {
+			margin-top: 280px;
+		}
 	
 		&__content-list-item {
 			display: flex;
