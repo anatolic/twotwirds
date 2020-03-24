@@ -373,6 +373,15 @@ h5 {
   .slide__content.active .slide__content-list-item::before {
     animation: lineup 1s forwards; }
 
+.slide__box-list {
+  top: 50px; }
+
+.slide__box-item::after {
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid #d8d8d8;
+  width: 20px; }
+
 .slide__box-title {
   display: grid;
   justify-content: center;

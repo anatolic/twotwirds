@@ -179,7 +179,18 @@ $slide-second: slide-second;
 		}
 	}
 
-	
+	&__box-list {
+		top: 50px;
+	}
+
+	&__box-item {
+		&::after {
+			content: '';
+			position: absolute;
+			border-bottom: 2px solid #d8d8d8;
+			width: 20px;
+		}
+	}
 
 	&__box-title {
 		display: grid;
