@@ -78,7 +78,7 @@
       return false;
     }
   }
-
+  
   $.fn.extend({
     // watching for element's presence in browser viewport
     scrolling: function(options) {
@@ -94,21 +94,21 @@
           setTimeout(process, opts.interval);
         };
         $window = $(opts.window || window);
-
+		
         if ($window.get(0) != top) {
-          var $b = $($window.get(0).document.body);
-          if ($b) {
-            extraOffsetTop = $b.scrollTop();
-            extraOffsetLeft = $b.scrollLeft();
-          }
+            var $b = $($window.get(0).document.body);
+            if ($b) {
+                extraOffsetTop = $b.scrollTop();
+                extraOffsetLeft = $b.scrollLeft();
+            }
         }
-
+		
         $window.scroll(onCheck).resize(onCheck);
       }
 
-      var $el = $(selector);
-      $el.data(optionsAttribute, opts);
-
+	  var $el = $(selector);
+	  $el.data(optionsAttribute, opts);
+	  
       if (opts.checkScrolling) {
         setTimeout(process, opts.interval);
       }
@@ -120,7 +120,7 @@
   $.extend({
     // force "scroll-in" check for the given element
     checkScrolling: function() {
-      if (checkBound) {
+        if (checkBound) {
         process();
         return true;
       };
