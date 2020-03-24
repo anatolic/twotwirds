@@ -875,9 +875,11 @@ h5 {
     .recycling-section--reciclyng-process__list-item:last-child {
       padding-right: 0px; }
     .recycling-section--reciclyng-process__list-item:first-child .recycling-section--reciclyng-process__figure::after {
-      width: 170px; }
+      width: 170px;
+      left: 85px; }
   .recycling-section--reciclyng-process__figure::after {
-    width: 150px; }
+    width: 170px;
+    left: 105px; }
   __figure {
     display: flex;
     align-items: center;
@@ -1039,16 +1041,28 @@ h5 {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 0px; }
+  .slide__content-appear-eco-slide-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 290px;
+    margin-bottom: 0px;
+    width: 100%;
+    max-width: 100%; }
+  .slide__content-appear-eco-slide-wrap {
+    margin-top: -230px; }
   .slide__content-wrap {
     justify-content: flex-end;
-    margin-top: -150px; }
+    margin-top: -130px; }
   .slide__content-list {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
+    margin-top: 290px;
     margin-bottom: 0px;
     width: 100%;
     max-width: 100%; }
@@ -1175,6 +1189,8 @@ h5 {
     .recycling-section--reciclyng-process__img {
       width: 61px;
       height: 61px; }
+    .recycling-section--reciclyng-process__img-bg {
+      width: 100%; }
     .recycling-section--reciclyng-process__content {
       display: flex;
       flex-direction: column;

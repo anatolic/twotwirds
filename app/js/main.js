@@ -15,8 +15,10 @@ function slideTriggerClass(className) {
     cssClassName.scrolling();
 
     cssClassName.on('scrollin', () => cssClassName.children('.slide__content').addClass('active'));
-    cssClassName.on('scrollout', () => cssClassName.children('.slide__content').removeClass('active'));
+	cssClassName.on('scrollout', () => cssClassName.children('.slide__content').removeClass('active'));
 };
 
-let slidesArray = ['appear-eco-slide', 'appear-second-slide'];
+let slidesArray = ['appear-eco-slide', 'appear-origin-slide','appear-over-production-slide' ,'appear-drwadown-slide'];
 slidesArray.map(className => slideTriggerClass(className));
+
+
