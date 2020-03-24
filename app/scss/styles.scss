@@ -158,11 +158,9 @@ $slide-second: slide-second;
 }
 
 .#{$slide} {
-
 	&__content {
-		margin-top: $main-section--gap;
 		background-size: cover;
-		padding-top: 435px;
+		padding-top: 375px;
 		padding-bottom: 30px;
 		position: relative;
 
@@ -179,18 +177,20 @@ $slide-second: slide-second;
 		}
 	}
 
-	&__box-list {
-		top: 50px;
+	&__box-item {
+			border-bottom: 2px solid #FFFFFF;
+			width: 16px;
+			margin-bottom: 25px;
+			cursor: pointer;
 	}
 
-	&__box-item {
-		&::after {
-			content: '';
-			position: absolute;
-			border-bottom: 2px solid #d8d8d8;
-			width: 20px;
-		}
-	}
+	&__box-item-active {
+			
+				border-bottom: 2px solid #FFFFFF;
+				width: 56px;
+				margin-bottom: 25px;
+			
+}
 
 	&__box-title {
 		display: grid;
@@ -1296,6 +1296,10 @@ $slide-second: slide-second;
     	background-position-y: 0px
 		}
 
+		&__box {
+			display: none;
+		}
+
 		&__content-appear-eco-slide-list {
 			display: flex;
 			justify-content: space-between;
@@ -1309,12 +1313,12 @@ $slide-second: slide-second;
 		}
 
 		&__content-appear-eco-slide-wrap {
-			margin-top: -230px;
+			margin-top: -170px;
 		}
 
 		&__content-wrap-sm {
 			justify-content: flex-end;
-			margin-top: -130px;
+			margin-top: -90px;
 		}
 
 		&__content-list-sm {
@@ -1323,7 +1327,7 @@ $slide-second: slide-second;
 			flex-direction: column;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 290px;
+			margin-top: 297px;
 			margin-bottom: 0px;
 			width: 100%;
 			max-width: 100%;
@@ -1331,7 +1335,7 @@ $slide-second: slide-second;
 
 		&__content-wrap-sm-g {
 			justify-content: flex-end;
-			margin-top: -170px;
+			margin-top: -70px;
 		}
 
 		&__content-list-sm-g {
@@ -1340,7 +1344,7 @@ $slide-second: slide-second;
 			flex-direction: column;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 250px;
+			margin-top: 275px;
 			margin-bottom: 0px;
 			width: 100%;
 			max-width: 100%;
