@@ -220,7 +220,7 @@ $slide-second: slide-second;
 	.header__eco-text {
 		opacity: 0;
 		transition: all .3s ease-in;
-		transition-delay: 1s;
+		transition-delay: 0.7s;
 		position: relative;
 	}
     
@@ -260,14 +260,14 @@ $slide-second: slide-second;
 
 			.slide__content-list-item-figure-wrap,
 			.header__eco-text {
-				transition-delay: 1.3s;
+				transition-delay: 1s;
 			}
 		}
 
 		&:nth-child(3) {
 			.slide__content-list-item-figure-wrap,
 			.header__eco-text {
-				transition-delay: 1.6s;
+				transition-delay: 1.3s;
 			}	
 		}		
 	}

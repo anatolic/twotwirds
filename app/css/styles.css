@@ -385,7 +385,7 @@ h5 {
 .slide .header__eco-text {
   opacity: 0;
   transition: all .3s ease-in;
-  transition-delay: 1s;
+  transition-delay: 0.7s;
   position: relative; }
 
 .slide__content-list-item-figure-wrap {
@@ -414,10 +414,10 @@ h5 {
     left: initial; }
   .slide__content-list-item:nth-child(2) .slide__content-list-item-figure-wrap,
   .slide__content-list-item:nth-child(2) .header__eco-text {
-    transition-delay: 1.3s; }
+    transition-delay: 1s; }
   .slide__content-list-item:nth-child(3) .slide__content-list-item-figure-wrap,
   .slide__content-list-item:nth-child(3) .header__eco-text {
-    transition-delay: 1.6s; }
+    transition-delay: 1.3s; }
 
 .slide__icon-white {
   margin-bottom: 20px;
