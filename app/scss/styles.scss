@@ -183,6 +183,7 @@ $slide-second: slide-second;
 		height: 2px;
 		margin-bottom: 25px;
 		cursor: pointer;
+		transition: 0.5s;
 
 		&:last-child {
 			margin-bottom: 0px;

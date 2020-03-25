@@ -355,7 +355,8 @@ h5 {
   width: 16px;
   height: 2px;
   margin-bottom: 25px;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: 0.5s; }
   .slide__box-item:last-child {
     margin-bottom: 0px; }
   .slide__box-item:hover {
