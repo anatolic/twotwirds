@@ -187,13 +187,17 @@ $slide-second: slide-second;
 		&:last-child {
 			margin-bottom: 0px;
 		}
+
+		&:hover {
+			width: 56px;
+			height: 2px;
+			transition: 0.5s;
+		}
 	}
 
 	&__box-item-active {
-		&:hover {
-			width: 56px;
-			height: 3px;
-		}	
+		width: 56px;
+		cursor: pointer;
 	}
 
 	&__box-title {

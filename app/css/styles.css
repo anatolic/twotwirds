@@ -380,10 +380,14 @@ h5 {
   cursor: pointer; }
   .slide__box-item:last-child {
     margin-bottom: 0px; }
+  .slide__box-item:hover {
+    width: 56px;
+    height: 2px;
+    transition: 0.5s; }
 
-.slide__box-item-active:hover {
+.slide__box-item-active {
   width: 56px;
-  height: 3px; }
+  cursor: pointer; }
 
 .slide__box-title {
   display: grid;
