@@ -24,7 +24,7 @@
 
 
 <!--Start Header Section-->
-<section class="header slide appear-eco-slide" id="ecoSlide" style="background-image: url('./assets/imgs/header.png');">
+<section class="header slide appear-eco-slide header__slide-wrap" id="ecoSlide" style="background-image: url('./assets/imgs/header.png');">
     <div class="header__box-content container">
         <a href="" class="header__link-menu">
             <i class="fas fa-bars header__actions-icon"></i>
@@ -166,8 +166,10 @@
             </div>
         </div>
     </section>
-    <div class="arrow-container">
-        <i class="arrow-icon" onclick="gotSmothTo(introSection)"></i>
+    <div class="arrow__wrap">
+        <div class="arrow-container">
+            <i class="arrow-icon" onclick="gotSmothTo(introSection)"></i>
+        </div>
     </div>
 </section><!--End Header Section-->
 <!-- Intro Section -->
@@ -860,22 +862,22 @@
     <section class="slide__content m-t-lg" style="background-image: url('./assets/imgs/supplier.png');">
         <div class="slide__content-wrap slide__content-wrap-sm">
             <div class="slide__box">
-                <ul class="slide__box-list">
-                    <li class="slide__box-item" onclick="gotSmothTo(ecoSlide)">
-                        <h5 class="slide__box-text">Eco-materials</h5>
-                        <span class="slide__box-line"></span>
+                <ul class="slide__selectors-list">
+                    <li class="slide__selectors-item" onclick="gotSmothTo(ecoSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">Eco-materials</h5>
                     </li>
-                    <li class="slide__box-item" onclick="gotSmothTo(originSlide)">
-                        <h5 class="slide__box-text-active">Made in Europe</h5>
-                        <span class="slide__box-line slide__box-item-active"></span>
+                    <li class="slide__selectors-item active onclick="gotSmothTo(originSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">Made in Europe</h5>
                     </li>
-                    <li class="slide__box-item" onclick="gotSmothTo(overSlide)">
-                        <h5 class="slide__box-text">No over Production</h5>
-                        <span class="slide__box-line"></span>
+                    <li class="slide__selectors-item" onclick="gotSmothTo(overSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">No over Production</h5>
                     </li>
-                    <li class="slide__box-item" onclick="gotSmothTo(drwadownSlide)">
-                        <h5 class="slide__box-text">Twothirds Drawdown</h5>
-                        <span class="slide__box-line"></span>
+                    <li class="slide__selectors-item" onclick="gotSmothTo(drwadownSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">Twothirds Drawdown</h5>
                     </li>
                 </ul>
             </div>
@@ -1016,9 +1018,11 @@
                 </div>
             </div>
             </div>
-        <div class="arrow-container">
-            <i class="arrow-icon" onclick="gotSmothTo(supplierBanner)"></i>
-        </div>
+            <div class="arrow__wrap">
+                <div class="arrow-container">
+                    <i class="arrow-icon" onclick="gotSmothTo(supplierBanner)"></i>
+                </div>
+            </div>
 
     </section>
 </div><!-- End Slide Section -->
@@ -1169,22 +1173,22 @@
     <section class="slide__content m-t-lg" style="background-image: url('./assets/imgs/overproduction.png');">
     <div class="slide__content-wrap slide__content-wrap-sm-g">
         <div class="slide__box">
-            <ul class="slide__box-list">
-                <li class="slide__box-item" onclick="gotSmothTo(ecoSlide)">
-                    <h5 class="slide__box-text">Eco-materials</h5>
-                    <span class="slide__box-line"></span>
+            <ul class="slide__selectors-list">
+                <li class="slide__selectors-item" onclick="gotSmothTo(ecoSlide)">
+                    <span class="slide__selectors-line"></span>
+                    <h5 class="slide__selectors-text twothirds__h5-white">Eco-materials</h5>
                 </li>
-                <li class="slide__box-item" onclick="gotSmothTo(originSlide)">
-                    <h5 class="slide__box-text">Made in Europe</h5>
-                    <span class="slide__box-line"></span>
+                <li class="slide__selectors-item" onclick="gotSmothTo(originSlide)">
+                    <span class="slide__selectors-line"></span>
+                    <h5 class="slide__selectors-text twothirds__h5-white">Made in Europe</h5>
                 </li>
-                <li class="slide__box-item" onclick="gotSmothTo(overSlide)">
-                    <h5 class="slide__box-text-active">No over Production</h5>
-                    <span class="slide__box-line slide__box-item-active"></span>
+                <li class="slide__selectors-item active" onclick="gotSmothTo(overSlide)">
+                    <span class="slide__selectors-line"></span>
+                    <h5 class="slide__selectors-text twothirds__h5-white">No over Production</h5>
                 </li>
-                <li class="slide__box-item" onclick="gotSmothTo(drwadownSlide)">
-                    <h5 class="slide__box-text">Twothirds Drawdown</h5>
-                    <span class="slide__box-line"></span>
+                <li class="slide__selectors-item" onclick="gotSmothTo(drwadownSlide)">
+                    <span class="slide__selectors-line"></span>
+                    <h5 class="slide__selectors-text twothirds__h5-white">Twothirds Drawdown</h5>
                 </li>
             </ul>
         </div>
@@ -1259,8 +1263,10 @@
             </div>
         </div>
     </div>
-    <div class="arrow-container">
-        <i class="arrow-icon" onclick="gotSmothTo(preorderSection)"></i>
+    <div class="arrow__wrap">
+        <div class="arrow-container">
+            <i class="arrow-icon" onclick="gotSmothTo(preorderSection)"></i>
+        </div>
     </div>
     </section>
 </div><!-- End Slide Section -->
@@ -1502,28 +1508,27 @@
         </div>
     </div>
 </section><!--End Use Desc Section -->
-
 <!-- Slide Section -->
 <div class="appear-drwadown-slide slide" id="drwadownSlide">
     <section class="slide__content m-t-lg" style="background-image: url('./assets/imgs/tree-bg.png');">
         <div class="slide__content-wrap slide__content-wrap-sm-g">
             <div class="slide__box">
-                <ul class="slide__box-list">
-                    <li class="slide__box-item" onclick="gotSmothTo(ecoSlide)">
-                        <h5 class="slide__box-text">Eco-materials</h5>
-                        <span class="slide__box-line"></span>
+                <ul class="slide__selectors-list">
+                    <li class="slide__selectors-item" onclick="gotSmothTo(ecoSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">Eco-materials</h5>
                     </li>
-                    <li class="slide__box-item" onclick="gotSmothTo(originSlide)">
-                        <h5 class="slide__box-text">Made in Europe</h5>
-                        <span class="slide__box-line"></span>
+                    <li class="slide__selectors-item" onclick="gotSmothTo(originSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">Made in Europe</h5>
                     </li>
-                    <li class="slide__box-item" onclick="gotSmothTo(overSlide)">
-                        <h5 class="slide__box-text">No over Production</h5>
-                        <span class="slide__box-line"></span>
+                    <li class="slide__selectors-item" onclick="gotSmothTo(overSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">No over Production</h5>
                     </li>
-                    <li class="slide__box-item" onclick="gotSmothTo(drwadownSlide)">
-                        <h5 class="slide__box-text-active">Twothirds Drawdown</h5>
-                        <span class="slide__box-line slide__box-item-active"></span>
+                    <li class="slide__selectors-item active" onclick="gotSmothTo(drwadownSlide)">
+                        <span class="slide__selectors-line"></span>
+                        <h5 class="slide__selectors-text twothirds__h5-white">Twothirds Drawdown</h5>
                     </li>
                 </ul>
             </div>
@@ -1609,9 +1614,10 @@
                 </div>
             </div>
         </div>
-
-        <div class="arrow-container">
-            <i class="arrow-icon" onclick="gotSmothTo(greenSection)"></i>
+        <div class="arrow__wrap">
+            <div class="arrow-container">
+                <i class="arrow-icon" onclick="gotSmothTo(greenSection)"></i>
+            </div>
         </div>
     </section>
 </div><!-- End Slide Section -->
