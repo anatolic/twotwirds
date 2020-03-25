@@ -256,28 +256,6 @@ h5 {
   100% {
     transform: translateY(7px); } }
 
-/*.slide--container {
-	transform: scale(1);
-	animation: pulse 2s infinite;
-	transition: 150ms;
-}
-
-@keyframes pulse {
-	0% {
-		transform: scale(0.95);
-		box-shadow: white;
-	}
-
-	70% {
-		transform: scale(1);
-		box-shadow: white;
-	}
-
-	100% {
-		transform: scale(0.95);
-		box-shadow:white;
-	}
-}*/
 @keyframes lineup {
   0% {
     height: 0; }

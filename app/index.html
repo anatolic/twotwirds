@@ -24,7 +24,7 @@
 
 
 <!--Start Header Section-->
-<section class="header slide appear-eco-slide" style="background-image: url('./assets/imgs/header.png');">
+<section class="header slide appear-eco-slide" id="ecoSlide" style="background-image: url('./assets/imgs/header.png');">
     <div class="header__box-content container">
         <a class=" header__img-content twothirds__h3-chronicle-roman--white text-uppercase">
             <img src="./assets/imgs/logo.png" alt="">
@@ -61,10 +61,10 @@
     <section class="slide__content">
         <div class="slide__box">
             <ul class="slide__box-list">
-                <li class="slide__box-item slide__box-item-active"></li>
-                <li class="slide__box-item"></li>
-                <li class="slide__box-item"></li>
-                <li class="slide__box-item"></li>
+                <li class="slide__box-item slide__box-item-active" onclick="gotSmothTo(ecoSlide)"></li>
+                <li class="slide__box-item" onclick="gotSmothTo(originSlide)"></li>
+                <li class="slide__box-item" onclick="gotSmothTo(overSlide)"></li>
+                <li class="slide__box-item" onclick="gotSmothTo(drwadownSlide)"></li>
             </ul>
         </div>
         <div class="slide__content-wrap slide__content-appear-eco-slide-wrap">
@@ -841,15 +841,15 @@
     </div>
 </section> <!-- End Recycling Section -->
 <!-- Slide Section -->
-<div class="appear-origin-slide slide">
+<div class="appear-origin-slide slide" id="originSlide">
     <section class="slide__content m-t-lg" style="background-image: url('./assets/imgs/supplier.png');">
         <div class="slide__content-wrap slide__content-wrap-sm">
             <div class="slide__box">
                 <ul class="slide__box-list">
-                    <li class="slide__box-item"></li>
-                    <li class="slide__box-item slide__box-item-active"></li>
-                    <li class="slide__box-item"></li>
-                    <li class="slide__box-item"></li>
+                    <li class="slide__box-item" onclick="gotSmothTo(ecoSlide)"></li>
+                    <li class="slide__box-item slide__box-item-active" onclick="gotSmothTo(originSlide)"></li>
+                    <li class="slide__box-item" onclick="gotSmothTo(overSlide)"></li>
+                    <li class="slide__box-item" onclick="gotSmothTo(drwadownSlide)"></li>
                 </ul>
             </div>
             <div class="container">  
@@ -1138,15 +1138,15 @@
     </div>
 </section><!-- End Wages section -->
 <!-- Slide Section -->
-<div class="appear-over-production-slide slide">
+<div class="appear-over-production-slide slide" id="overSlide">
     <section class="slide__content m-t-lg" style="background-image: url('./assets/imgs/overproduction.png');">
     <div class="slide__content-wrap slide__content-wrap-sm-g">
         <div class="slide__box">
             <ul class="slide__box-list">
-                <li class="slide__box-item"></li>
-                <li class="slide__box-item"></li>
-                <li class="slide__box-item slide__box-item-active"></li>
-                <li class="slide__box-item"></li>
+                <li class="slide__box-item" onclick="gotSmothTo(ecoSlide)"></li>
+                <li class="slide__box-item" onclick="gotSmothTo(originSlide)"></li>
+                <li class="slide__box-item slide__box-item-active" onclick="gotSmothTo(overSlide)"></li>
+                <li class="slide__box-item" onclick="gotSmothTo(drwadownSlide)"></li>
             </ul>
         </div>
         <div class="container">
@@ -1465,15 +1465,15 @@
 </section><!--End Use Desc Section -->
 
 <!-- Slide Section -->
-<div class="appear-drwadown-slide slide" data-appear-top-offset="100">
+<div class="appear-drwadown-slide slide" id="drwadownSlide">
     <section class="slide__content m-t-lg" style="background-image: url('./assets/imgs/tree-bg.png');">
         <div class="slide__content-wrap slide__content-wrap-sm-g">
             <div class="slide__box">
                 <ul class="slide__box-list">
-                    <li class="slide__box-item"></li>
-                    <li class="slide__box-item"></li>
-                    <li class="slide__box-item"></li>
-                    <li class="slide__box-item slide__box-item-active"></li>
+                    <li class="slide__box-item" onclick="gotSmothTo(ecoSlide)"></li>
+                    <li class="slide__box-item" onclick="gotSmothTo(originSlide)"></li>
+                    <li class="slide__box-item" onclick="gotSmothTo(overSlide)"></li>
+                    <li class="slide__box-item slide__box-item-active" onclick="gotSmothTo(drwadownSlide)"></li>
                 </ul>
             </div>
             <div class="container">
