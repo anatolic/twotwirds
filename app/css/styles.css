@@ -352,54 +352,35 @@ h5 {
   .slide__content.active .slide__content-list-item::before {
     animation: lineup 1s forwards; }
 
-.slide__box-item {
-  display: flex;
-  justify-content: space-between;
+.slide__selectors-item {
   margin-bottom: 10px;
-  align-items: center; }
-  .slide__box-item:last-child {
-    margin-bottom: 0px; }
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer; }
+  .slide__selectors-item:last-child {
+    margin-bottom: 0; }
+  .slide__selectors-item.active .slide__selectors-line, .slide__selectors-item:hover .slide__selectors-line {
+    width: 56px; }
+  .slide__selectors-item.active .slide__selectors-text, .slide__selectors-item:hover .slide__selectors-text {
+    opacity: 1; }
 
-.slide__box-line {
-  position: absolute;
+.slide__selectors-list {
+  display: flex;
+  flex-direction: column; }
+
+.slide__selectors-line {
   cursor: pointer;
   background: white;
   width: 16px;
   height: 2px;
-  transition: 0.5s; }
-  .slide__box-line:hover {
-    width: 56px;
-    height: 2px;
-    transition: 0.5s; }
+  transition: width 0.5s ease-in-out;
+  display: inline-block; }
 
-.slide__box-item-active {
-  width: 56px;
-  cursor: pointer; }
-
-.slide__box-text {
-  height: 24px;
-  color: #ffffff;
-  font-family: "FuturaLTCom-Medium";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 1px;
-  margin-bottom: 0px;
+.slide__selectors-text {
+  margin-bottom: 0;
   margin-left: 20px;
-  opacity: 0; }
-
-.slide__box-text-active {
-  height: 24px;
-  color: #ffffff;
-  font-family: "FuturaLTCom-Medium";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 1px;
-  margin-bottom: 0px;
-  margin-left: 60px; }
-  .slide__box-text-active:hover {
-    opacity: 1; }
+  opacity: 0;
+  transition: opacity 0.2s ease-in; }
 
 .slide__box-title {
   display: grid;

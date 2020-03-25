@@ -30,7 +30,6 @@ h5 {
 }
 
 .#{$twothirds} {
-    
     &__h1--white {
         @include typography(90px, 500, white);
         letter-spacing: $default-letter-spacing;
