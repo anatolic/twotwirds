@@ -81,6 +81,10 @@ $slide-second: slide-second;
 		cursor: pointer;
 	}
 
+	&__link-menu {
+		display: none;
+	}
+
 	&__link {
 		margin-right: 45px;
 		&:last-child {
@@ -178,27 +182,64 @@ $slide-second: slide-second;
 	}
 
 	&__box-item {
-		background: white;
-		width: 16px;
-		height: 2px;
-		margin-bottom: 25px;
-		cursor: pointer;
-		transition: 0.5s;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		align-items: center;
 
 		&:last-child {
 			margin-bottom: 0px;
 		}
+	}
+
+	&__box-line {
+		position: absolute;
+		cursor: pointer;
+		background: white;
+		width: 16px;
+		height: 2px;
+		transition: 0.5s;
 
 		&:hover {
 			width: 56px;
 			height: 2px;
 			transition: 0.5s;
 		}
+		
 	}
 
 	&__box-item-active {
 		width: 56px;
 		cursor: pointer;
+	}
+
+	&__box-text {
+		height: 24px;
+		color: #ffffff;
+		font-family: "FuturaLTCom-Medium";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 1px;
+		margin-bottom: 0px;
+		margin-left: 20px;
+		opacity: 0;
+	}
+
+	&__box-text-active {
+		height: 24px;
+		color: #ffffff;
+		font-family: "FuturaLTCom-Medium";
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 1px;
+		margin-bottom: 0px;
+		margin-left: 60px;
+
+		&:hover {
+			opacity: 1;
+		}
 	}
 
 	&__box-title {
@@ -1055,15 +1096,29 @@ $slide-second: slide-second;
 			display: none;
 		}
 
-		&__actions-list {
-			&:last-child {
-				display: none;
-			}
-		}
-
 		&__img-content {
 			padding-top: 20px;
+			margin: 0 auto;
 		}
+
+		&__box-content {
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__actions-item {
+			margin-left: 10px;
+		}
+
+		&__link-menu {
+			display: flex;
+		}
+
+		.fa-search,
+		.fa-water {
+			display: none;
+		}
+
 	}
 
 	.#{$slide} {
@@ -1274,17 +1329,33 @@ $slide-second: slide-second;
 
 		&__img-content {
 			padding-top: 20px;
+			margin: 0 auto;
 		}
 
 		&__box-content {
-			justify-content: center;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		&__logo-title {
+			width: 88px;
+			height: 44px;
 		}
 
 		&__items {
 			display: none;
 		}
 
-		&__actions-list {
+		&__actions-item {
+			margin-left: 10px;
+		}
+
+		&__link-menu {
+			display: flex;
+		}
+
+		.fa-search,
+		.fa-water {
 			display: none;
 		}
 
@@ -1335,7 +1406,7 @@ $slide-second: slide-second;
 			flex-direction: column;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 297px;
+			margin-top: 257px;
 			margin-bottom: 0px;
 			width: 100%;
 			max-width: 100%;
@@ -1352,7 +1423,7 @@ $slide-second: slide-second;
 			flex-direction: column;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 275px;
+			margin-top: 217px;
 			margin-bottom: 0px;
 			width: 100%;
 			max-width: 100%;
