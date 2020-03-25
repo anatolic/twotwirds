@@ -373,15 +373,17 @@ h5 {
     animation: lineup 1s forwards; }
 
 .slide__box-item {
-  border-bottom: 2px solid #FFFFFF;
+  background: white;
   width: 16px;
+  height: 2px;
   margin-bottom: 25px;
   cursor: pointer; }
+  .slide__box-item:last-child {
+    margin-bottom: 0px; }
 
-.slide__box-item-active {
-  border-bottom: 2px solid #FFFFFF;
+.slide__box-item-active:hover {
   width: 56px;
-  margin-bottom: 25px; }
+  height: 3px; }
 
 .slide__box-title {
   display: grid;

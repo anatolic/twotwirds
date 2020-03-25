@@ -178,19 +178,23 @@ $slide-second: slide-second;
 	}
 
 	&__box-item {
-			border-bottom: 2px solid #FFFFFF;
-			width: 16px;
-			margin-bottom: 25px;
-			cursor: pointer;
+		background: white;
+		width: 16px;
+		height: 2px;
+		margin-bottom: 25px;
+		cursor: pointer;
+
+		&:last-child {
+			margin-bottom: 0px;
+		}
 	}
 
 	&__box-item-active {
-			
-				border-bottom: 2px solid #FFFFFF;
-				width: 56px;
-				margin-bottom: 25px;
-			
-}
+		&:hover {
+			width: 56px;
+			height: 3px;
+		}	
+	}
 
 	&__box-title {
 		display: grid;
@@ -198,7 +202,6 @@ $slide-second: slide-second;
 		grid-auto-columns: 600px;
 	}
 
-	
 	&__content-list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
