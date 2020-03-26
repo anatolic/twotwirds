@@ -191,7 +191,7 @@ $slide-second: slide-second;
 
 	&__selectors-item {
 		margin-bottom: 10px;
-		display: inline-flex;
+		display: inline-block;
 		align-items: center;
 		cursor: pointer;
 
@@ -227,13 +227,16 @@ $slide-second: slide-second;
 		height: 2px;
 		transition: width 0.5s ease-in-out;
 		display: inline-block;
+		vertical-align: middle
 	}
 
 	&__selectors-text {
 		margin-bottom: 0;
-		margin-left: 20px;
+		margin-left: 10px;
 		opacity: 0;
 		transition: opacity 0.2s ease-in;
+		display: inline-block;
+		vertical-align: middle;
 	}
 
 	&__box-title {

@@ -362,7 +362,7 @@ h5 {
 
 .slide__selectors-item {
   margin-bottom: 10px;
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   cursor: pointer; }
   .slide__selectors-item:last-child {
@@ -385,13 +385,16 @@ h5 {
   width: 16px;
   height: 2px;
   transition: width 0.5s ease-in-out;
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: middle; }
 
 .slide__selectors-text {
   margin-bottom: 0;
-  margin-left: 20px;
+  margin-left: 10px;
   opacity: 0;
-  transition: opacity 0.2s ease-in; }
+  transition: opacity 0.2s ease-in;
+  display: inline-block;
+  vertical-align: middle; }
 
 .slide__box-title {
   display: grid;
