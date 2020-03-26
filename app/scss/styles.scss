@@ -189,7 +189,7 @@ $slide-selectors: slide-selectors;
 		&.active,
 		&:hover {
 			.slide-selectors__line {
-				width: 56px; // TODO: add as variable width
+				width: 56px;
 			}
 
 			.slide-selectors__text {
@@ -226,11 +226,13 @@ $slide-selectors: slide-selectors;
 .#{$slide} {
 	&__content {
 		background-size: cover;
-		padding-top: 375px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
 		padding-bottom: 30px;
 		position: relative;
 		height: 100vh;
-		min-height: 1000px;
+		min-height: 800px;
 
 		&.active {
 			.header__eco-text,
@@ -974,6 +976,8 @@ $slide-selectors: slide-selectors;
 // Extra Large Devices
 @media (min-width: 1200px) and (max-width: 1600px) {
 	.container {
+		padding-left: 20px;
+		padding-right: 20px;
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
@@ -988,11 +992,11 @@ $slide-selectors: slide-selectors;
 	.#{$recycling-section}--reciclyng-process {
 		&__list-item {
 			&:first-child {
-				padding: 0 50px;
+				padding: 0 20px;
 
 				.recycling-section--reciclyng-process__figure::after {
 					left: 90px;
-					width: 205px;
+					width: 180px;
 				}
 			}
 		}
@@ -1344,13 +1348,7 @@ $slide-selectors: slide-selectors;
 	}
 
 	.#{$header} {
-		height: 100%;
-		height: 100%;
-		background-size: auto 700px;
-		background-repeat: no-repeat;
-		background-position-x: center;
-		background-position-y: 0px;
-
+		
 		&__img-content {
 			padding-top: 20px;
 			margin: 0 auto;
@@ -1393,62 +1391,15 @@ $slide-selectors: slide-selectors;
 	.#{$slide} {
 		&__content {
 			margin-top: $half-section--gap;
-			background-size: auto 650px;
-			background-repeat: no-repeat;
-			background-position-x: center;
-			background-position-y: 0px;
 			height: auto;
 		}
 
-		&__selectors-list {
-			display: none;
-		}
-
-		&__content-appear-eco-slide-list {
+		&__content-list {
 			display: flex;
 			justify-content: space-between;
 			flex-direction: column;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 290px;
-			margin-bottom: 0px;
-			width: 100%;
-			max-width: 100%;
-		}
-
-		&__content-appear-eco-slide-wrap {
-			margin-top: -170px;
-		}
-
-		&__content-wrap-sm {
-			justify-content: flex-end;
-			margin-top: -90px;
-		}
-
-		&__content-list-sm {
-			display: flex;
-			justify-content: space-between;
-			flex-direction: column;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 257px;
-			margin-bottom: 0px;
-			width: 100%;
-			max-width: 100%;
-		}
-
-		&__content-wrap-sm-g {
-			justify-content: flex-end;
-			margin-top: -70px;
-		}
-
-		&__content-list-sm-g {
-			display: flex;
-			justify-content: space-between;
-			flex-direction: column;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 225px;
 			margin-bottom: 0px;
 			width: 100%;
 			max-width: 100%;
@@ -1461,6 +1412,10 @@ $slide-selectors: slide-selectors;
 			text-align: center;
 			border-right: none;
 			margin-top: 40px;
+
+			&:first-child {
+				margin-top: 0px;
+			}
 
 			&::before,
 			&::after {
@@ -1478,68 +1433,6 @@ $slide-selectors: slide-selectors;
 		.header__eco-text {
 			opacity: 1;
 		}
-
-
-		&__content-icon-black-first {
-
-			& > g > path {
-				fill: black;
-				stroke: none;
-
-			}
-		}
-
-		&__content-icon-black-reduction {
-			& > g > path {
-				fill: black;
-				stroke: none;
-
-				&:last-child {
-					fill: none;
-					stroke: black;
-				}
-			}
-		}
-
-		&__content-icon-black-third {
-
-			& > g > path {
-				fill: none;
-				stroke: black;
-			}
-		}
-
-		&__content-icon-black-four {
-
-			& > path {
-				fill: none;
-				stroke: black;
-			}
-		}
-
-		&__content-icon-black-use {
-
-			& > g > g > path {
-				fill: black;
-				stroke: none;
-
-			}
-
-			& > g > path {
-				fill: black;
-				stroke: none;
-
-			}
-		}
-
-		&__content-icon-black-raw {
-
-			& > g > g > path {
-				fill: none;
-				stroke: black;
-			}
-		}
-
 
 		&__box-title {
 			grid-auto-columns: auto;

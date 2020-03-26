@@ -200,7 +200,7 @@ h5 {
   .twothirds__paragraph--white {
     font-size: 14px;
     font-weight: 400;
-    color: black;
+    color: white;
     line-height: 150%;
     letter-spacing: 1px;
     margin-bottom: 0; }
@@ -388,11 +388,13 @@ h5 {
 
 .slide__content {
   background-size: cover;
-  padding-top: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   padding-bottom: 30px;
   position: relative;
   height: 100vh;
-  min-height: 1000px; }
+  min-height: 800px; }
   .slide__content.active .header__eco-text,
   .slide__content.active .slide__content-list-item-figure-wrap {
     opacity: 1; }
@@ -877,16 +879,18 @@ h5 {
 
 @media (min-width: 1200px) and (max-width: 1600px) {
   .container {
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
     margin-left: auto;
     margin-right: auto; }
   .quality-section__img-content {
     margin-left: 50px; }
   .recycling-section--reciclyng-process__list-item:first-child {
-    padding: 0 50px; }
+    padding: 0 20px; }
     .recycling-section--reciclyng-process__list-item:first-child .recycling-section--reciclyng-process__figure::after {
       left: 90px;
-      width: 205px; } }
+      width: 180px; } }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .container {
@@ -1061,77 +1065,35 @@ h5 {
     padding: 0 20px; }
   .arrow-container {
     display: none; }
-  .header {
-    height: 100%;
-    height: 100%;
-    background-size: auto 700px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 0px; }
-    .header__img-content {
-      padding-top: 20px;
-      margin: 0 auto; }
-    .header__box-content {
-      justify-content: space-between;
-      align-items: center; }
-    .header__logo-title {
-      width: 88px;
-      height: 44px; }
-    .header__items {
-      display: none; }
-    .header__actions-item {
-      margin-left: 10px; }
-    .header__link-menu {
-      display: flex; }
-    .header .fa-search,
-    .header .fa-water {
-      display: none; }
-    .header__slide-box {
-      display: none; }
+  .header__img-content {
+    padding-top: 20px;
+    margin: 0 auto; }
+  .header__box-content {
+    justify-content: space-between;
+    align-items: center; }
+  .header__logo-title {
+    width: 88px;
+    height: 44px; }
+  .header__items {
+    display: none; }
+  .header__actions-item {
+    margin-left: 10px; }
+  .header__link-menu {
+    display: flex; }
+  .header .fa-search,
+  .header .fa-water {
+    display: none; }
+  .header__slide-box {
+    display: none; }
   .slide__content {
     margin-top: 50px;
-    background-size: auto 650px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: 0px;
     height: auto; }
-  .slide__selectors-list {
-    display: none; }
-  .slide__content-appear-eco-slide-list {
+  .slide__content-list {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 290px;
-    margin-bottom: 0px;
-    width: 100%;
-    max-width: 100%; }
-  .slide__content-appear-eco-slide-wrap {
-    margin-top: -170px; }
-  .slide__content-wrap-sm {
-    justify-content: flex-end;
-    margin-top: -90px; }
-  .slide__content-list-sm {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 257px;
-    margin-bottom: 0px;
-    width: 100%;
-    max-width: 100%; }
-  .slide__content-wrap-sm-g {
-    justify-content: flex-end;
-    margin-top: -70px; }
-  .slide__content-list-sm-g {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 225px;
     margin-bottom: 0px;
     width: 100%;
     max-width: 100%; }
@@ -1142,6 +1104,8 @@ h5 {
     text-align: center;
     border-right: none;
     margin-top: 40px; }
+    .slide__content-list-item:first-child {
+      margin-top: 0px; }
     .slide__content-list-item::before, .slide__content-list-item::after {
       display: none; }
   .slide__content-list-item-figure-wrap {
@@ -1150,30 +1114,6 @@ h5 {
     opacity: 1; }
   .slide .header__eco-text {
     opacity: 1; }
-  .slide__content-icon-black-first > g > path {
-    fill: black;
-    stroke: none; }
-  .slide__content-icon-black-reduction > g > path {
-    fill: black;
-    stroke: none; }
-    .slide__content-icon-black-reduction > g > path:last-child {
-      fill: none;
-      stroke: black; }
-  .slide__content-icon-black-third > g > path {
-    fill: none;
-    stroke: black; }
-  .slide__content-icon-black-four > path {
-    fill: none;
-    stroke: black; }
-  .slide__content-icon-black-use > g > g > path {
-    fill: black;
-    stroke: none; }
-  .slide__content-icon-black-use > g > path {
-    fill: black;
-    stroke: none; }
-  .slide__content-icon-black-raw > g > g > path {
-    fill: none;
-    stroke: black; }
   .slide__box-title {
     grid-auto-columns: auto; }
   .intro-section {

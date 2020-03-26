@@ -128,7 +128,7 @@ h5 {
         }
 
         &__paragraph--white {
-            @include typography(14px, 400,black);
+            @include typography(14px, 400,white);
             letter-spacing: 1px;
             margin-bottom: 0;
         }
