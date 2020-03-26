@@ -18,15 +18,10 @@ function slideTriggerClass(className) {
     // cssClassName.on('scrollout', () => cssClassName.children('.slide__content').removeClass('active'));
 }
 
-let slidesArray = ['appear-eco-slide', 'appear-origin-slide', 'appear-over-production-slide', 'appear-drwadown-slide']; // TODO: rename correctly
-slidesArray.map(className => slideTriggerClass(className));
-
-
 // Trigger active class between slide selectors
 function slideSelectorsTrigger(className, index) {
     let cssClassName = $('.' + className);
     cssClassName.scrolling();
-
     if (index !== undefined) {
         let innerIndex = index + 1;
         cssClassName.on('scrollin', () => {
@@ -35,6 +30,6 @@ function slideSelectorsTrigger(className, index) {
         });
     }
 }
-
-slideSelectorsTrigger('appear-eco-slide');
+let slidesArray = ['appear-eco-slide', 'appear-origin-slide', 'appear-over-production-slide', 'appear-drwadown-slide']; // TODO: rename correctly
 slidesArray.map((className, index) => slideSelectorsTrigger(className, index));
+slidesArray.map(className => slideTriggerClass(className));
