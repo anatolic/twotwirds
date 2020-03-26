@@ -27,7 +27,7 @@ $preorder-section: preorder-section;
 $join-section: join-section;
 $footer: footer;
 $header: header;
-$slide-second: slide-second;
+$slide-selectors: slide-selectors;
 
 
 @keyframes lineup {
@@ -167,6 +167,62 @@ $slide-second: slide-second;
 	}
 }
 
+.#{$slide-selectors} {
+	&__wrap {
+		position: fixed;
+		top: 50%;
+		transform: translate(0, -50%);
+		left: 0;
+		z-index: 10;
+	}
+
+	&__item {
+		margin-bottom: 10px;
+		display: inline-block;
+		align-items: center;
+		cursor: pointer;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		&.active,
+		&:hover {
+			.slide-selectors__line {
+				width: 56px; // TODO: add as variable width
+			}
+
+			.slide-selectors__text {
+				opacity: 1;
+			}
+		}
+	}
+
+	&__list {
+		display: inline-flex;
+		flex-direction: column;
+	}
+
+	&__line {
+		cursor: pointer;
+		background: white;
+		width: 16px;
+		height: 2px;
+		transition: width 0.5s ease-in-out;
+		display: inline-block;
+		vertical-align: middle
+	}
+
+	&__text {
+		margin-bottom: 0;
+		margin-left: 10px;
+		opacity: 0;
+		transition: opacity 0.2s ease-in;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
 .#{$slide} {
 	&__content {
 		background-size: cover;
@@ -187,56 +243,6 @@ $slide-second: slide-second;
 				animation: lineup 1s forwards;
 			}
 		}
-	}
-
-	&__selectors-item {
-		margin-bottom: 10px;
-		display: inline-block;
-		align-items: center;
-		cursor: pointer;
-
-		&:last-child {
-			margin-bottom: 0;
-		}
-
-		&.active,
-		&:hover {
-			.slide__selectors-line {
-				width: 56px; // TODO: add as variable width
-			}
-
-			.slide__selectors-text {
-				opacity: 1;
-			}
-		}
-	}
-
-	&__selectors-wrap {
-		position: absolute;
-	}
-
-	&__selectors-list {
-		display: inline-flex;
-		flex-direction: column;
-	}
-
-	&__selectors-line {
-		cursor: pointer;
-		background: white;
-		width: 16px;
-		height: 2px;
-		transition: width 0.5s ease-in-out;
-		display: inline-block;
-		vertical-align: middle
-	}
-
-	&__selectors-text {
-		margin-bottom: 0;
-		margin-left: 10px;
-		opacity: 0;
-		transition: opacity 0.2s ease-in;
-		display: inline-block;
-		vertical-align: middle;
 	}
 
 	&__box-title {
@@ -983,14 +989,15 @@ $slide-second: slide-second;
 		&__list-item {
 			&:first-child {
 				padding: 0 50px;
+
 				.recycling-section--reciclyng-process__figure::after {
 					left: 90px;
 					width: 205px;
 				}
 			}
-	}
+		}
 
-}
+	}
 }
 
 //Large Devices
@@ -1669,6 +1676,7 @@ $slide-second: slide-second;
 
 	.#{$recycling-section}--reciclyng-process {
 		margin: 70px auto;
+
 		&__list {
 			display: grid;
 			justify-content: center;
@@ -1680,6 +1688,7 @@ $slide-second: slide-second;
 			&:first-child {
 				margin-top: 0px;
 			}
+
 			margin-top: $sm-section--gap;
 		}
 

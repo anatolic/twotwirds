@@ -12,8 +12,8 @@ gulp.task('sass', function() {
 
 // Move the javascript files into our /src/js folder
 gulp.task('js', function() {
-    return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/jquery/dist/jquery.min.js', 'node_modules/popper.js/dist/umd/popper.min.js'])
-        .pipe(gulp.dest("src/js"))
+    return gulp.src(['./app/js/*.js'])
+        .pipe(gulp.dest("app/js"))
         .pipe(browserSync.stream());
 });
 
@@ -25,6 +25,7 @@ gulp.task('serve', gulp.series('sass', function() {
     });
 
     gulp.watch(['./app/scss/**/*.scss'], gulp.series('sass'));
+    gulp.watch("./app/js/**/*.js").on('change', browserSync.reload);
     gulp.watch("./app/*.html").on('change', browserSync.reload);
 }));
 
