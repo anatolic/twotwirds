@@ -220,8 +220,10 @@ h5 {
     color: #ffffff;
     line-height: 150%; } }
 
+.arrow__wrap {
+  height: 30px; }
+
 .arrow-container {
-  position: absolute;
   left: calc(50% - 15px);
   bottom: 40px;
   -webkit-animation: mover 2s infinite alternate;
@@ -236,7 +238,8 @@ h5 {
   border-width: 0px 3px 3px 0px;
   transform: rotate(45deg);
   transition: border-width 150ms ease-in-out;
-  display: block; }
+  display: block;
+  margin: 0 auto; }
   .arrow-icon:hover {
     cursor: pointer; }
 
@@ -276,7 +279,7 @@ h5 {
   justify-content: space-between; }
   .header__slide-wrap {
     height: 100vh;
-    min-height: 1100px; }
+    min-height: 950px; }
   .header.slide {
     justify-content: space-between; }
   .header__box-content {
@@ -349,7 +352,7 @@ h5 {
   padding-bottom: 30px;
   position: relative;
   height: 100vh;
-  min-height: 1100px; }
+  min-height: 1000px; }
   .slide__content.active .header__eco-text,
   .slide__content.active .slide__content-list-item-figure-wrap {
     opacity: 1; }
@@ -368,6 +371,9 @@ h5 {
     width: 56px; }
   .slide__selectors-item.active .slide__selectors-text, .slide__selectors-item:hover .slide__selectors-text {
     opacity: 1; }
+
+.slide__selectors-wrap {
+  position: absolute; }
 
 .slide__selectors-list {
   display: inline-flex;
@@ -526,7 +532,9 @@ h5 {
     width: 100%; }
     .recycling-section--reciclyng-process__list-item:first-child .recycling-section--reciclyng-process__figure::after {
       left: 90px;
-      width: 220px; }
+      width: 205px; }
+    .recycling-section--reciclyng-process__list-item:first-child {
+      padding: 0 50px; }
   .recycling-section--reciclyng-process__list-item:last-child figure::after {
     display: none; }
   .recycling-section--reciclyng-process__list-text {
@@ -860,15 +868,20 @@ h5 {
     cursor: pointer;
     transition: 1s; }
 
-@media (min-width: 1300px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto; }
   .quality-section__img-content {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  .recycling-section--reciclyng-process__list-item:first-child {
+    padding: 0 50px; }
+    .recycling-section--reciclyng-process__list-item:first-child .recycling-section--reciclyng-process__figure::after {
+      left: 90px;
+      width: 205px; } }
 
-@media (min-width: 992px) and (max-width: 1300px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .container {
     width: 100%;
     margin-left: auto;
@@ -1111,7 +1124,7 @@ h5 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 217px;
+    margin-top: 225px;
     margin-bottom: 0px;
     width: 100%;
     max-width: 100%; }

@@ -1,5 +1,8 @@
+.arrow__wrap {
+height: 30px;
+}
+
 .arrow-container {
-	position: absolute;
 	left: calc(50% - 15px);
 	bottom: 40px;
 	-webkit-animation: mover 2s infinite alternate;
@@ -17,6 +20,7 @@
 	transform: rotate(45deg);
     transition: border-width 150ms ease-in-out;
 	display: block;
+	margin: 0 auto;
 	
     &:hover {
         cursor: pointer;

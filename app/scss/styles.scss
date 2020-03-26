@@ -58,7 +58,7 @@ $slide-second: slide-second;
 
 	&__slide-wrap {
 		height: 100vh;
-		min-height: 1100px;
+		min-height: 950px;
 	}
 
 	&.slide {
@@ -174,7 +174,7 @@ $slide-second: slide-second;
 		padding-bottom: 30px;
 		position: relative;
 		height: 100vh;
-		min-height: 1100px;
+		min-height: 1000px;
 
 		&.active {
 			.header__eco-text,
@@ -209,6 +209,10 @@ $slide-second: slide-second;
 				opacity: 1;
 			}
 		}
+	}
+
+	&__selectors-wrap {
+		position: absolute;
 	}
 
 	&__selectors-list {
@@ -437,8 +441,12 @@ $slide-second: slide-second;
 		&:first-child {
 			.recycling-section--reciclyng-process__figure::after {
 				left: 90px;
-				width: 220px;
+				width: 205px;
 			}
+		}
+
+		&:first-child {
+			padding: 0 50px;
 		}
 	}
 
@@ -955,7 +963,7 @@ $slide-second: slide-second;
 }
 
 // Extra Large Devices
-@media (min-width: 1300px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
 	.container {
 		width: 100%;
 		margin-left: auto;
@@ -968,11 +976,22 @@ $slide-second: slide-second;
 		}
 	}
 
+	.#{$recycling-section}--reciclyng-process {
+		&__list-item {
+			&:first-child {
+				padding: 0 50px;
+				.recycling-section--reciclyng-process__figure::after {
+					left: 90px;
+					width: 205px;
+				}
+			}
+	}
 
+}
 }
 
 //Large Devices
-@media (min-width: 992px) and (max-width: 1300px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 
 
 	.container {
@@ -1419,7 +1438,7 @@ $slide-second: slide-second;
 			flex-direction: column;
 			margin-left: auto;
 			margin-right: auto;
-			margin-top: 217px;
+			margin-top: 225px;
 			margin-bottom: 0px;
 			width: 100%;
 			max-width: 100%;
@@ -1646,22 +1665,18 @@ $slide-second: slide-second;
 	}
 
 	.#{$recycling-section}--reciclyng-process {
-
 		margin: 70px auto;
-
 		&__list {
 			display: grid;
 			justify-content: center;
 		}
 
 		&__list-item {
-
 			padding: 0px;
 
 			&:first-child {
 				margin-top: 0px;
 			}
-
 			margin-top: $sm-section--gap;
 		}
 
@@ -1927,7 +1942,6 @@ $slide-second: slide-second;
 	}
 
 	.#{$use-section} {
-
 		display: none;
 	}
 
@@ -1997,5 +2011,4 @@ $slide-second: slide-second;
 	.#{$footer} {
 		display: none;
 	}
-
 }
