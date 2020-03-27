@@ -1385,7 +1385,12 @@ $slide-selectors: slide-selectors;
 			display: none;
 		}
 
+	}
 
+	.#{$slide-selectors} {
+		&__list {
+			display: none;
+		}
 	}
 
 	.#{$slide} {

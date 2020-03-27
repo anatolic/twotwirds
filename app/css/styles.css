@@ -1085,6 +1085,8 @@ h5 {
     display: none; }
   .header__slide-box {
     display: none; }
+  .slide-selectors__list {
+    display: none; }
   .slide__content {
     margin-top: 50px;
     height: auto; }
